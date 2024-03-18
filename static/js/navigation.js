@@ -6,9 +6,14 @@
     for (const tab of tabs) {
         tab.addEventListener("click", (event) => {
             event.preventDefault();
-            const id = tab.getAttribute("href");
-            const target = document.querySelector(id);
-            target.scrollIntoView();
+            const id = tab.getAttribute("href").slice(1);
+            const target = document.getElementById(id);
+
+            setTimeout(() => {
+                for (const section of sections) {
+                    section.style.display = section.id === id ? "block" : "none";
+                }
+            }, 1000);
 
             tab.classList.add("active-link");
             for (const other of tabs) {
@@ -19,4 +24,4 @@
         });
     }
 
-}) ()
+})()
