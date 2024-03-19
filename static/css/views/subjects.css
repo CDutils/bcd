@@ -37,6 +37,19 @@ body .separator {
     }
 }
 
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    .cards-wrapper {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4%;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+}
+
 .card {
     width: 100%;
     max-width: 300px;
