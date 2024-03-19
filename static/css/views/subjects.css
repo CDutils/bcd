@@ -16,7 +16,7 @@ body .separator {
     display: block;
     width: 100%;
     height: 1px;
-    background: var(--text-200);
+    background: var(--md-sys-color-outline);
     opacity: 0.6;
 }
 
@@ -42,8 +42,8 @@ body .separator {
     max-width: 300px;
     min-width: 200px;
     height: 250px;
-    background-color: var(--bg-200);
-    margin: 10px;
+    background-color: var(--primary-100);
+    margin: 0.5em;
     border-radius: var(--border-radius);
 
     font-size: 16px;
@@ -62,12 +62,12 @@ body .separator {
     width: 100%;
     height: 80px;
     max-width: 80px;
-    background: linear-gradient(90deg, var(--primary-100) 0%, var(--primary-200) 40%, #292929 60%);
+    background: linear-gradient(90deg, var(--accent-100) 0%, var(--accent-200) 40%, var(--card-icon-hover) 60%);
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--accent-200);
+    color: var(--bg-200);
     transition: all 0.8s ease;
     background-position: 0px;
     background-size: 200px;

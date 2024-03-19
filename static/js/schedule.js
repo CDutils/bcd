@@ -16,13 +16,12 @@
 
             this.time = time;
         }
-
         getHTML() {
             return `
-                <div class="subject__name"><span>${this.name}</span></div>
-                <div class="subject__id">${this.id}</div>
-                <div class="subject__time">${this.time}</div>
-                <div class="subject__place">${this.place}</div>
+                <div class="subject__name on-secondary-container-text"><span>${this.name}</span></div>
+                <div class="subject__id on-secondary-container-text">${this.id}</div>
+                <div class="subject__time on-secondary-container-text">${this.time}</div>
+                <div class="subject__place on-secondary-container-text">${this.place}</div>
             `;
         }
     }
@@ -92,6 +91,7 @@
         let subject = document.createElement('div');
 
         subject.classList.add('subject');
+        subject.classList.add('secondary-container');
         subject.innerHTML = html[i];
 
         schedule_wrapper.insertBefore(subject, schedule_wrapper.lastChild);

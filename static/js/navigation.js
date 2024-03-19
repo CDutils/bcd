@@ -7,7 +7,6 @@
         tab.addEventListener("click", (event) => {
             event.preventDefault();
             const id = tab.getAttribute("href").slice(1);
-            const target = document.getElementById(id);
 
             setTimeout(() => {
                 for (const section of sections) {

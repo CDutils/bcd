@@ -11,10 +11,6 @@
     padding: 0 2em;
     margin: 2vh auto 0 auto;
     border-radius: var(--border-radius);
-
-    background-color: var(--bg-100);
-    color: var(--text-100);
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -26,7 +22,6 @@
 
 .site-header .header-title {
     display: block;
-    color: var(--accent-200);
     width: 14vw;
 }
 
@@ -45,7 +40,6 @@
 
 .nav-links a {
     text-decoration: none;
-    color: inherit;
 }
 
 .nav-links li {
@@ -53,12 +47,12 @@
 }
 
 .nav-links a::after {
-    content: "";
+    content: " ";
     width: 0;
     height: 2px;
-    background: var(--text-200);
     display: block;
     margin: auto;
+    background-color: var(--md-sys-color-primary);
     transition: 0.5s;
 }
 

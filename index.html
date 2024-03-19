@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="static/css/scroll-bar.css">
     <link rel="stylesheet" href="static/css/fonts.css">
+    <link rel="stylesheet" href="static/css/theme/theme.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,20 +26,18 @@
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
-
-    <script src="https://unpkg.com/htmx.org@1.9.11" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="background">
     <header class="site-header">
-        <div class="header-title titillium-web-bold">
+        <div class="header-title titillium-web-bold primary-text">
             <h1>Ciência de Dados</h1>
         </div>
-        <nav class="header-nav">
+        <nav class="header-nav  primary-text">
             <ul class="nav-links titillium-web-semibold">
-                <li><a href="#home-tab" class="active-link">Principal</a></li>
-                <li><a href="#subject-tab">Matérias</a></li>
-                <li><a href="#reminders-tab">Lembretes</a></li>
+                <li><a href="#home-tab" class="active-link primary-text">Principal</a></li>
+                <li><a href="#subject-tab" class="primary-text">Matérias</a></li>
+                <li><a href="#reminders-tab" class="primary-text">Lembretes</a></li>
                 <li class="theme-icon">
                     <ion-icon></ion-icon>
                 </li>
@@ -74,19 +73,22 @@
         <div class="main-view">
             <section id="home-tab" class="home-tab">
                 <div class="about-container">
-                    <div class="about-wrapper">
+                    <div class="about-wrapper secondary-container">
                         <div class="about-page">
-                            <div class="about-title">
+                            <div class="about-title on-secondary-container-text">
                                 Bacharelado em Ciência de Dados
                             </div>
-                            <div class="about-description">
+                            <div class="about-description on-secondary-container-text">
                                 1º Semestre - 2024/01
                             </div>
-                            <div class="about-content box">
+                            <div class="about-content box tertiary-container">
                                 <ul class="about-nav">
-                                    <li><a href="#about-course">Sobre o curso</a></li>
-                                    <li><a href="#classes-today">Aulas de hoje</a></li>
-                                    <li><a href="#info-links">Informações e links</a></li>
+                                    <li><a href="#about-course" class="on-tertiary-container-text">Sobre o curso</a>
+                                    </li>
+                                    <li><a href="#classes-today" class="on-tertiary-container-text">Aulas de hoje</a>
+                                    </li>
+                                    <li><a href="#info-links" class="on-tertiary-container-text">Informações e links</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -94,47 +96,77 @@
                             <div class="tag-list">
                                 <div class="loop-slider" style="--duration:15951ms; --direction:normal;">
                                     <div class="inner">
-                                        <div class="tag"><span>#</span> Python</div>
-                                        <div class="tag"><span>#</span> Pandas</div>
-                                        <div class="tag"><span>#</span> Numpy</div>
-                                        <div class="tag"><span>#</span> Scikit</div>
-                                        <div class="tag"><span>#</span> TensorFlow</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Python</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Pandas</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Numpy</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Scikit</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            TensorFlow</div>
                                         <!-- duplicated content -->
-                                        <div class="tag"><span>#</span> Python</div>
-                                        <div class="tag"><span>#</span> Pandas</div>
-                                        <div class="tag"><span>#</span> Numpy</div>
-                                        <div class="tag"><span>#</span> Scikit</div>
-                                        <div class="tag"><span>#</span> TensorFlow</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Python</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Pandas</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Numpy</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Scikit</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            TensorFlow</div>
                                     </div>
                                 </div>
                                 <div class="loop-slider" style="--duration:19260ms; --direction:reverse;">
                                     <div class="inner">
-                                        <div class="tag"><span>#</span> Algorithm</div>
-                                        <div class="tag"><span>#</span> AI</div>
-                                        <div class="tag"><span>#</span> BigData</div>
-                                        <div class="tag"><span>#</span> Regression</div>
-                                        <div class="tag"><span>#</span> Analytics</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            AI</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Algorithm</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            BigData</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Regression</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Analytics</div>
                                         <!-- duplicated content -->
-                                        <div class="tag"><span>#</span> Algorithm</div>
-                                        <div class="tag"><span>#</span> AI</div>
-                                        <div class="tag"><span>#</span> BigData</div>
-                                        <div class="tag"><span>#</span> Regression</div>
-                                        <div class="tag"><span>#</span> Analytics</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Algorithm</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            AI</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            BigData</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Regression</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Analytics</div>
                                     </div>
                                 </div>
                                 <div class="loop-slider" style="--duration:10449ms; --direction:normal;">
                                     <div class="inner">
-                                        <div class="tag"><span>#</span> Mining</div>
-                                        <div class="tag"><span>#</span> Cloud</div>
-                                        <div class="tag"><span>#</span> Statistics</div>
-                                        <div class="tag"><span>#</span> BI</div>
-                                        <div class="tag"><span>#</span> Database</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Mining</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Cloud</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Statistics</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            BI</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Database</div>
                                         <!-- duplicated content -->
-                                        <div class="tag"><span>#</span> Mining</div>
-                                        <div class="tag"><span>#</span> Cloud</div>
-                                        <div class="tag"><span>#</span> Statistics</div>
-                                        <div class="tag"><span>#</span> BI</div>
-                                        <div class="tag"><span>#</span> Database</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Mining</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Cloud</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Statistics</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            BI</div>
+                                        <div class="tag on-secondary-container secondary-container-text"><span>#</span>
+                                            Database</div>
                                     </div>
                                 </div>
                                 <div class="fade"></div>
@@ -143,20 +175,54 @@
                     </div>
                 </div>
 
-                <div id="classes-today" class="separator">
+                <div id="classes-today" class="separator on-background-text">
                     <h2>Aulas de hoje</h2>
                 </div>
                 <div class="schedule">
                     <div class="today-schedule">
                     </div>
                 </div>
-                <div id="info-links" class="separator">
+                <div id="info-links" class="separator  on-background-text">
                     <h2>Informações e links</h2>
+                </div>
+                <div class=" info-container info-view">
+                    <div class="info-header surface">
+                        <h4>Links importantes</h4>
+                    </div>
+                    <div class="info-body">
+                        <div class="info-links-wrapper">
+                            <div class="info-links">
+                                <ul>
+                                    <li>boris</li>
+                                    <li>boris</li>
+                                    <li>boris</li>
+                                    <li>boris</li>
+                                </ul>
+                            </div>
+                            <div class="vertical-separator"></div>
+                            <div class="info-links">
+                                <ul>
+                                    <li>boris</li>
+                                    <li>boris</li>
+                                    <li>boris</li>
+                                    <li>boris</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info-description">
+                            <p>Nossa comunidade tem acesso a dados de mais de 100.000 alunos de graduação e
+                                pós-graduação do Brasil, desde 2015, coletados através de questionários online e de
+                                outras fontes. <br>
+                                Nossa comunidade tem acesso a dados de mais de 100.000 alunos de graduação e
+                                pós-graduação do Brasil, desde 2015, coletados através de questionários online e de
+                                outras fontes.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section id="subject-tab" class="subjects-tab" style="display: none;">
-                <div class="separator">
+                <div class="separator on-background-text">
                     <h2>Matérias (1º período)</h2>
                 </div>
                 <div class="cards-wrapper">
@@ -196,15 +262,15 @@
         </div>
     </div>
 
-    <footer class="footer  titillium-web-extralight">
+    <footer class="footer titillium-web-extralight secondary-container on-secondary-container-text">
         <ul class="social-icon">
-            <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/PolloHacker">
+            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text" href="https://github.com/PolloHacker">
                     <ion-icon name="logo-github"></ion-icon>
                 </a></li>
-            <li class="social-icon__item"><a class="social-icon__link" href="https://codepen.io/pollohacker">
+            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text" href="https://codepen.io/pollohacker">
                     <ion-icon name="logo-codepen"></ion-icon>
                 </a></li>
-            <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/isaac--reyes/">
+            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text" href="https://www.linkedin.com/in/isaac--reyes/">
                     <ion-icon name="logo-linkedin"></ion-icon>
                 </a></li>
         </ul>
