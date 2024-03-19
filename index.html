@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="static/css/views/subjects.css">
 
     <link rel="stylesheet" href="static/css/scroll-bar.css">
-    <link rel="stylesheet" href="static/css/fonts.css">
+
     <link rel="stylesheet" href="static/css/theme/theme.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,22 +30,24 @@
 
 <body class="background">
     <header class="site-header">
-        <div class="header-title titillium-web-bold primary-text">
-            <h1>Ciência de Dados</h1>
+        <div class="header-title primary-text display-large">
+            <span>Ciência de Dados</span>
         </div>
-        <nav class="header-nav  primary-text">
-            <ul class="nav-links titillium-web-semibold">
+        <nav class="header-nav primary-text body-large">
+            <ul class="nav-links">
                 <li><a href="#home-tab" class="active-link primary-text">Principal</a></li>
                 <li><a href="#subject-tab" class="primary-text">Matérias</a></li>
                 <li><a href="#reminders-tab" class="primary-text">Lembretes</a></li>
-                <li class="theme-icon">
-                    <ion-icon></ion-icon>
+                <li class="theme-toggle">
+                    <span class="material-symbols-rounded theme-icon">
+                        dark_mode
+                    </span>
                 </li>
             </ul>
         </nav>
     </header>
     <div class="separator"></div>
-    <div class="site-views titillium-web-light">
+    <div class="site-views">
         <div class="transition-layers">
             <div class="loader loader--active">
                 <div class="loader__icon">
@@ -75,14 +77,14 @@
                 <div class="about-container">
                     <div class="about-wrapper secondary-container">
                         <div class="about-page">
-                            <div class="about-title on-secondary-container-text">
+                            <div class="about-title on-secondary-container-text headline-large">
                                 Bacharelado em Ciência de Dados
                             </div>
-                            <div class="about-description on-secondary-container-text">
+                            <div class="about-description on-secondary-container-text body-large">
                                 1º Semestre - 2024/01
                             </div>
                             <div class="about-content box tertiary-container">
-                                <ul class="about-nav">
+                                <ul class="about-nav body-medium">
                                     <li><a href="#about-course" class="on-tertiary-container-text">Sobre o curso</a>
                                     </li>
                                     <li><a href="#classes-today" class="on-tertiary-container-text">Aulas de hoje</a>
@@ -92,7 +94,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="about-animation titillium-web-regular">
+                        <div class="about-animation body-medium">
                             <div class="tag-list">
                                 <div class="loop-slider" style="--duration:15951ms; --direction:normal;">
                                     <div class="inner">
@@ -175,19 +177,19 @@
                     </div>
                 </div>
 
-                <div id="classes-today" class="separator on-background-text">
-                    <h2>Aulas de hoje</h2>
+                <div id="classes-today" class="separator on-background-text headline-small">
+                    <span>Aulas de hoje</span>
                 </div>
                 <div class="schedule">
                     <div class="today-schedule">
                     </div>
                 </div>
-                <div id="info-links" class="separator  on-background-text">
-                    <h2>Informações e links</h2>
+                <div id="info-links" class="separator on-background-text headline-small">
+                    <span>Informações e links</span>
                 </div>
                 <div class=" info-container info-view">
                     <div class="info-header surface">
-                        <h4>Links importantes</h4>
+                        <span>Links importantes</span>
                     </div>
                     <div class="info-body">
                         <div class="info-links-wrapper">
@@ -209,7 +211,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="info-description">
+                        <div class="info-description body-medium">
                             <p>Nossa comunidade tem acesso a dados de mais de 100.000 alunos de graduação e
                                 pós-graduação do Brasil, desde 2015, coletados através de questionários online e de
                                 outras fontes. <br>
@@ -222,37 +224,37 @@
             </section>
 
             <section id="subject-tab" class="subjects-tab" style="display: none;">
-                <div class="separator on-background-text">
-                    <h2>Matérias (1º período)</h2>
+                <div class="separator on-background-text headline-small">
+                    <h2>Matérias</h2>
                 </div>
                 <div class="cards-wrapper">
-                    <div class="card">
+                    <div class="card secondary-container on-secondary-container-text">
                         <div class="icon"><span class="material-symbols-rounded">
                                 function
                             </span></div>
-                        <p class="title">Cálculo 1</p>
-                        <p class="text">Click to see or edit your profile page.</p>
+                        <p class="title headline-small">Cálculo 1</p>
+                        <p class="text body-medium">Click to see or edit your profile page.</p>
                     </div>
-                    <div class="card">
+                    <div class="card secondary-container on-secondary-container-text">
                         <div class="icon"><span class="material-symbols-rounded">
                                 monitoring
                             </span></div>
-                        <p class="title">Fund. CD</p>
-                        <p class="text">Click to see or edit your profile page.</p>
+                        <p class="title headline-small">Fund. CD</p>
+                        <p class="text body-medium">Click to see or edit your profile page.</p>
                     </div>
-                    <div class="card">
+                    <div class="card secondary-container on-secondary-container-text">
                         <div class="icon"><span class="material-symbols-rounded">
                                 terminal
                             </span></div>
-                        <p class="title">PDS 1</p>
-                        <p class="text">Click to see or edit your profile page.</p>
+                        <p class="title headline-small">PDS 1</p>
+                        <p class="text body-medium">Click to see or edit your profile page.</p>
                     </div>
-                    <div class="card">
+                    <div class="card secondary-container on-secondary-container-text">
                         <div class="icon"><span class="material-symbols-rounded">
                                 psychology
                             </span></div>
-                        <p class="title">Int LC</p>
-                        <p class="text">Click to see or edit your profile page.</p>
+                        <p class="title headline-small">Int LC</p>
+                        <p class="text body-medium">Click to see or edit your profile page.</p>
                     </div>
                 </div>
             </section>
@@ -262,15 +264,18 @@
         </div>
     </div>
 
-    <footer class="footer titillium-web-extralight secondary-container on-secondary-container-text">
+    <footer class="footer secondary-container on-secondary-container-text body-small">
         <ul class="social-icon">
-            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text" href="https://github.com/PolloHacker">
+            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text"
+                    href="https://github.com/PolloHacker">
                     <ion-icon name="logo-github"></ion-icon>
                 </a></li>
-            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text" href="https://codepen.io/pollohacker">
+            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text"
+                    href="https://codepen.io/pollohacker">
                     <ion-icon name="logo-codepen"></ion-icon>
                 </a></li>
-            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text" href="https://www.linkedin.com/in/isaac--reyes/">
+            <li class="social-icon__item"><a class="social-icon__link on-secondary-container-text"
+                    href="https://www.linkedin.com/in/isaac--reyes/">
                     <ion-icon name="logo-linkedin"></ion-icon>
                 </a></li>
         </ul>

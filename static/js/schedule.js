@@ -18,10 +18,10 @@
         }
         getHTML() {
             return `
-                <div class="subject__name on-secondary-container-text"><span>${this.name}</span></div>
-                <div class="subject__id on-secondary-container-text">${this.id}</div>
-                <div class="subject__time on-secondary-container-text">${this.time}</div>
-                <div class="subject__place on-secondary-container-text">${this.place}</div>
+                <div class="subject__name on-secondary-container-text headline-small"><span>${this.name}</span></div>
+                <div class="subject__id on-secondary-container-text body-medium">Turma ${this.id}</div>
+                <div class="subject__time on-secondary-container-text body-large">${this.time}</div>
+                <div class="subject__place on-secondary-container-text body-large">${this.place}</div>
             `;
         }
     }

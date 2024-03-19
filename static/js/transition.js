@@ -12,7 +12,7 @@
 
             window.setTimeout(() => {
                 loader.classList.remove('loader--active')
-            }, 2000)
+            }, 2500)
         })
     });
 })()

@@ -14,19 +14,25 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    .site-header {
+        align-items: flex-end;
+    }
+
     .nav-links {
         flex-direction: column !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .site-header .header-title {
+        font-size: 36px;
     }
 }
 
 
 .site-header .header-title {
     display: block;
-    width: 14vw;
-}
-
-.site-header .header-nav {
-    left: 100%;
 }
 
 .nav-links {
@@ -68,13 +74,11 @@
     text-decoration: underline;
 }
 
-.theme-icon {
+.theme-toggle {
     display: flex;
     align-items: center;
 }
 
-.theme-icon ion-icon {
-    width: 1.4em;
-    height: 1.4em;
+.theme-icon {
     cursor: pointer;
 }

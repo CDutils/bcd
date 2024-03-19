@@ -42,7 +42,6 @@ body .separator {
     max-width: 300px;
     min-width: 200px;
     height: 250px;
-    background-color: var(--primary-100);
     margin: 0.5em;
     border-radius: var(--border-radius);
 
@@ -62,7 +61,7 @@ body .separator {
     width: 100%;
     height: 80px;
     max-width: 80px;
-    background: linear-gradient(90deg, var(--accent-100) 0%, var(--accent-200) 40%, var(--card-icon-hover) 60%);
+    background: linear-gradient(90deg, var(--md-sys-color-primary) 0%, var(--md-sys-color-secondary) 40%, var(--md-sys-color-background) 60%);
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -71,6 +70,14 @@ body .separator {
     transition: all 0.8s ease;
     background-position: 0px;
     background-size: 200px;
+}
+
+.icon span {
+    color: var(--md-sys-color-background);
+}
+
+.card:hover .icon span {
+    color: var(--md-sys-color-on-secondary-container);
 }
 
 .material-icons.md-18 {

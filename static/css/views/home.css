@@ -172,6 +172,11 @@
     }
 }
 
+.schedule {
+    display: flex;
+    justify-content: center;
+}
+
 .subject {
     display: flex;
     flex-direction: column;
@@ -186,10 +191,6 @@
 
     padding: 1em;
     margin: 0.5em;
-}
-
-.subject span {
-    font-size: 1.5em;
 }
 
 .info-container {
