@@ -26,7 +26,7 @@
         }
     }
 
-    const subjects = [
+    window.subjects = [
         new Subject('TM01', 'Cálculo Diferencial e Integral 1', 'CAD 3 - Sala 312', '13:00 - 14:40'),
         new Subject('TC', 'Fundamentos de Ciência de Dados (FCD)', 'DCC - Sala 2014', '14:55 - 16:35'),
         new Subject('TTW', 'Introdução à Lógica Computacional (ILC)', 'DCC - Sala 2015', '14:55 - 16:35'),
@@ -36,23 +36,23 @@
 
     const schedule = {
         'monday': [
-            subjects[0],
-            subjects[2]
+            window.subjects[2],
+            window.subjects[0],
         ],
         'tuesday': [
-            subjects[1],
-            subjects[3]
+            window.subjects[1],
+            window.subjects[3]
         ],
         'wednesday': [
-            subjects[0],
-            subjects[2]
+            window.subjects[0],
+            window.subjects[2]
         ],
         'thursday': [
-            subjects[1],
-            subjects[4]
+            window.subjects[1],
+            window.subjects[4]
         ],
         'friday': [
-            subjects[0]
+            window.subjects[0]
         ]
     };
 

@@ -205,6 +205,7 @@
 .info-body {
     margin: 0.2em;
     padding: 1em;
+    border-radius: var(--border-radius);
 }
 
 .info-body,
@@ -246,7 +247,7 @@
     width: 1px;
     height: 100px;
     /* Adjust height as needed */
-    border-left: 1px solid var(--md-sys-color-outline-variant);
+    border-left: 1px solid var(--md-sys-color-surface-tint);
     /* Color and style of the line */
 }
 

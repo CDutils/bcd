@@ -151,3 +151,21 @@ body .separator {
     background-position: -120px;
     transition: all 0.3s ease;
 }
+
+.subject-info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 2em;
+    margin: 0 auto;
+
+    border: 1px solid var(--md-sys-color-secondary-container);
+    border-radius: var(--border-radius);
+}
+
+.invisible {
+    display: none !important;
+}
