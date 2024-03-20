@@ -77,6 +77,8 @@
 
 .about-nav a {
     text-decoration: none;
+    display: block;
+    min-height: 40px;
 }
 
 .about-animation {
@@ -244,7 +246,7 @@
     width: 1px;
     height: 100px;
     /* Adjust height as needed */
-    border-left: 1px solid var(--primary-300);
+    border-left: 1px solid var(--md-sys-color-outline-variant);
     /* Color and style of the line */
 }
 
