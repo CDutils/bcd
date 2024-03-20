@@ -30,8 +30,8 @@
             "purpose": "maskable"
         }
     ],
-    "id": "/?source=pwa",
-    "start_url": "/?source=pwa",
+    "id": "/my-page/?source=pwa",
+    "start_url": "/my-page/?source=pwa",
     "background_color": "#FDFDF6",
     "display": "standalone",
     "scope": "/",
