@@ -6,7 +6,7 @@ Here you will find a brief introduction about the course, a list showing the cla
 
 ## About me
 
-I am a Computer Science student, interested in Web Development, and in the process of becoming a full-stack developer.
+I am a Data Science student, interested in Web Development, and in the process of becoming a full-stack developer.
 
 I have been working on web development for over 4 and a half years now, and I really enjoy it. I am always looking for new challenges and ways to improve my skills.
 
