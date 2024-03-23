@@ -1,6 +1,6 @@
 # Welcome to my personal page!
 
-This is a simple project to serve as a personal page for me, and to have a place to store all the info about my course.
+This is a simple project to serve as a place to store all the info about my course.
 
 Here you will find a brief introduction about the course, a list showing the classes schedule for today, and some links and information.
 
