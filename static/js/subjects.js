@@ -14,15 +14,15 @@
          * @param {list} links - The links of the object.
          */
         constructor(id, name, place, time, teacher, description, tests, books, links) {
-            this.id = id;
-            this.name = name;
-            this.place = place;
-            this.time = time;
-            this.teacher = teacher;
-            this.description = description;
-            this.tests = tests;
-            this.books = books;
-            this.links = links;
+            this.id = id
+            this.name = name
+            this.place = place
+            this.time = time
+            this.teacher = teacher
+            this.description = description
+            this.tests = tests
+            this.books = books
+            this.links = links
         }
         getHTML() {
             return `
@@ -30,7 +30,7 @@
                 <div class="subject__id on-secondary-container-text body-medium">Turma ${this.id}</div>
                 <div class="subject__time on-secondary-container-text body-large">${this.time}</div>
                 <div class="subject__place on-secondary-container-text body-large">${this.place}</div>
-            `;
+            `
         }
     }
 
@@ -181,5 +181,5 @@
             [],
             []
         )
-    ];
+    ]
 })()

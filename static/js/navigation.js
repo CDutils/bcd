@@ -1,26 +1,24 @@
 (() => {
-
-    const tabs = document.querySelectorAll(".nav-links>li>a");
-    const sections = document.querySelectorAll("section");
+    const tabs = document.querySelectorAll('.nav-links>li>a')
+    const sections = document.querySelectorAll('section')
 
     for (const tab of tabs) {
-        tab.addEventListener("click", (event) => {
-            event.preventDefault();
-            const id = tab.getAttribute("href").slice(1);
+        tab.addEventListener('click', (event) => {
+            event.preventDefault()
+            const id = tab.getAttribute('href').slice(1)
 
             setTimeout(() => {
                 for (const section of sections) {
-                    section.style.display = section.id === id ? "block" : "none";
+                    section.style.display = section.id === id ? 'block' : 'none'
                 }
-            }, 1000);
+            }, 1000)
 
-            tab.classList.add("active-link");
+            tab.classList.add('active-link')
             for (const other of tabs) {
                 if (other !== tab) {
-                    other.classList.remove("active-link");
+                    other.classList.remove('active-link')
                 }
             }
-        });
+        })
     }
-
 })()

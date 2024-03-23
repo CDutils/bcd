@@ -189,7 +189,8 @@ body .separator {
     padding: 0.2em;
 }
 
-.subject-book-container a {
+.subject-book-link {
+    min-height: 40px;
     color: var(--md-sys-color-primary);
 }
 

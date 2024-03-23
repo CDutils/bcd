@@ -1,10 +1,10 @@
 (() => {
-    var loader = document.querySelector('.loader');
-    var btns = document.querySelectorAll('.nav-links>li>a');
+    var loader = document.querySelector('.loader')
+    var btns = document.querySelectorAll('.nav-links>li>a')
 
     window.onload = () => {
         loader.classList.remove('loader--active')
-    };
+    }
 
     btns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -14,5 +14,5 @@
                 loader.classList.remove('loader--active')
             }, 2500)
         })
-    });
+    })
 })()
