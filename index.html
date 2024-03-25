@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" href="static/css/views/home.css">
     <link rel="stylesheet" href="static/css/views/subjects.css">
+    <link rel="stylesheet" href="static/css/views/curriculum.css">
 
     <link rel="stylesheet" href="static/css/scroll-bar.css">
 
@@ -43,7 +44,7 @@
             <ul class="nav-links">
                 <li><a href="#home-tab" class="active-link primary-text">Principal</a></li>
                 <li><a href="#subject-tab" class="primary-text">Matérias</a></li>
-                <li><a href="#grid-tab" class="primary-text">Grade</a></li>
+                <li><a href="#curriculum-tab" class="primary-text">Grade</a></li>
                 <li class="theme-toggle">
                     <span class="material-symbols-rounded theme-icon">
                         dark_mode
@@ -340,7 +341,12 @@
                 </div>
             </section>
 
-            <section id="grid-tab" class="grid-tab" style="display: none;">
+            <section id="curriculum-tab" class="curriculum-tab" style="display: none;">
+                <div class="separator on-background-text headline-small">
+                    <span>Grade Curricular</span>
+                </div>
+                <div class="curriculum-container">
+                </div>
             </section>
         </div>
     </div>
@@ -372,6 +378,7 @@
     <script src="static/js/navigation.js" defer></script>
     <script src="static/js/transition.js" defer></script>
     <script src="static/js/cards.js" defer></script>
+    <script src="static/js/grade.js" defer></script>
 </body>
 
 </html>
