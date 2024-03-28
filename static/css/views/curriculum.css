@@ -1,4 +1,51 @@
 .curriculum-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bar-options {
+    display: flex;
+    align-items: flex-end;
+}
+
+.curriculum-view {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-container {
+    width: 20%;
+}
+
+.filters-container {
+    max-width: 300px;
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+.filter-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-slider {
+    --_label-text-font: 'Titillium Web' !important;
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 0.3em;

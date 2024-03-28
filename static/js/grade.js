@@ -1,5 +1,5 @@
 (() => {
-    const dataContainer = document.querySelector('.curriculum-container');
+    const dataContainer = document.querySelector('.grid-container');
 
     fetch('static/CompUF.csv')
         .then(response => response.text())
