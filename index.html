@@ -346,20 +346,16 @@
                     <span>Grade Curricular</span>
                 </div>
                 <div class="curriculum-container">
-                    <div class="head-container on-background-text">
-                        <span class="bar-title title-large">Title</span>
-                        <div class="bar-options">
-                            <span class="edit-option body-medium">Edit</span>
-                            <span class="material-symbols-rounded theme-icon">
-                                download
-                            </span>
-                        </div>
-                    </div>
                     <div class="curriculum-view">
                         <div class="side-container">
                             <md-list class="filters-container on-background-text body-medium">
                                 <md-list-item>
-                                    <span class="title-large">Filtros</span>
+                                    <div class="filters-title">
+                                        <span class="title-large">Filtros</span>
+                                        <span class="material-symbols-rounded download-grid-button">
+                                            download
+                                        </span>
+                                    </div>
                                 </md-list-item>
                                 <div class="separator"></div>
                                 <md-list-item>
@@ -371,26 +367,16 @@
                                 <md-list-item>
                                     <label class="filter-checkbox">
                                         <span class="body-large">Todos os períodos</span>
-                                        <md-checkbox aria-label="Mostrar todos os períodos"></md-checkbox>
+                                        <md-checkbox class="periods-slider" aria-label="Mostrar todos os períodos"></md-checkbox>
                                     </label>
                                 </md-list-item>
                                 <div class="separator"></div>
                                 <md-list-item>
                                     <label>
                                         <span slot="headline" class="body-large">Escolha os períodos</span>
-                                        <md-slider class="body-medium filter-slider" labeled range step="1" value-start="1" value-end="9" ticks min="1"
-                                            max="9"></md-slider>
+                                        <md-slider class="body-medium filter-slider" labeled range step="1"
+                                            value-start="1" value-end="9" ticks min="1" max="9"></md-slider>
                                     </label>
-
-
-                                </md-list-item>
-                                <md-list-item interactive href="https://google.com/search?q=buy+kiwis&tbm=shop"
-                                    target="_blank">
-                                    <div slot="headline">Shop for Kiwis</div>
-                                    <div slot="supporting-text">This will link you out in a new tab</div>
-                                    <span slot="end" class="material-symbols-rounded">
-                                        open_in_new
-                                    </span>
                                 </md-list-item>
                             </md-list>
                         </div>
@@ -430,6 +416,7 @@
     <script src="static/js/transition.js" defer></script>
     <script src="static/js/cards.js" defer></script>
     <script src="static/js/grade.js" defer></script>
+    <script src="static/js/filtros.js" defer></script>
 </body>
 
 </html>
