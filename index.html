@@ -347,6 +347,17 @@
                 </div>
                 <div class="curriculum-container">
                     <div class="curriculum-view">
+                        <md-dialog class="subject-dialog">
+                            <div slot="headline">
+                                Lista de Matérias
+                            </div>
+                            <form id="subject-selection-form" slot="content" method="dialog">
+                            </form>
+                            <div slot="actions">
+                                <md-text-button class="close-dialog-button" form="subject-selection-form" autofocus
+                                    value="ok" style="min-height: unset;">Ok</md-text-button>
+                            </div>
+                        </md-dialog>
                         <div class="side-container">
                             <md-list class="filters-container on-background-text body-medium">
                                 <md-list-item>
@@ -361,13 +372,22 @@
                                 <md-list-item>
                                     <label class="filter-checkbox">
                                         <span class="body-large">Mostrar optativas</span>
-                                        <md-checkbox aria-label="Adicionar optativas"></md-checkbox>
+                                        <md-checkbox class="all-opt-button"
+                                            aria-label="Mostrar optativas"></md-checkbox>
+                                    </label>
+                                </md-list-item>
+                                <md-list-item>
+                                    <label class="filter-checkbox">
+                                        <span class="body-large">Mostrar extensionistas</span>
+                                        <md-checkbox class="all-exten-button"
+                                            aria-label="Mostrar extensionistas"></md-checkbox>
                                     </label>
                                 </md-list-item>
                                 <md-list-item>
                                     <label class="filter-checkbox">
                                         <span class="body-large">Todos os períodos</span>
-                                        <md-checkbox class="periods-slider" aria-label="Mostrar todos os períodos"></md-checkbox>
+                                        <md-checkbox class="all-pds-button"
+                                            aria-label="Mostrar todos os períodos"></md-checkbox>
                                     </label>
                                 </md-list-item>
                                 <div class="separator"></div>

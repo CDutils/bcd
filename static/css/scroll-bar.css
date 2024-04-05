@@ -1,7 +1,11 @@
 /* Works on Firefox */
 body {
     scrollbar-width: thin;
-    scrollbar-color: var(--md-sys-color-primary) var(--md-sys-color-primary);
+    scrollbar-color: var(--md-sys-color-secondary) transparent;
+}
+
+.scroller {
+    border: 4px solid transparent;
 }
 
 /* Works on Chrome, Edge, and Safari */

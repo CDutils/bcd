@@ -547,7 +547,7 @@ __decorate([
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles$8 = i$4 `:host{background:var(--md-list-container-color, var(--md-sys-color-surface, #fef7ff));color:unset;display:flex;flex-direction:column;outline:none;padding:8px 0;position:relative}/*# sourceMappingURL=list-styles.css.map */
+const styles$d = i$4 `:host{background:var(--md-list-container-color, var(--md-sys-color-surface, #fef7ff));color:unset;display:flex;flex-direction:column;outline:none;padding:8px 0;position:relative}/*# sourceMappingURL=list-styles.css.map */
 `;
 
 /**
@@ -576,7 +576,7 @@ const styles$8 = i$4 `:host{background:var(--md-list-container-color, var(--md-s
  */
 let MdList = class MdList extends List {
 };
-MdList.styles = [styles$8];
+MdList.styles = [styles$d];
 MdList = __decorate([
     t$3('md-list')
 ], MdList);
@@ -800,7 +800,7 @@ const HANDLED_BY_FOCUS_RING = Symbol('handledByFocusRing');
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles$7 = i$4 `:host{animation-delay:0s,calc(var(--md-focus-ring-duration, 600ms)*.25);animation-duration:calc(var(--md-focus-ring-duration, 600ms)*.25),calc(var(--md-focus-ring-duration, 600ms)*.75);animation-timing-function:cubic-bezier(0.2, 0, 0, 1);box-sizing:border-box;color:var(--md-focus-ring-color, var(--md-sys-color-secondary, #625b71));display:none;pointer-events:none;position:absolute}:host([visible]){display:flex}:host(:not([inward])){animation-name:outward-grow,outward-shrink;border-end-end-radius:calc(var(--md-focus-ring-shape-end-end, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) + var(--md-focus-ring-outward-offset, 2px));border-end-start-radius:calc(var(--md-focus-ring-shape-end-start, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) + var(--md-focus-ring-outward-offset, 2px));border-start-end-radius:calc(var(--md-focus-ring-shape-start-end, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) + var(--md-focus-ring-outward-offset, 2px));border-start-start-radius:calc(var(--md-focus-ring-shape-start-start, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) + var(--md-focus-ring-outward-offset, 2px));inset:calc(-1*var(--md-focus-ring-outward-offset, 2px));outline:var(--md-focus-ring-width, 3px) solid currentColor}:host([inward]){animation-name:inward-grow,inward-shrink;border-end-end-radius:calc(var(--md-focus-ring-shape-end-end, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) - var(--md-focus-ring-inward-offset, 0px));border-end-start-radius:calc(var(--md-focus-ring-shape-end-start, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) - var(--md-focus-ring-inward-offset, 0px));border-start-end-radius:calc(var(--md-focus-ring-shape-start-end, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) - var(--md-focus-ring-inward-offset, 0px));border-start-start-radius:calc(var(--md-focus-ring-shape-start-start, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) - var(--md-focus-ring-inward-offset, 0px));border:var(--md-focus-ring-width, 3px) solid currentColor;inset:var(--md-focus-ring-inward-offset, 0px)}@keyframes outward-grow{from{outline-width:0}to{outline-width:var(--md-focus-ring-active-width, 8px)}}@keyframes outward-shrink{from{outline-width:var(--md-focus-ring-active-width, 8px)}}@keyframes inward-grow{from{border-width:0}to{border-width:var(--md-focus-ring-active-width, 8px)}}@keyframes inward-shrink{from{border-width:var(--md-focus-ring-active-width, 8px)}}@media(prefers-reduced-motion){:host{animation:none}}/*# sourceMappingURL=focus-ring-styles.css.map */
+const styles$c = i$4 `:host{animation-delay:0s,calc(var(--md-focus-ring-duration, 600ms)*.25);animation-duration:calc(var(--md-focus-ring-duration, 600ms)*.25),calc(var(--md-focus-ring-duration, 600ms)*.75);animation-timing-function:cubic-bezier(0.2, 0, 0, 1);box-sizing:border-box;color:var(--md-focus-ring-color, var(--md-sys-color-secondary, #625b71));display:none;pointer-events:none;position:absolute}:host([visible]){display:flex}:host(:not([inward])){animation-name:outward-grow,outward-shrink;border-end-end-radius:calc(var(--md-focus-ring-shape-end-end, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) + var(--md-focus-ring-outward-offset, 2px));border-end-start-radius:calc(var(--md-focus-ring-shape-end-start, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) + var(--md-focus-ring-outward-offset, 2px));border-start-end-radius:calc(var(--md-focus-ring-shape-start-end, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) + var(--md-focus-ring-outward-offset, 2px));border-start-start-radius:calc(var(--md-focus-ring-shape-start-start, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) + var(--md-focus-ring-outward-offset, 2px));inset:calc(-1*var(--md-focus-ring-outward-offset, 2px));outline:var(--md-focus-ring-width, 3px) solid currentColor}:host([inward]){animation-name:inward-grow,inward-shrink;border-end-end-radius:calc(var(--md-focus-ring-shape-end-end, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) - var(--md-focus-ring-inward-offset, 0px));border-end-start-radius:calc(var(--md-focus-ring-shape-end-start, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) - var(--md-focus-ring-inward-offset, 0px));border-start-end-radius:calc(var(--md-focus-ring-shape-start-end, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) - var(--md-focus-ring-inward-offset, 0px));border-start-start-radius:calc(var(--md-focus-ring-shape-start-start, var(--md-focus-ring-shape, var(--md-sys-shape-corner-full, 9999px))) - var(--md-focus-ring-inward-offset, 0px));border:var(--md-focus-ring-width, 3px) solid currentColor;inset:var(--md-focus-ring-inward-offset, 0px)}@keyframes outward-grow{from{outline-width:0}to{outline-width:var(--md-focus-ring-active-width, 8px)}}@keyframes outward-shrink{from{outline-width:var(--md-focus-ring-active-width, 8px)}}@keyframes inward-grow{from{border-width:0}to{border-width:var(--md-focus-ring-active-width, 8px)}}@keyframes inward-shrink{from{border-width:var(--md-focus-ring-active-width, 8px)}}@media(prefers-reduced-motion){:host{animation:none}}/*# sourceMappingURL=focus-ring-styles.css.map */
 `;
 
 /**
@@ -816,7 +816,7 @@ const styles$7 = i$4 `:host{animation-delay:0s,calc(var(--md-focus-ring-duration
  */
 let MdFocusRing = class MdFocusRing extends FocusRing {
 };
-MdFocusRing.styles = [styles$7];
+MdFocusRing.styles = [styles$c];
 MdFocusRing = __decorate([
     t$3('md-focus-ring')
 ], MdFocusRing);
@@ -901,7 +901,7 @@ function slotHasContent(slot) {
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles$6 = i$4 `:host{color:var(--md-sys-color-on-surface, #1d1b20);font-family:var(--md-sys-typescale-body-large-font, var(--md-ref-typeface-plain, Roboto));font-size:var(--md-sys-typescale-body-large-size, 1rem);font-weight:var(--md-sys-typescale-body-large-weight, var(--md-ref-typeface-weight-regular, 400));line-height:var(--md-sys-typescale-body-large-line-height, 1.5rem);align-items:center;box-sizing:border-box;display:flex;gap:16px;min-height:56px;overflow:hidden;padding:12px 16px;position:relative;text-overflow:ellipsis}:host([multiline]){min-height:72px}[name=overline]{color:var(--md-sys-color-on-surface-variant, #49454f);font-family:var(--md-sys-typescale-label-small-font, var(--md-ref-typeface-plain, Roboto));font-size:var(--md-sys-typescale-label-small-size, 0.6875rem);font-weight:var(--md-sys-typescale-label-small-weight, var(--md-ref-typeface-weight-medium, 500));line-height:var(--md-sys-typescale-label-small-line-height, 1rem)}[name=supporting-text]{color:var(--md-sys-color-on-surface-variant, #49454f);font-family:var(--md-sys-typescale-body-medium-font, var(--md-ref-typeface-plain, Roboto));font-size:var(--md-sys-typescale-body-medium-size, 0.875rem);font-weight:var(--md-sys-typescale-body-medium-weight, var(--md-ref-typeface-weight-regular, 400));line-height:var(--md-sys-typescale-body-medium-line-height, 1.25rem)}[name=trailing-supporting-text]{color:var(--md-sys-color-on-surface-variant, #49454f);font-family:var(--md-sys-typescale-label-small-font, var(--md-ref-typeface-plain, Roboto));font-size:var(--md-sys-typescale-label-small-size, 0.6875rem);font-weight:var(--md-sys-typescale-label-small-weight, var(--md-ref-typeface-weight-medium, 500));line-height:var(--md-sys-typescale-label-small-line-height, 1rem)}[name=container]::slotted(*){inset:0;position:absolute}.default-slot{display:inline}.default-slot,.text ::slotted(*){overflow:hidden;text-overflow:ellipsis}.text{display:flex;flex:1;flex-direction:column;overflow:hidden}/*# sourceMappingURL=item-styles.css.map */
+const styles$b = i$4 `:host{color:var(--md-sys-color-on-surface, #1d1b20);font-family:var(--md-sys-typescale-body-large-font, var(--md-ref-typeface-plain, Roboto));font-size:var(--md-sys-typescale-body-large-size, 1rem);font-weight:var(--md-sys-typescale-body-large-weight, var(--md-ref-typeface-weight-regular, 400));line-height:var(--md-sys-typescale-body-large-line-height, 1.5rem);align-items:center;box-sizing:border-box;display:flex;gap:16px;min-height:56px;overflow:hidden;padding:12px 16px;position:relative;text-overflow:ellipsis}:host([multiline]){min-height:72px}[name=overline]{color:var(--md-sys-color-on-surface-variant, #49454f);font-family:var(--md-sys-typescale-label-small-font, var(--md-ref-typeface-plain, Roboto));font-size:var(--md-sys-typescale-label-small-size, 0.6875rem);font-weight:var(--md-sys-typescale-label-small-weight, var(--md-ref-typeface-weight-medium, 500));line-height:var(--md-sys-typescale-label-small-line-height, 1rem)}[name=supporting-text]{color:var(--md-sys-color-on-surface-variant, #49454f);font-family:var(--md-sys-typescale-body-medium-font, var(--md-ref-typeface-plain, Roboto));font-size:var(--md-sys-typescale-body-medium-size, 0.875rem);font-weight:var(--md-sys-typescale-body-medium-weight, var(--md-ref-typeface-weight-regular, 400));line-height:var(--md-sys-typescale-body-medium-line-height, 1.25rem)}[name=trailing-supporting-text]{color:var(--md-sys-color-on-surface-variant, #49454f);font-family:var(--md-sys-typescale-label-small-font, var(--md-ref-typeface-plain, Roboto));font-size:var(--md-sys-typescale-label-small-size, 0.6875rem);font-weight:var(--md-sys-typescale-label-small-weight, var(--md-ref-typeface-weight-medium, 500));line-height:var(--md-sys-typescale-label-small-line-height, 1rem)}[name=container]::slotted(*){inset:0;position:absolute}.default-slot{display:inline}.default-slot,.text ::slotted(*){overflow:hidden;text-overflow:ellipsis}.text{display:flex;flex:1;flex-direction:column;overflow:hidden}/*# sourceMappingURL=item-styles.css.map */
 `;
 
 /**
@@ -967,7 +967,7 @@ const styles$6 = i$4 `:host{color:var(--md-sys-color-on-surface, #1d1b20);font-f
  */
 let MdItem = class MdItem extends Item {
 };
-MdItem.styles = [styles$6];
+MdItem.styles = [styles$b];
 MdItem = __decorate([
     t$3('md-item')
 ], MdItem);
@@ -1422,7 +1422,7 @@ __decorate([
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles$5 = i$4 `:host{display:flex;margin:auto;pointer-events:none}:host([disabled]){display:none}@media(forced-colors: active){:host{display:none}}:host,.surface{border-radius:inherit;position:absolute;inset:0;overflow:hidden}.surface{-webkit-tap-highlight-color:rgba(0,0,0,0)}.surface::before,.surface::after{content:"";opacity:0;position:absolute}.surface::before{background-color:var(--md-ripple-hover-color, var(--md-sys-color-on-surface, #1d1b20));inset:0;transition:opacity 15ms linear,background-color 15ms linear}.surface::after{background:radial-gradient(closest-side, var(--md-ripple-pressed-color, var(--md-sys-color-on-surface, #1d1b20)) max(100% - 70px, 65%), transparent 100%);transform-origin:center center;transition:opacity 375ms linear}.hovered::before{background-color:var(--md-ripple-hover-color, var(--md-sys-color-on-surface, #1d1b20));opacity:var(--md-ripple-hover-opacity, 0.08)}.pressed::after{opacity:var(--md-ripple-pressed-opacity, 0.12);transition-duration:105ms}/*# sourceMappingURL=ripple-styles.css.map */
+const styles$a = i$4 `:host{display:flex;margin:auto;pointer-events:none}:host([disabled]){display:none}@media(forced-colors: active){:host{display:none}}:host,.surface{border-radius:inherit;position:absolute;inset:0;overflow:hidden}.surface{-webkit-tap-highlight-color:rgba(0,0,0,0)}.surface::before,.surface::after{content:"";opacity:0;position:absolute}.surface::before{background-color:var(--md-ripple-hover-color, var(--md-sys-color-on-surface, #1d1b20));inset:0;transition:opacity 15ms linear,background-color 15ms linear}.surface::after{background:radial-gradient(closest-side, var(--md-ripple-pressed-color, var(--md-sys-color-on-surface, #1d1b20)) max(100% - 70px, 65%), transparent 100%);transform-origin:center center;transition:opacity 375ms linear}.hovered::before{background-color:var(--md-ripple-hover-color, var(--md-sys-color-on-surface, #1d1b20));opacity:var(--md-ripple-hover-opacity, 0.08)}.pressed::after{opacity:var(--md-ripple-pressed-opacity, 0.12);transition-duration:105ms}/*# sourceMappingURL=ripple-styles.css.map */
 `;
 
 /**
@@ -1445,7 +1445,7 @@ const styles$5 = i$4 `:host{display:flex;margin:auto;pointer-events:none}:host([
  */
 let MdRipple = class MdRipple extends Ripple {
 };
-MdRipple.styles = [styles$5];
+MdRipple.styles = [styles$a];
 MdRipple = __decorate([
     t$3('md-ripple')
 ], MdRipple);
@@ -1764,7 +1764,7 @@ __decorate([
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles$4 = i$4 `:host{display:flex;-webkit-tap-highlight-color:rgba(0,0,0,0);--md-ripple-hover-color: var(--md-list-item-hover-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-hover-opacity: var(--md-list-item-hover-state-layer-opacity, 0.08);--md-ripple-pressed-color: var(--md-list-item-pressed-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-pressed-opacity: var(--md-list-item-pressed-state-layer-opacity, 0.12)}:host(:is([type=button]:not([disabled]),[type=link])){cursor:pointer}md-focus-ring{z-index:1;--md-focus-ring-shape: 8px}a,button,li{background:none;border:none;cursor:inherit;padding:0;margin:0;text-align:unset;text-decoration:none}.list-item{border-radius:inherit;display:flex;flex:1;max-width:inherit;min-width:inherit;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);width:100%}.list-item.interactive{cursor:pointer}.list-item.disabled{opacity:var(--md-list-item-disabled-opacity, 0.3);pointer-events:none}[slot=container]{pointer-events:none}md-ripple{border-radius:inherit}md-item{border-radius:inherit;flex:1;height:100%;color:var(--md-list-item-label-text-color, var(--md-sys-color-on-surface, #1d1b20));font-family:var(--md-list-item-label-text-font, var(--md-sys-typescale-body-large-font, var(--md-ref-typeface-plain, Roboto)));font-size:var(--md-list-item-label-text-size, var(--md-sys-typescale-body-large-size, 1rem));line-height:var(--md-list-item-label-text-line-height, var(--md-sys-typescale-body-large-line-height, 1.5rem));font-weight:var(--md-list-item-label-text-weight, var(--md-sys-typescale-body-large-weight, var(--md-ref-typeface-weight-regular, 400)));min-height:var(--md-list-item-one-line-container-height, 56px);padding-top:var(--md-list-item-top-space, 12px);padding-bottom:var(--md-list-item-bottom-space, 12px);padding-inline-start:var(--md-list-item-leading-space, 16px);padding-inline-end:var(--md-list-item-trailing-space, 16px)}md-item[multiline]{min-height:var(--md-list-item-two-line-container-height, 72px)}[slot=supporting-text]{color:var(--md-list-item-supporting-text-color, var(--md-sys-color-on-surface-variant, #49454f));font-family:var(--md-list-item-supporting-text-font, var(--md-sys-typescale-body-medium-font, var(--md-ref-typeface-plain, Roboto)));font-size:var(--md-list-item-supporting-text-size, var(--md-sys-typescale-body-medium-size, 0.875rem));line-height:var(--md-list-item-supporting-text-line-height, var(--md-sys-typescale-body-medium-line-height, 1.25rem));font-weight:var(--md-list-item-supporting-text-weight, var(--md-sys-typescale-body-medium-weight, var(--md-ref-typeface-weight-regular, 400)))}[slot=trailing-supporting-text]{color:var(--md-list-item-trailing-supporting-text-color, var(--md-sys-color-on-surface-variant, #49454f));font-family:var(--md-list-item-trailing-supporting-text-font, var(--md-sys-typescale-label-small-font, var(--md-ref-typeface-plain, Roboto)));font-size:var(--md-list-item-trailing-supporting-text-size, var(--md-sys-typescale-label-small-size, 0.6875rem));line-height:var(--md-list-item-trailing-supporting-text-line-height, var(--md-sys-typescale-label-small-line-height, 1rem));font-weight:var(--md-list-item-trailing-supporting-text-weight, var(--md-sys-typescale-label-small-weight, var(--md-ref-typeface-weight-medium, 500)))}:is([slot=start],[slot=end])::slotted(*){fill:currentColor}[slot=start]{color:var(--md-list-item-leading-icon-color, var(--md-sys-color-on-surface-variant, #49454f))}[slot=end]{color:var(--md-list-item-trailing-icon-color, var(--md-sys-color-on-surface-variant, #49454f))}@media(forced-colors: active){.disabled slot{color:GrayText}.list-item.disabled{color:GrayText;opacity:1}}/*# sourceMappingURL=list-item-styles.css.map */
+const styles$9 = i$4 `:host{display:flex;-webkit-tap-highlight-color:rgba(0,0,0,0);--md-ripple-hover-color: var(--md-list-item-hover-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-hover-opacity: var(--md-list-item-hover-state-layer-opacity, 0.08);--md-ripple-pressed-color: var(--md-list-item-pressed-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-pressed-opacity: var(--md-list-item-pressed-state-layer-opacity, 0.12)}:host(:is([type=button]:not([disabled]),[type=link])){cursor:pointer}md-focus-ring{z-index:1;--md-focus-ring-shape: 8px}a,button,li{background:none;border:none;cursor:inherit;padding:0;margin:0;text-align:unset;text-decoration:none}.list-item{border-radius:inherit;display:flex;flex:1;max-width:inherit;min-width:inherit;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);width:100%}.list-item.interactive{cursor:pointer}.list-item.disabled{opacity:var(--md-list-item-disabled-opacity, 0.3);pointer-events:none}[slot=container]{pointer-events:none}md-ripple{border-radius:inherit}md-item{border-radius:inherit;flex:1;height:100%;color:var(--md-list-item-label-text-color, var(--md-sys-color-on-surface, #1d1b20));font-family:var(--md-list-item-label-text-font, var(--md-sys-typescale-body-large-font, var(--md-ref-typeface-plain, Roboto)));font-size:var(--md-list-item-label-text-size, var(--md-sys-typescale-body-large-size, 1rem));line-height:var(--md-list-item-label-text-line-height, var(--md-sys-typescale-body-large-line-height, 1.5rem));font-weight:var(--md-list-item-label-text-weight, var(--md-sys-typescale-body-large-weight, var(--md-ref-typeface-weight-regular, 400)));min-height:var(--md-list-item-one-line-container-height, 56px);padding-top:var(--md-list-item-top-space, 12px);padding-bottom:var(--md-list-item-bottom-space, 12px);padding-inline-start:var(--md-list-item-leading-space, 16px);padding-inline-end:var(--md-list-item-trailing-space, 16px)}md-item[multiline]{min-height:var(--md-list-item-two-line-container-height, 72px)}[slot=supporting-text]{color:var(--md-list-item-supporting-text-color, var(--md-sys-color-on-surface-variant, #49454f));font-family:var(--md-list-item-supporting-text-font, var(--md-sys-typescale-body-medium-font, var(--md-ref-typeface-plain, Roboto)));font-size:var(--md-list-item-supporting-text-size, var(--md-sys-typescale-body-medium-size, 0.875rem));line-height:var(--md-list-item-supporting-text-line-height, var(--md-sys-typescale-body-medium-line-height, 1.25rem));font-weight:var(--md-list-item-supporting-text-weight, var(--md-sys-typescale-body-medium-weight, var(--md-ref-typeface-weight-regular, 400)))}[slot=trailing-supporting-text]{color:var(--md-list-item-trailing-supporting-text-color, var(--md-sys-color-on-surface-variant, #49454f));font-family:var(--md-list-item-trailing-supporting-text-font, var(--md-sys-typescale-label-small-font, var(--md-ref-typeface-plain, Roboto)));font-size:var(--md-list-item-trailing-supporting-text-size, var(--md-sys-typescale-label-small-size, 0.6875rem));line-height:var(--md-list-item-trailing-supporting-text-line-height, var(--md-sys-typescale-label-small-line-height, 1rem));font-weight:var(--md-list-item-trailing-supporting-text-weight, var(--md-sys-typescale-label-small-weight, var(--md-ref-typeface-weight-medium, 500)))}:is([slot=start],[slot=end])::slotted(*){fill:currentColor}[slot=start]{color:var(--md-list-item-leading-icon-color, var(--md-sys-color-on-surface-variant, #49454f))}[slot=end]{color:var(--md-list-item-trailing-icon-color, var(--md-sys-color-on-surface-variant, #49454f))}@media(forced-colors: active){.disabled slot{color:GrayText}.list-item.disabled{color:GrayText;opacity:1}}/*# sourceMappingURL=list-item-styles.css.map */
 `;
 
 /**
@@ -1812,7 +1812,7 @@ const styles$4 = i$4 `:host{display:flex;-webkit-tap-highlight-color:rgba(0,0,0,
  */
 let MdListItem = class MdListItem extends ListItemEl {
 };
-MdListItem.styles = [styles$4];
+MdListItem.styles = [styles$9];
 MdListItem = __decorate([
     t$3('md-list-item')
 ], MdListItem);
@@ -2588,7 +2588,7 @@ __decorate([
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles$3 = i$4 `:host{border-start-start-radius:var(--md-checkbox-container-shape-start-start, var(--md-checkbox-container-shape, 2px));border-start-end-radius:var(--md-checkbox-container-shape-start-end, var(--md-checkbox-container-shape, 2px));border-end-end-radius:var(--md-checkbox-container-shape-end-end, var(--md-checkbox-container-shape, 2px));border-end-start-radius:var(--md-checkbox-container-shape-end-start, var(--md-checkbox-container-shape, 2px));display:inline-flex;height:var(--md-checkbox-container-size, 18px);position:relative;vertical-align:top;width:var(--md-checkbox-container-size, 18px);-webkit-tap-highlight-color:rgba(0,0,0,0);cursor:pointer}:host([disabled]){cursor:default}:host([touch-target=wrapper]){margin:max(0px,(48px - var(--md-checkbox-container-size, 18px))/2)}md-focus-ring{height:44px;inset:unset;width:44px}input{appearance:none;height:48px;margin:0;opacity:0;outline:none;position:absolute;width:48px;z-index:1;cursor:inherit}:host([touch-target=none]) input{height:100%;width:100%}.container{border-radius:inherit;display:flex;height:100%;place-content:center;place-items:center;position:relative;width:100%}.outline,.background,.icon{inset:0;position:absolute}.outline,.background{border-radius:inherit}.outline{border-color:var(--md-checkbox-outline-color, var(--md-sys-color-on-surface-variant, #49454f));border-style:solid;border-width:var(--md-checkbox-outline-width, 2px);box-sizing:border-box}.background{background-color:var(--md-checkbox-selected-container-color, var(--md-sys-color-primary, #6750a4))}.background,.icon{opacity:0;transition-duration:150ms,50ms;transition-property:transform,opacity;transition-timing-function:cubic-bezier(0.3, 0, 0.8, 0.15),linear;transform:scale(0.6)}:where(.selected) :is(.background,.icon){opacity:1;transition-duration:350ms,50ms;transition-timing-function:cubic-bezier(0.05, 0.7, 0.1, 1),linear;transform:scale(1)}md-ripple{border-radius:var(--md-checkbox-state-layer-shape, var(--md-sys-shape-corner-full, 9999px));height:var(--md-checkbox-state-layer-size, 40px);inset:unset;width:var(--md-checkbox-state-layer-size, 40px);--md-ripple-hover-color: var(--md-checkbox-hover-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-hover-opacity: var(--md-checkbox-hover-state-layer-opacity, 0.08);--md-ripple-pressed-color: var(--md-checkbox-pressed-state-layer-color, var(--md-sys-color-primary, #6750a4));--md-ripple-pressed-opacity: var(--md-checkbox-pressed-state-layer-opacity, 0.12)}.selected md-ripple{--md-ripple-hover-color: var(--md-checkbox-selected-hover-state-layer-color, var(--md-sys-color-primary, #6750a4));--md-ripple-hover-opacity: var(--md-checkbox-selected-hover-state-layer-opacity, 0.08);--md-ripple-pressed-color: var(--md-checkbox-selected-pressed-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-pressed-opacity: var(--md-checkbox-selected-pressed-state-layer-opacity, 0.12)}.icon{fill:var(--md-checkbox-selected-icon-color, var(--md-sys-color-on-primary, #fff));height:var(--md-checkbox-icon-size, 18px);width:var(--md-checkbox-icon-size, 18px)}.mark.short{height:2px;transition-property:transform,height;width:2px}.mark.long{height:2px;transition-property:transform,width;width:10px}.mark{animation-duration:150ms;animation-timing-function:cubic-bezier(0.3, 0, 0.8, 0.15);transition-duration:150ms;transition-timing-function:cubic-bezier(0.3, 0, 0.8, 0.15)}.selected .mark{animation-duration:350ms;animation-timing-function:cubic-bezier(0.05, 0.7, 0.1, 1);transition-duration:350ms;transition-timing-function:cubic-bezier(0.05, 0.7, 0.1, 1)}.checked .mark,.prev-checked.unselected .mark{transform:scaleY(-1) translate(7px, -14px) rotate(45deg)}.checked .mark.short,.prev-checked.unselected .mark.short{height:5.6568542495px}.checked .mark.long,.prev-checked.unselected .mark.long{width:11.313708499px}.indeterminate .mark,.prev-indeterminate.unselected .mark{transform:scaleY(-1) translate(4px, -10px) rotate(0deg)}.prev-unselected .mark{transition-property:none}.prev-unselected.checked .mark.long{animation-name:prev-unselected-to-checked}@keyframes prev-unselected-to-checked{from{width:0}}:where(:hover) .outline{border-color:var(--md-checkbox-hover-outline-color, var(--md-sys-color-on-surface, #1d1b20));border-width:var(--md-checkbox-hover-outline-width, 2px)}:where(:hover) .background{background:var(--md-checkbox-selected-hover-container-color, var(--md-sys-color-primary, #6750a4))}:where(:hover) .icon{fill:var(--md-checkbox-selected-hover-icon-color, var(--md-sys-color-on-primary, #fff))}:where(:focus-within) .outline{border-color:var(--md-checkbox-focus-outline-color, var(--md-sys-color-on-surface, #1d1b20));border-width:var(--md-checkbox-focus-outline-width, 2px)}:where(:focus-within) .background{background:var(--md-checkbox-selected-focus-container-color, var(--md-sys-color-primary, #6750a4))}:where(:focus-within) .icon{fill:var(--md-checkbox-selected-focus-icon-color, var(--md-sys-color-on-primary, #fff))}:where(:active) .outline{border-color:var(--md-checkbox-pressed-outline-color, var(--md-sys-color-on-surface, #1d1b20));border-width:var(--md-checkbox-pressed-outline-width, 2px)}:where(:active) .background{background:var(--md-checkbox-selected-pressed-container-color, var(--md-sys-color-primary, #6750a4))}:where(:active) .icon{fill:var(--md-checkbox-selected-pressed-icon-color, var(--md-sys-color-on-primary, #fff))}:where(.disabled,.prev-disabled) :is(.background,.icon,.mark){animation-duration:0s;transition-duration:0s}:where(.disabled) .outline{border-color:var(--md-checkbox-disabled-outline-color, var(--md-sys-color-on-surface, #1d1b20));border-width:var(--md-checkbox-disabled-outline-width, 2px);opacity:var(--md-checkbox-disabled-container-opacity, 0.38)}:where(.selected.disabled) .outline{visibility:hidden}:where(.selected.disabled) .background{background:var(--md-checkbox-selected-disabled-container-color, var(--md-sys-color-on-surface, #1d1b20));opacity:var(--md-checkbox-selected-disabled-container-opacity, 0.38)}:where(.disabled) .icon{fill:var(--md-checkbox-selected-disabled-icon-color, var(--md-sys-color-surface, #fef7ff))}@media(forced-colors: active){.background{background-color:CanvasText}.selected.disabled .background{background-color:GrayText;opacity:1}.outline{border-color:CanvasText}.disabled .outline{border-color:GrayText;opacity:1}.icon{fill:Canvas}}/*# sourceMappingURL=checkbox-styles.css.map */
+const styles$8 = i$4 `:host{border-start-start-radius:var(--md-checkbox-container-shape-start-start, var(--md-checkbox-container-shape, 2px));border-start-end-radius:var(--md-checkbox-container-shape-start-end, var(--md-checkbox-container-shape, 2px));border-end-end-radius:var(--md-checkbox-container-shape-end-end, var(--md-checkbox-container-shape, 2px));border-end-start-radius:var(--md-checkbox-container-shape-end-start, var(--md-checkbox-container-shape, 2px));display:inline-flex;height:var(--md-checkbox-container-size, 18px);position:relative;vertical-align:top;width:var(--md-checkbox-container-size, 18px);-webkit-tap-highlight-color:rgba(0,0,0,0);cursor:pointer}:host([disabled]){cursor:default}:host([touch-target=wrapper]){margin:max(0px,(48px - var(--md-checkbox-container-size, 18px))/2)}md-focus-ring{height:44px;inset:unset;width:44px}input{appearance:none;height:48px;margin:0;opacity:0;outline:none;position:absolute;width:48px;z-index:1;cursor:inherit}:host([touch-target=none]) input{height:100%;width:100%}.container{border-radius:inherit;display:flex;height:100%;place-content:center;place-items:center;position:relative;width:100%}.outline,.background,.icon{inset:0;position:absolute}.outline,.background{border-radius:inherit}.outline{border-color:var(--md-checkbox-outline-color, var(--md-sys-color-on-surface-variant, #49454f));border-style:solid;border-width:var(--md-checkbox-outline-width, 2px);box-sizing:border-box}.background{background-color:var(--md-checkbox-selected-container-color, var(--md-sys-color-primary, #6750a4))}.background,.icon{opacity:0;transition-duration:150ms,50ms;transition-property:transform,opacity;transition-timing-function:cubic-bezier(0.3, 0, 0.8, 0.15),linear;transform:scale(0.6)}:where(.selected) :is(.background,.icon){opacity:1;transition-duration:350ms,50ms;transition-timing-function:cubic-bezier(0.05, 0.7, 0.1, 1),linear;transform:scale(1)}md-ripple{border-radius:var(--md-checkbox-state-layer-shape, var(--md-sys-shape-corner-full, 9999px));height:var(--md-checkbox-state-layer-size, 40px);inset:unset;width:var(--md-checkbox-state-layer-size, 40px);--md-ripple-hover-color: var(--md-checkbox-hover-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-hover-opacity: var(--md-checkbox-hover-state-layer-opacity, 0.08);--md-ripple-pressed-color: var(--md-checkbox-pressed-state-layer-color, var(--md-sys-color-primary, #6750a4));--md-ripple-pressed-opacity: var(--md-checkbox-pressed-state-layer-opacity, 0.12)}.selected md-ripple{--md-ripple-hover-color: var(--md-checkbox-selected-hover-state-layer-color, var(--md-sys-color-primary, #6750a4));--md-ripple-hover-opacity: var(--md-checkbox-selected-hover-state-layer-opacity, 0.08);--md-ripple-pressed-color: var(--md-checkbox-selected-pressed-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-pressed-opacity: var(--md-checkbox-selected-pressed-state-layer-opacity, 0.12)}.icon{fill:var(--md-checkbox-selected-icon-color, var(--md-sys-color-on-primary, #fff));height:var(--md-checkbox-icon-size, 18px);width:var(--md-checkbox-icon-size, 18px)}.mark.short{height:2px;transition-property:transform,height;width:2px}.mark.long{height:2px;transition-property:transform,width;width:10px}.mark{animation-duration:150ms;animation-timing-function:cubic-bezier(0.3, 0, 0.8, 0.15);transition-duration:150ms;transition-timing-function:cubic-bezier(0.3, 0, 0.8, 0.15)}.selected .mark{animation-duration:350ms;animation-timing-function:cubic-bezier(0.05, 0.7, 0.1, 1);transition-duration:350ms;transition-timing-function:cubic-bezier(0.05, 0.7, 0.1, 1)}.checked .mark,.prev-checked.unselected .mark{transform:scaleY(-1) translate(7px, -14px) rotate(45deg)}.checked .mark.short,.prev-checked.unselected .mark.short{height:5.6568542495px}.checked .mark.long,.prev-checked.unselected .mark.long{width:11.313708499px}.indeterminate .mark,.prev-indeterminate.unselected .mark{transform:scaleY(-1) translate(4px, -10px) rotate(0deg)}.prev-unselected .mark{transition-property:none}.prev-unselected.checked .mark.long{animation-name:prev-unselected-to-checked}@keyframes prev-unselected-to-checked{from{width:0}}:where(:hover) .outline{border-color:var(--md-checkbox-hover-outline-color, var(--md-sys-color-on-surface, #1d1b20));border-width:var(--md-checkbox-hover-outline-width, 2px)}:where(:hover) .background{background:var(--md-checkbox-selected-hover-container-color, var(--md-sys-color-primary, #6750a4))}:where(:hover) .icon{fill:var(--md-checkbox-selected-hover-icon-color, var(--md-sys-color-on-primary, #fff))}:where(:focus-within) .outline{border-color:var(--md-checkbox-focus-outline-color, var(--md-sys-color-on-surface, #1d1b20));border-width:var(--md-checkbox-focus-outline-width, 2px)}:where(:focus-within) .background{background:var(--md-checkbox-selected-focus-container-color, var(--md-sys-color-primary, #6750a4))}:where(:focus-within) .icon{fill:var(--md-checkbox-selected-focus-icon-color, var(--md-sys-color-on-primary, #fff))}:where(:active) .outline{border-color:var(--md-checkbox-pressed-outline-color, var(--md-sys-color-on-surface, #1d1b20));border-width:var(--md-checkbox-pressed-outline-width, 2px)}:where(:active) .background{background:var(--md-checkbox-selected-pressed-container-color, var(--md-sys-color-primary, #6750a4))}:where(:active) .icon{fill:var(--md-checkbox-selected-pressed-icon-color, var(--md-sys-color-on-primary, #fff))}:where(.disabled,.prev-disabled) :is(.background,.icon,.mark){animation-duration:0s;transition-duration:0s}:where(.disabled) .outline{border-color:var(--md-checkbox-disabled-outline-color, var(--md-sys-color-on-surface, #1d1b20));border-width:var(--md-checkbox-disabled-outline-width, 2px);opacity:var(--md-checkbox-disabled-container-opacity, 0.38)}:where(.selected.disabled) .outline{visibility:hidden}:where(.selected.disabled) .background{background:var(--md-checkbox-selected-disabled-container-color, var(--md-sys-color-on-surface, #1d1b20));opacity:var(--md-checkbox-selected-disabled-container-opacity, 0.38)}:where(.disabled) .icon{fill:var(--md-checkbox-selected-disabled-icon-color, var(--md-sys-color-surface, #fef7ff))}@media(forced-colors: active){.background{background-color:CanvasText}.selected.disabled .background{background-color:GrayText;opacity:1}.outline{border-color:CanvasText}.disabled .outline{border-color:GrayText;opacity:1}.icon{fill:Canvas}}/*# sourceMappingURL=checkbox-styles.css.map */
 `;
 
 /**
@@ -2611,7 +2611,7 @@ const styles$3 = i$4 `:host{border-start-start-radius:var(--md-checkbox-containe
  */
 let MdCheckbox = class MdCheckbox extends Checkbox {
 };
-MdCheckbox.styles = [styles$3];
+MdCheckbox.styles = [styles$8];
 MdCheckbox = __decorate([
     t$3('md-checkbox')
 ], MdCheckbox);
@@ -2621,7 +2621,7 @@ MdCheckbox = __decorate([
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles$2 = i$4 `@media(forced-colors: active){:host{--md-slider-active-track-color: CanvasText;--md-slider-disabled-active-track-color: GrayText;--md-slider-disabled-active-track-opacity: 1;--md-slider-disabled-handle-color: GrayText;--md-slider-disabled-inactive-track-color: GrayText;--md-slider-disabled-inactive-track-opacity: 1;--md-slider-focus-handle-color: CanvasText;--md-slider-handle-color: CanvasText;--md-slider-handle-shadow-color: Canvas;--md-slider-hover-handle-color: CanvasText;--md-slider-hover-state-layer-color: Canvas;--md-slider-hover-state-layer-opacity: 1;--md-slider-inactive-track-color: Canvas;--md-slider-label-container-color: Canvas;--md-slider-label-text-color: CanvasText;--md-slider-pressed-handle-color: CanvasText;--md-slider-pressed-state-layer-color: Canvas;--md-slider-pressed-state-layer-opacity: 1;--md-slider-with-overlap-handle-outline-color: CanvasText}.label,.label::before{border:var(--_with-overlap-handle-outline-color) solid var(--_with-overlap-handle-outline-width)}:host(:not([disabled])) .track::before{border:1px solid var(--_active-track-color)}.tickmarks::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='CanvasText'%3E%3Ccircle cx='2' cy='2'  r='1'/%3E%3C/svg%3E")}.tickmarks::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Canvas'%3E%3Ccircle cx='2' cy='2' r='1'/%3E%3C/svg%3E")}:host([disabled]) .tickmarks::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Canvas'%3E%3Ccircle cx='2' cy='2'  r='1'/%3E%3C/svg%3E")}}/*# sourceMappingURL=forced-colors-styles.css.map */
+const styles$7 = i$4 `@media(forced-colors: active){:host{--md-slider-active-track-color: CanvasText;--md-slider-disabled-active-track-color: GrayText;--md-slider-disabled-active-track-opacity: 1;--md-slider-disabled-handle-color: GrayText;--md-slider-disabled-inactive-track-color: GrayText;--md-slider-disabled-inactive-track-opacity: 1;--md-slider-focus-handle-color: CanvasText;--md-slider-handle-color: CanvasText;--md-slider-handle-shadow-color: Canvas;--md-slider-hover-handle-color: CanvasText;--md-slider-hover-state-layer-color: Canvas;--md-slider-hover-state-layer-opacity: 1;--md-slider-inactive-track-color: Canvas;--md-slider-label-container-color: Canvas;--md-slider-label-text-color: CanvasText;--md-slider-pressed-handle-color: CanvasText;--md-slider-pressed-state-layer-color: Canvas;--md-slider-pressed-state-layer-opacity: 1;--md-slider-with-overlap-handle-outline-color: CanvasText}.label,.label::before{border:var(--_with-overlap-handle-outline-color) solid var(--_with-overlap-handle-outline-width)}:host(:not([disabled])) .track::before{border:1px solid var(--_active-track-color)}.tickmarks::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='CanvasText'%3E%3Ccircle cx='2' cy='2'  r='1'/%3E%3C/svg%3E")}.tickmarks::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Canvas'%3E%3Ccircle cx='2' cy='2' r='1'/%3E%3C/svg%3E")}:host([disabled]) .tickmarks::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Canvas'%3E%3Ccircle cx='2' cy='2'  r='1'/%3E%3C/svg%3E")}}/*# sourceMappingURL=forced-colors-styles.css.map */
 `;
 
 /**
@@ -2649,7 +2649,7 @@ class Elevation extends s$1 {
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles$1 = i$4 `:host{display:flex;pointer-events:none}:host,.shadow,.shadow::before,.shadow::after{border-radius:inherit;inset:0;position:absolute;transition-duration:inherit;transition-property:inherit;transition-timing-function:inherit}.shadow::before,.shadow::after{content:"";transition-property:box-shadow,opacity;--_level: var(--md-elevation-level, 0);--_shadow-color: var(--md-elevation-shadow-color, var(--md-sys-color-shadow, #000))}.shadow::before{box-shadow:0px calc(1px*(clamp(0,var(--_level),1) + clamp(0,var(--_level) - 3,1) + 2*clamp(0,var(--_level) - 4,1))) calc(1px*(2*clamp(0,var(--_level),1) + clamp(0,var(--_level) - 2,1) + clamp(0,var(--_level) - 4,1))) 0px var(--_shadow-color);opacity:.3}.shadow::after{box-shadow:0px calc(1px*(clamp(0,var(--_level),1) + clamp(0,var(--_level) - 1,1) + 2*clamp(0,var(--_level) - 2,3))) calc(1px*(3*clamp(0,var(--_level),2) + 2*clamp(0,var(--_level) - 2,3))) calc(1px*(clamp(0,var(--_level),4) + 2*clamp(0,var(--_level) - 4,1))) var(--_shadow-color);opacity:.15}/*# sourceMappingURL=elevation-styles.css.map */
+const styles$6 = i$4 `:host{display:flex;pointer-events:none}:host,.shadow,.shadow::before,.shadow::after{border-radius:inherit;inset:0;position:absolute;transition-duration:inherit;transition-property:inherit;transition-timing-function:inherit}.shadow::before,.shadow::after{content:"";transition-property:box-shadow,opacity;--_level: var(--md-elevation-level, 0);--_shadow-color: var(--md-elevation-shadow-color, var(--md-sys-color-shadow, #000))}.shadow::before{box-shadow:0px calc(1px*(clamp(0,var(--_level),1) + clamp(0,var(--_level) - 3,1) + 2*clamp(0,var(--_level) - 4,1))) calc(1px*(2*clamp(0,var(--_level),1) + clamp(0,var(--_level) - 2,1) + clamp(0,var(--_level) - 4,1))) 0px var(--_shadow-color);opacity:.3}.shadow::after{box-shadow:0px calc(1px*(clamp(0,var(--_level),1) + clamp(0,var(--_level) - 1,1) + 2*clamp(0,var(--_level) - 2,3))) calc(1px*(3*clamp(0,var(--_level),2) + 2*clamp(0,var(--_level) - 2,3))) calc(1px*(clamp(0,var(--_level),4) + 2*clamp(0,var(--_level) - 4,1))) var(--_shadow-color);opacity:.15}/*# sourceMappingURL=elevation-styles.css.map */
 `;
 
 /**
@@ -2664,7 +2664,7 @@ const styles$1 = i$4 `:host{display:flex;pointer-events:none}:host,.shadow,.shad
  */
 let MdElevation = class MdElevation extends Elevation {
 };
-MdElevation.styles = [styles$1];
+MdElevation.styles = [styles$6];
 MdElevation = __decorate([
     t$3('md-elevation')
 ], MdElevation);
@@ -3388,7 +3388,7 @@ function isOverlapping(elA, elB) {
   * Copyright 2022 Google LLC
   * SPDX-License-Identifier: Apache-2.0
   */
-const styles = i$4 `:host{--_active-track-color: var(--md-slider-active-track-color, var(--md-sys-color-primary, #6750a4));--_active-track-height: var(--md-slider-active-track-height, 4px);--_active-track-shape: var(--md-slider-active-track-shape, var(--md-sys-shape-corner-full, 9999px));--_disabled-active-track-color: var(--md-slider-disabled-active-track-color, var(--md-sys-color-on-surface, #1d1b20));--_disabled-active-track-opacity: var(--md-slider-disabled-active-track-opacity, 0.38);--_disabled-handle-color: var(--md-slider-disabled-handle-color, var(--md-sys-color-on-surface, #1d1b20));--_disabled-handle-elevation: var(--md-slider-disabled-handle-elevation, 0);--_disabled-inactive-track-color: var(--md-slider-disabled-inactive-track-color, var(--md-sys-color-on-surface, #1d1b20));--_disabled-inactive-track-opacity: var(--md-slider-disabled-inactive-track-opacity, 0.12);--_focus-handle-color: var(--md-slider-focus-handle-color, var(--md-sys-color-primary, #6750a4));--_handle-color: var(--md-slider-handle-color, var(--md-sys-color-primary, #6750a4));--_handle-elevation: var(--md-slider-handle-elevation, 1);--_handle-height: var(--md-slider-handle-height, 20px);--_handle-shadow-color: var(--md-slider-handle-shadow-color, var(--md-sys-color-shadow, #000));--_handle-shape: var(--md-slider-handle-shape, var(--md-sys-shape-corner-full, 9999px));--_handle-width: var(--md-slider-handle-width, 20px);--_hover-handle-color: var(--md-slider-hover-handle-color, var(--md-sys-color-primary, #6750a4));--_hover-state-layer-color: var(--md-slider-hover-state-layer-color, var(--md-sys-color-primary, #6750a4));--_hover-state-layer-opacity: var(--md-slider-hover-state-layer-opacity, 0.08);--_inactive-track-color: var(--md-slider-inactive-track-color, var(--md-sys-color-surface-container-highest, #e6e0e9));--_inactive-track-height: var(--md-slider-inactive-track-height, 4px);--_inactive-track-shape: var(--md-slider-inactive-track-shape, var(--md-sys-shape-corner-full, 9999px));--_label-container-color: var(--md-slider-label-container-color, var(--md-sys-color-primary, #6750a4));--_label-container-height: var(--md-slider-label-container-height, 28px);--_pressed-handle-color: var(--md-slider-pressed-handle-color, var(--md-sys-color-primary, #6750a4));--_pressed-state-layer-color: var(--md-slider-pressed-state-layer-color, var(--md-sys-color-primary, #6750a4));--_pressed-state-layer-opacity: var(--md-slider-pressed-state-layer-opacity, 0.12);--_state-layer-size: var(--md-slider-state-layer-size, 40px);--_with-overlap-handle-outline-color: var(--md-slider-with-overlap-handle-outline-color, var(--md-sys-color-on-primary, #fff));--_with-overlap-handle-outline-width: var(--md-slider-with-overlap-handle-outline-width, 1px);--_with-tick-marks-active-container-color: var(--md-slider-with-tick-marks-active-container-color, var(--md-sys-color-on-primary, #fff));--_with-tick-marks-container-size: var(--md-slider-with-tick-marks-container-size, 2px);--_with-tick-marks-disabled-container-color: var(--md-slider-with-tick-marks-disabled-container-color, var(--md-sys-color-on-surface, #1d1b20));--_with-tick-marks-inactive-container-color: var(--md-slider-with-tick-marks-inactive-container-color, var(--md-sys-color-on-surface-variant, #49454f));--_label-text-color: var(--md-slider-label-text-color, var(--md-sys-color-on-primary, #fff));--_label-text-font: var(--md-slider-label-text-font, var(--md-sys-typescale-label-medium-font, var(--md-ref-typeface-plain, Roboto)));--_label-text-line-height: var(--md-slider-label-text-line-height, var(--md-sys-typescale-label-medium-line-height, 1rem));--_label-text-size: var(--md-slider-label-text-size, var(--md-sys-typescale-label-medium-size, 0.75rem));--_label-text-weight: var(--md-slider-label-text-weight, var(--md-sys-typescale-label-medium-weight, var(--md-ref-typeface-weight-medium, 500)));--_start-fraction: 0;--_end-fraction: 0;--_tick-count: 0;display:inline-flex;vertical-align:middle;min-inline-size:200px;--md-elevation-level: var(--_handle-elevation);--md-elevation-shadow-color: var(--_handle-shadow-color)}md-focus-ring{height:48px;inset:unset;width:48px}md-elevation{transition-duration:250ms}@media(prefers-reduced-motion){.label{transition-duration:0}}:host([disabled]){opacity:var(--_disabled-active-track-opacity);--md-elevation-level: var(--_disabled-handle-elevation)}.container{flex:1;display:flex;align-items:center;position:relative;block-size:var(--_state-layer-size);pointer-events:none;touch-action:none}.track,.tickmarks{position:absolute;inset:0;display:flex;align-items:center}.track::before,.tickmarks::before,.track::after,.tickmarks::after{position:absolute;content:"";inset-inline-start:calc(var(--_state-layer-size)/2 - var(--_with-tick-marks-container-size));inset-inline-end:calc(var(--_state-layer-size)/2 - var(--_with-tick-marks-container-size));background-size:calc((100% - var(--_with-tick-marks-container-size)*2)/var(--_tick-count)) 100%}.track::before,.tickmarks::before{block-size:var(--_inactive-track-height);border-radius:var(--_inactive-track-shape)}.track::before{background-color:var(--_inactive-track-color)}.tickmarks::before{background-image:radial-gradient(circle at var(--_with-tick-marks-container-size) center, var(--_with-tick-marks-inactive-container-color) 0, var(--_with-tick-marks-inactive-container-color) calc(var(--_with-tick-marks-container-size) / 2), transparent calc(var(--_with-tick-marks-container-size) / 2))}:host([disabled]) .track::before{opacity:calc(1/var(--_disabled-active-track-opacity)*var(--_disabled-inactive-track-opacity));background-color:var(--_disabled-inactive-track-color)}.track::after,.tickmarks::after{block-size:var(--_active-track-height);border-radius:var(--_active-track-shape);clip-path:inset(0 calc(var(--_with-tick-marks-container-size) * min((1 - var(--_end-fraction)) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * (1 - var(--_end-fraction))) 0 calc(var(--_with-tick-marks-container-size) * min(var(--_start-fraction) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * var(--_start-fraction)))}.track::after{background-color:var(--_active-track-color)}.tickmarks::after{background-image:radial-gradient(circle at var(--_with-tick-marks-container-size) center, var(--_with-tick-marks-active-container-color) 0, var(--_with-tick-marks-active-container-color) calc(var(--_with-tick-marks-container-size) / 2), transparent calc(var(--_with-tick-marks-container-size) / 2))}.track:dir(rtl)::after{clip-path:inset(0 calc(var(--_with-tick-marks-container-size) * min(var(--_start-fraction) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * var(--_start-fraction)) 0 calc(var(--_with-tick-marks-container-size) * min((1 - var(--_end-fraction)) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * (1 - var(--_end-fraction))))}.tickmarks:dir(rtl)::after{clip-path:inset(0 calc(var(--_with-tick-marks-container-size) * min(var(--_start-fraction) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * var(--_start-fraction)) 0 calc(var(--_with-tick-marks-container-size) * min((1 - var(--_end-fraction)) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * (1 - var(--_end-fraction))))}:host([disabled]) .track::after{background-color:var(--_disabled-active-track-color)}:host([disabled]) .tickmarks::before{background-image:radial-gradient(circle at var(--_with-tick-marks-container-size) center, var(--_with-tick-marks-disabled-container-color) 0, var(--_with-tick-marks-disabled-container-color) calc(var(--_with-tick-marks-container-size) / 2), transparent calc(var(--_with-tick-marks-container-size) / 2))}.handleContainerPadded{position:relative;block-size:100%;inline-size:100%;padding-inline:calc(var(--_state-layer-size)/2)}.handleContainerBlock{position:relative;block-size:100%;inline-size:100%}.handleContainer{position:absolute;inset-block-start:0;inset-block-end:0;inset-inline-start:calc(100%*var(--_start-fraction));inline-size:calc(100%*(var(--_end-fraction) - var(--_start-fraction)))}.handle{position:absolute;block-size:var(--_state-layer-size);inline-size:var(--_state-layer-size);border-radius:var(--_handle-shape);display:flex;place-content:center;place-items:center}.handleNub{position:absolute;height:var(--_handle-height);width:var(--_handle-width);border-radius:var(--_handle-shape);background:var(--_handle-color)}:host([disabled]) .handleNub{background:var(--_disabled-handle-color)}input.end:focus~.handleContainerPadded .handle.end>.handleNub,input.start:focus~.handleContainerPadded .handle.start>.handleNub{background:var(--_focus-handle-color)}.container>.handleContainerPadded .handle.hover>.handleNub{background:var(--_hover-handle-color)}:host(:not([disabled])) input.end:active~.handleContainerPadded .handle.end>.handleNub,:host(:not([disabled])) input.start:active~.handleContainerPadded .handle.start>.handleNub{background:var(--_pressed-handle-color)}.onTop.isOverlapping .label,.onTop.isOverlapping .label::before{outline:var(--_with-overlap-handle-outline-color) solid var(--_with-overlap-handle-outline-width)}.onTop.isOverlapping .handleNub{border:var(--_with-overlap-handle-outline-color) solid var(--_with-overlap-handle-outline-width)}.handle.start{inset-inline-start:calc(0px - var(--_state-layer-size)/2)}.handle.end{inset-inline-end:calc(0px - var(--_state-layer-size)/2)}.label{position:absolute;box-sizing:border-box;display:flex;padding:4px;place-content:center;place-items:center;border-radius:var(--md-sys-shape-corner-full, 9999px);color:var(--_label-text-color);font-family:var(--_label-text-font);font-size:var(--_label-text-size);line-height:var(--_label-text-line-height);font-weight:var(--_label-text-weight);inset-block-end:100%;min-inline-size:var(--_label-container-height);min-block-size:var(--_label-container-height);background:var(--_label-container-color);transition:transform 100ms cubic-bezier(0.2, 0, 0, 1);transform-origin:center bottom;transform:scale(0)}:host(:focus-within) .label,.handleContainer.hover .label,:where(:has(input:active)) .label{transform:scale(1)}.label::before,.label::after{position:absolute;display:block;content:"";background:inherit}.label::before{inline-size:calc(var(--_label-container-height)/2);block-size:calc(var(--_label-container-height)/2);bottom:calc(var(--_label-container-height)/-10);transform:rotate(45deg)}.label::after{inset:0px;border-radius:inherit}.labelContent{z-index:1}input[type=range]{opacity:0;-webkit-tap-highlight-color:rgba(0,0,0,0);position:absolute;box-sizing:border-box;height:100%;width:100%;margin:0;background:rgba(0,0,0,0);cursor:pointer;pointer-events:auto;appearance:none}input[type=range]:focus{outline:none}::-webkit-slider-runnable-track{-webkit-appearance:none}::-moz-range-track{appearance:none}::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;block-size:var(--_handle-height);inline-size:var(--_handle-width);opacity:0;z-index:2}input.end::-webkit-slider-thumb{--_track-and-knob-padding: calc( (var(--_state-layer-size) - var(--_handle-width)) / 2 );--_x-translate: calc( var(--_track-and-knob-padding) - 2 * var(--_end-fraction) * var(--_track-and-knob-padding) );transform:translateX(var(--_x-translate))}input.end:dir(rtl)::-webkit-slider-thumb{transform:translateX(calc(-1 * var(--_x-translate)))}input.start::-webkit-slider-thumb{--_track-and-knob-padding: calc( (var(--_state-layer-size) - var(--_handle-width)) / 2 );--_x-translate: calc( var(--_track-and-knob-padding) - 2 * var(--_start-fraction) * var(--_track-and-knob-padding) );transform:translateX(var(--_x-translate))}input.start:dir(rtl)::-webkit-slider-thumb{transform:translateX(calc(-1 * var(--_x-translate)))}::-moz-range-thumb{appearance:none;block-size:var(--_state-layer-size);inline-size:var(--_state-layer-size);transform:scaleX(0);opacity:0;z-index:2}.ranged input.start{clip-path:inset(0 calc(100% - (var(--_state-layer-size) / 2 + (100% - var(--_state-layer-size)) * (var(--_start-fraction) + (var(--_end-fraction) - var(--_start-fraction)) / 2))) 0 0)}.ranged input.start:dir(rtl){clip-path:inset(0 0 0 calc(100% - (var(--_state-layer-size) / 2 + (100% - var(--_state-layer-size)) * (var(--_start-fraction) + (var(--_end-fraction) - var(--_start-fraction)) / 2))))}.ranged input.end{clip-path:inset(0 0 0 calc(var(--_state-layer-size) / 2 + (100% - var(--_state-layer-size)) * (var(--_start-fraction) + (var(--_end-fraction) - var(--_start-fraction)) / 2)))}.ranged input.end:dir(rtl){clip-path:inset(0 calc(var(--_state-layer-size) / 2 + (100% - var(--_state-layer-size)) * (var(--_start-fraction) + (var(--_end-fraction) - var(--_start-fraction)) / 2)) 0 0)}.onTop{z-index:1}.handle{--md-ripple-hover-color: var(--_hover-state-layer-color);--md-ripple-hover-opacity: var(--_hover-state-layer-opacity);--md-ripple-pressed-color: var(--_pressed-state-layer-color);--md-ripple-pressed-opacity: var(--_pressed-state-layer-opacity)}md-ripple{border-radius:50%;height:var(--_state-layer-size);width:var(--_state-layer-size)}/*# sourceMappingURL=slider-styles.css.map */
+const styles$5 = i$4 `:host{--_active-track-color: var(--md-slider-active-track-color, var(--md-sys-color-primary, #6750a4));--_active-track-height: var(--md-slider-active-track-height, 4px);--_active-track-shape: var(--md-slider-active-track-shape, var(--md-sys-shape-corner-full, 9999px));--_disabled-active-track-color: var(--md-slider-disabled-active-track-color, var(--md-sys-color-on-surface, #1d1b20));--_disabled-active-track-opacity: var(--md-slider-disabled-active-track-opacity, 0.38);--_disabled-handle-color: var(--md-slider-disabled-handle-color, var(--md-sys-color-on-surface, #1d1b20));--_disabled-handle-elevation: var(--md-slider-disabled-handle-elevation, 0);--_disabled-inactive-track-color: var(--md-slider-disabled-inactive-track-color, var(--md-sys-color-on-surface, #1d1b20));--_disabled-inactive-track-opacity: var(--md-slider-disabled-inactive-track-opacity, 0.12);--_focus-handle-color: var(--md-slider-focus-handle-color, var(--md-sys-color-primary, #6750a4));--_handle-color: var(--md-slider-handle-color, var(--md-sys-color-primary, #6750a4));--_handle-elevation: var(--md-slider-handle-elevation, 1);--_handle-height: var(--md-slider-handle-height, 20px);--_handle-shadow-color: var(--md-slider-handle-shadow-color, var(--md-sys-color-shadow, #000));--_handle-shape: var(--md-slider-handle-shape, var(--md-sys-shape-corner-full, 9999px));--_handle-width: var(--md-slider-handle-width, 20px);--_hover-handle-color: var(--md-slider-hover-handle-color, var(--md-sys-color-primary, #6750a4));--_hover-state-layer-color: var(--md-slider-hover-state-layer-color, var(--md-sys-color-primary, #6750a4));--_hover-state-layer-opacity: var(--md-slider-hover-state-layer-opacity, 0.08);--_inactive-track-color: var(--md-slider-inactive-track-color, var(--md-sys-color-surface-container-highest, #e6e0e9));--_inactive-track-height: var(--md-slider-inactive-track-height, 4px);--_inactive-track-shape: var(--md-slider-inactive-track-shape, var(--md-sys-shape-corner-full, 9999px));--_label-container-color: var(--md-slider-label-container-color, var(--md-sys-color-primary, #6750a4));--_label-container-height: var(--md-slider-label-container-height, 28px);--_pressed-handle-color: var(--md-slider-pressed-handle-color, var(--md-sys-color-primary, #6750a4));--_pressed-state-layer-color: var(--md-slider-pressed-state-layer-color, var(--md-sys-color-primary, #6750a4));--_pressed-state-layer-opacity: var(--md-slider-pressed-state-layer-opacity, 0.12);--_state-layer-size: var(--md-slider-state-layer-size, 40px);--_with-overlap-handle-outline-color: var(--md-slider-with-overlap-handle-outline-color, var(--md-sys-color-on-primary, #fff));--_with-overlap-handle-outline-width: var(--md-slider-with-overlap-handle-outline-width, 1px);--_with-tick-marks-active-container-color: var(--md-slider-with-tick-marks-active-container-color, var(--md-sys-color-on-primary, #fff));--_with-tick-marks-container-size: var(--md-slider-with-tick-marks-container-size, 2px);--_with-tick-marks-disabled-container-color: var(--md-slider-with-tick-marks-disabled-container-color, var(--md-sys-color-on-surface, #1d1b20));--_with-tick-marks-inactive-container-color: var(--md-slider-with-tick-marks-inactive-container-color, var(--md-sys-color-on-surface-variant, #49454f));--_label-text-color: var(--md-slider-label-text-color, var(--md-sys-color-on-primary, #fff));--_label-text-font: var(--md-slider-label-text-font, var(--md-sys-typescale-label-medium-font, var(--md-ref-typeface-plain, Roboto)));--_label-text-line-height: var(--md-slider-label-text-line-height, var(--md-sys-typescale-label-medium-line-height, 1rem));--_label-text-size: var(--md-slider-label-text-size, var(--md-sys-typescale-label-medium-size, 0.75rem));--_label-text-weight: var(--md-slider-label-text-weight, var(--md-sys-typescale-label-medium-weight, var(--md-ref-typeface-weight-medium, 500)));--_start-fraction: 0;--_end-fraction: 0;--_tick-count: 0;display:inline-flex;vertical-align:middle;min-inline-size:200px;--md-elevation-level: var(--_handle-elevation);--md-elevation-shadow-color: var(--_handle-shadow-color)}md-focus-ring{height:48px;inset:unset;width:48px}md-elevation{transition-duration:250ms}@media(prefers-reduced-motion){.label{transition-duration:0}}:host([disabled]){opacity:var(--_disabled-active-track-opacity);--md-elevation-level: var(--_disabled-handle-elevation)}.container{flex:1;display:flex;align-items:center;position:relative;block-size:var(--_state-layer-size);pointer-events:none;touch-action:none}.track,.tickmarks{position:absolute;inset:0;display:flex;align-items:center}.track::before,.tickmarks::before,.track::after,.tickmarks::after{position:absolute;content:"";inset-inline-start:calc(var(--_state-layer-size)/2 - var(--_with-tick-marks-container-size));inset-inline-end:calc(var(--_state-layer-size)/2 - var(--_with-tick-marks-container-size));background-size:calc((100% - var(--_with-tick-marks-container-size)*2)/var(--_tick-count)) 100%}.track::before,.tickmarks::before{block-size:var(--_inactive-track-height);border-radius:var(--_inactive-track-shape)}.track::before{background-color:var(--_inactive-track-color)}.tickmarks::before{background-image:radial-gradient(circle at var(--_with-tick-marks-container-size) center, var(--_with-tick-marks-inactive-container-color) 0, var(--_with-tick-marks-inactive-container-color) calc(var(--_with-tick-marks-container-size) / 2), transparent calc(var(--_with-tick-marks-container-size) / 2))}:host([disabled]) .track::before{opacity:calc(1/var(--_disabled-active-track-opacity)*var(--_disabled-inactive-track-opacity));background-color:var(--_disabled-inactive-track-color)}.track::after,.tickmarks::after{block-size:var(--_active-track-height);border-radius:var(--_active-track-shape);clip-path:inset(0 calc(var(--_with-tick-marks-container-size) * min((1 - var(--_end-fraction)) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * (1 - var(--_end-fraction))) 0 calc(var(--_with-tick-marks-container-size) * min(var(--_start-fraction) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * var(--_start-fraction)))}.track::after{background-color:var(--_active-track-color)}.tickmarks::after{background-image:radial-gradient(circle at var(--_with-tick-marks-container-size) center, var(--_with-tick-marks-active-container-color) 0, var(--_with-tick-marks-active-container-color) calc(var(--_with-tick-marks-container-size) / 2), transparent calc(var(--_with-tick-marks-container-size) / 2))}.track:dir(rtl)::after{clip-path:inset(0 calc(var(--_with-tick-marks-container-size) * min(var(--_start-fraction) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * var(--_start-fraction)) 0 calc(var(--_with-tick-marks-container-size) * min((1 - var(--_end-fraction)) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * (1 - var(--_end-fraction))))}.tickmarks:dir(rtl)::after{clip-path:inset(0 calc(var(--_with-tick-marks-container-size) * min(var(--_start-fraction) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * var(--_start-fraction)) 0 calc(var(--_with-tick-marks-container-size) * min((1 - var(--_end-fraction)) * 1000000000, 1) + (100% - var(--_with-tick-marks-container-size) * 2) * (1 - var(--_end-fraction))))}:host([disabled]) .track::after{background-color:var(--_disabled-active-track-color)}:host([disabled]) .tickmarks::before{background-image:radial-gradient(circle at var(--_with-tick-marks-container-size) center, var(--_with-tick-marks-disabled-container-color) 0, var(--_with-tick-marks-disabled-container-color) calc(var(--_with-tick-marks-container-size) / 2), transparent calc(var(--_with-tick-marks-container-size) / 2))}.handleContainerPadded{position:relative;block-size:100%;inline-size:100%;padding-inline:calc(var(--_state-layer-size)/2)}.handleContainerBlock{position:relative;block-size:100%;inline-size:100%}.handleContainer{position:absolute;inset-block-start:0;inset-block-end:0;inset-inline-start:calc(100%*var(--_start-fraction));inline-size:calc(100%*(var(--_end-fraction) - var(--_start-fraction)))}.handle{position:absolute;block-size:var(--_state-layer-size);inline-size:var(--_state-layer-size);border-radius:var(--_handle-shape);display:flex;place-content:center;place-items:center}.handleNub{position:absolute;height:var(--_handle-height);width:var(--_handle-width);border-radius:var(--_handle-shape);background:var(--_handle-color)}:host([disabled]) .handleNub{background:var(--_disabled-handle-color)}input.end:focus~.handleContainerPadded .handle.end>.handleNub,input.start:focus~.handleContainerPadded .handle.start>.handleNub{background:var(--_focus-handle-color)}.container>.handleContainerPadded .handle.hover>.handleNub{background:var(--_hover-handle-color)}:host(:not([disabled])) input.end:active~.handleContainerPadded .handle.end>.handleNub,:host(:not([disabled])) input.start:active~.handleContainerPadded .handle.start>.handleNub{background:var(--_pressed-handle-color)}.onTop.isOverlapping .label,.onTop.isOverlapping .label::before{outline:var(--_with-overlap-handle-outline-color) solid var(--_with-overlap-handle-outline-width)}.onTop.isOverlapping .handleNub{border:var(--_with-overlap-handle-outline-color) solid var(--_with-overlap-handle-outline-width)}.handle.start{inset-inline-start:calc(0px - var(--_state-layer-size)/2)}.handle.end{inset-inline-end:calc(0px - var(--_state-layer-size)/2)}.label{position:absolute;box-sizing:border-box;display:flex;padding:4px;place-content:center;place-items:center;border-radius:var(--md-sys-shape-corner-full, 9999px);color:var(--_label-text-color);font-family:var(--_label-text-font);font-size:var(--_label-text-size);line-height:var(--_label-text-line-height);font-weight:var(--_label-text-weight);inset-block-end:100%;min-inline-size:var(--_label-container-height);min-block-size:var(--_label-container-height);background:var(--_label-container-color);transition:transform 100ms cubic-bezier(0.2, 0, 0, 1);transform-origin:center bottom;transform:scale(0)}:host(:focus-within) .label,.handleContainer.hover .label,:where(:has(input:active)) .label{transform:scale(1)}.label::before,.label::after{position:absolute;display:block;content:"";background:inherit}.label::before{inline-size:calc(var(--_label-container-height)/2);block-size:calc(var(--_label-container-height)/2);bottom:calc(var(--_label-container-height)/-10);transform:rotate(45deg)}.label::after{inset:0px;border-radius:inherit}.labelContent{z-index:1}input[type=range]{opacity:0;-webkit-tap-highlight-color:rgba(0,0,0,0);position:absolute;box-sizing:border-box;height:100%;width:100%;margin:0;background:rgba(0,0,0,0);cursor:pointer;pointer-events:auto;appearance:none}input[type=range]:focus{outline:none}::-webkit-slider-runnable-track{-webkit-appearance:none}::-moz-range-track{appearance:none}::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;block-size:var(--_handle-height);inline-size:var(--_handle-width);opacity:0;z-index:2}input.end::-webkit-slider-thumb{--_track-and-knob-padding: calc( (var(--_state-layer-size) - var(--_handle-width)) / 2 );--_x-translate: calc( var(--_track-and-knob-padding) - 2 * var(--_end-fraction) * var(--_track-and-knob-padding) );transform:translateX(var(--_x-translate))}input.end:dir(rtl)::-webkit-slider-thumb{transform:translateX(calc(-1 * var(--_x-translate)))}input.start::-webkit-slider-thumb{--_track-and-knob-padding: calc( (var(--_state-layer-size) - var(--_handle-width)) / 2 );--_x-translate: calc( var(--_track-and-knob-padding) - 2 * var(--_start-fraction) * var(--_track-and-knob-padding) );transform:translateX(var(--_x-translate))}input.start:dir(rtl)::-webkit-slider-thumb{transform:translateX(calc(-1 * var(--_x-translate)))}::-moz-range-thumb{appearance:none;block-size:var(--_state-layer-size);inline-size:var(--_state-layer-size);transform:scaleX(0);opacity:0;z-index:2}.ranged input.start{clip-path:inset(0 calc(100% - (var(--_state-layer-size) / 2 + (100% - var(--_state-layer-size)) * (var(--_start-fraction) + (var(--_end-fraction) - var(--_start-fraction)) / 2))) 0 0)}.ranged input.start:dir(rtl){clip-path:inset(0 0 0 calc(100% - (var(--_state-layer-size) / 2 + (100% - var(--_state-layer-size)) * (var(--_start-fraction) + (var(--_end-fraction) - var(--_start-fraction)) / 2))))}.ranged input.end{clip-path:inset(0 0 0 calc(var(--_state-layer-size) / 2 + (100% - var(--_state-layer-size)) * (var(--_start-fraction) + (var(--_end-fraction) - var(--_start-fraction)) / 2)))}.ranged input.end:dir(rtl){clip-path:inset(0 calc(var(--_state-layer-size) / 2 + (100% - var(--_state-layer-size)) * (var(--_start-fraction) + (var(--_end-fraction) - var(--_start-fraction)) / 2)) 0 0)}.onTop{z-index:1}.handle{--md-ripple-hover-color: var(--_hover-state-layer-color);--md-ripple-hover-opacity: var(--_hover-state-layer-opacity);--md-ripple-pressed-color: var(--_pressed-state-layer-color);--md-ripple-pressed-opacity: var(--_pressed-state-layer-opacity)}md-ripple{border-radius:50%;height:var(--_state-layer-size);width:var(--_state-layer-size)}/*# sourceMappingURL=slider-styles.css.map */
 `;
 
 /**
@@ -3412,7 +3412,1489 @@ const styles = i$4 `:host{--_active-track-color: var(--md-slider-active-track-co
  */
 let MdSlider = class MdSlider extends Slider {
 };
-MdSlider.styles = [styles, styles$2];
+MdSlider.styles = [styles$5, styles$7];
 MdSlider = __decorate([
     t$3('md-slider')
 ], MdSlider);
+
+/**
+ * @license
+ * Copyright 2023 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * A divider component.
+ */
+class Divider extends s$1 {
+    constructor() {
+        super(...arguments);
+        /**
+         * Indents the divider with equal padding on both sides.
+         */
+        this.inset = false;
+        /**
+         * Indents the divider with padding on the leading side.
+         */
+        this.insetStart = false;
+        /**
+         * Indents the divider with padding on the trailing side.
+         */
+        this.insetEnd = false;
+    }
+}
+__decorate([
+    n$4({ type: Boolean, reflect: true })
+], Divider.prototype, "inset", void 0);
+__decorate([
+    n$4({ type: Boolean, reflect: true, attribute: 'inset-start' })
+], Divider.prototype, "insetStart", void 0);
+__decorate([
+    n$4({ type: Boolean, reflect: true, attribute: 'inset-end' })
+], Divider.prototype, "insetEnd", void 0);
+
+/**
+  * @license
+  * Copyright 2022 Google LLC
+  * SPDX-License-Identifier: Apache-2.0
+  */
+const styles$4 = i$4 `:host{box-sizing:border-box;color:var(--md-divider-color, var(--md-sys-color-outline-variant, #cac4d0));display:flex;height:var(--md-divider-thickness, 1px);width:100%}:host([inset]),:host([inset-start]){padding-inline-start:16px}:host([inset]),:host([inset-end]){padding-inline-end:16px}:host::before{background:currentColor;content:"";height:100%;width:100%}@media(forced-colors: active){:host::before{background:CanvasText}}/*# sourceMappingURL=divider-styles.css.map */
+`;
+
+/**
+ * @license
+ * Copyright 2023 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * @summary A divider is a thin line that groups content in lists and
+ * containers.
+ *
+ * @description Dividers can reinforce tapability, such as when used to separate
+ * list items or define tappable regions in an accordion.
+ *
+ * @final
+ * @suppress {visibility}
+ */
+let MdDivider = class MdDivider extends Divider {
+};
+MdDivider.styles = [styles$4];
+MdDivider = __decorate([
+    t$3('md-divider')
+], MdDivider);
+
+/**
+ * @license
+ * Copyright 2023 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * The default dialog open animation.
+ */
+const DIALOG_DEFAULT_OPEN_ANIMATION = {
+    dialog: [
+        [
+            // Dialog slide down
+            [{ 'transform': 'translateY(-50px)' }, { 'transform': 'translateY(0)' }],
+            { duration: 500, easing: EASING.EMPHASIZED },
+        ],
+    ],
+    scrim: [
+        [
+            // Scrim fade in
+            [{ 'opacity': 0 }, { 'opacity': 0.32 }],
+            { duration: 500, easing: 'linear' },
+        ],
+    ],
+    container: [
+        [
+            // Container fade in
+            [{ 'opacity': 0 }, { 'opacity': 1 }],
+            { duration: 50, easing: 'linear', pseudoElement: '::before' },
+        ],
+        [
+            // Container grow
+            // Note: current spec says to grow from 0dp->100% and shrink from
+            // 100%->35%. We change this to 35%->100% to simplify the animation that
+            // is supposed to clip content as it grows. From 0dp it's possible to see
+            // text/actions appear before the container has fully grown.
+            [{ 'height': '35%' }, { 'height': '100%' }],
+            { duration: 500, easing: EASING.EMPHASIZED, pseudoElement: '::before' },
+        ],
+    ],
+    headline: [
+        [
+            // Headline fade in
+            [{ 'opacity': 0 }, { 'opacity': 0, offset: 0.2 }, { 'opacity': 1 }],
+            { duration: 250, easing: 'linear', fill: 'forwards' },
+        ],
+    ],
+    content: [
+        [
+            // Content fade in
+            [{ 'opacity': 0 }, { 'opacity': 0, offset: 0.2 }, { 'opacity': 1 }],
+            { duration: 250, easing: 'linear', fill: 'forwards' },
+        ],
+    ],
+    actions: [
+        [
+            // Actions fade in
+            [{ 'opacity': 0 }, { 'opacity': 0, offset: 0.5 }, { 'opacity': 1 }],
+            { duration: 300, easing: 'linear', fill: 'forwards' },
+        ],
+    ],
+};
+/**
+ * The default dialog close animation.
+ */
+const DIALOG_DEFAULT_CLOSE_ANIMATION = {
+    dialog: [
+        [
+            // Dialog slide up
+            [{ 'transform': 'translateY(0)' }, { 'transform': 'translateY(-50px)' }],
+            { duration: 150, easing: EASING.EMPHASIZED_ACCELERATE },
+        ],
+    ],
+    scrim: [
+        [
+            // Scrim fade out
+            [{ 'opacity': 0.32 }, { 'opacity': 0 }],
+            { duration: 150, easing: 'linear' },
+        ],
+    ],
+    container: [
+        [
+            // Container shrink
+            [{ 'height': '100%' }, { 'height': '35%' }],
+            {
+                duration: 150,
+                easing: EASING.EMPHASIZED_ACCELERATE,
+                pseudoElement: '::before',
+            },
+        ],
+        [
+            // Container fade out
+            [{ 'opacity': '1' }, { 'opacity': '0' }],
+            { delay: 100, duration: 50, easing: 'linear', pseudoElement: '::before' },
+        ],
+    ],
+    headline: [
+        [
+            // Headline fade out
+            [{ 'opacity': 1 }, { 'opacity': 0 }],
+            { duration: 100, easing: 'linear', fill: 'forwards' },
+        ],
+    ],
+    content: [
+        [
+            // Content fade out
+            [{ 'opacity': 1 }, { 'opacity': 0 }],
+            { duration: 100, easing: 'linear', fill: 'forwards' },
+        ],
+    ],
+    actions: [
+        [
+            // Actions fade out
+            [{ 'opacity': 1 }, { 'opacity': 0 }],
+            { duration: 100, easing: 'linear', fill: 'forwards' },
+        ],
+    ],
+};
+
+/**
+ * @license
+ * Copyright 2023 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * A dialog component.
+ *
+ * @fires open {Event} Dispatched when the dialog is opening before any animations.
+ * @fires opened {Event} Dispatched when the dialog has opened after any animations.
+ * @fires close {Event} Dispatched when the dialog is closing before any animations.
+ * @fires closed {Event} Dispatched when the dialog has closed after any animations.
+ * @fires cancel {Event} Dispatched when the dialog has been canceled by clicking
+ * on the scrim or pressing Escape.
+ */
+class Dialog extends s$1 {
+    /**
+     * Opens the dialog when set to `true` and closes it when set to `false`.
+     */
+    get open() {
+        return this.isOpen;
+    }
+    set open(open) {
+        if (open === this.isOpen) {
+            return;
+        }
+        this.isOpen = open;
+        if (open) {
+            this.setAttribute('open', '');
+            this.show();
+        }
+        else {
+            this.removeAttribute('open');
+            this.close();
+        }
+    }
+    constructor() {
+        super();
+        /**
+         * Gets or sets the dialog's return value, usually to indicate which button
+         * a user pressed to close it.
+         *
+         * https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/returnValue
+         */
+        this.returnValue = '';
+        /**
+         * Gets the opening animation for a dialog. Set to a new function to customize
+         * the animation.
+         */
+        this.getOpenAnimation = () => DIALOG_DEFAULT_OPEN_ANIMATION;
+        /**
+         * Gets the closing animation for a dialog. Set to a new function to customize
+         * the animation.
+         */
+        this.getCloseAnimation = () => DIALOG_DEFAULT_CLOSE_ANIMATION;
+        this.isOpen = false;
+        this.isOpening = false;
+        this.isConnectedPromise = this.getIsConnectedPromise();
+        this.isAtScrollTop = false;
+        this.isAtScrollBottom = false;
+        this.nextClickIsFromContent = false;
+        // Dialogs should not be SSR'd while open, so we can just use runtime checks.
+        this.hasHeadline = false;
+        this.hasActions = false;
+        this.hasIcon = false;
+        // See https://bugs.chromium.org/p/chromium/issues/detail?id=1512224
+        // Chrome v120 has a bug where escape keys do not trigger cancels. If we get
+        // a dialog "close" event that is triggered without a "cancel" after an escape
+        // keydown, then we need to manually trigger our closing logic.
+        //
+        // This bug occurs when pressing escape to close a dialog without first
+        // interacting with the dialog's content.
+        //
+        // Cleanup tracking:
+        // https://github.com/material-components/material-web/issues/5330
+        // This can be removed when full CloseWatcher support added and the above bug
+        // in Chromium is fixed to fire 'cancel' with one escape press and close with
+        // multiple.
+        this.escapePressedWithoutCancel = false;
+        {
+            this.addEventListener('submit', this.handleSubmit);
+            // We do not use `delegatesFocus: true` due to a Chromium bug with
+            // selecting text.
+            // See https://bugs.chromium.org/p/chromium/issues/detail?id=950357
+            //
+            // Material requires using focus trapping within the dialog (see
+            // b/314840853 for the bug to add it). This would normally mean we don't
+            // care about delegating focus since the `<dialog>` never receives it.
+            // However, we still need to handle situations when a user has not
+            // provided an focusable child in the content. When that happens, the
+            // `<dialog>` itself is focused.
+            //
+            // Listen to focus/blur instead of focusin/focusout since those can bubble
+            // from content.
+            this.addEventListener('focus', () => {
+                this.dialog?.focus();
+            });
+            this.addEventListener('blur', () => {
+                this.dialog?.blur();
+            });
+        }
+    }
+    /**
+     * Opens the dialog and fires a cancelable `open` event. After a dialog's
+     * animation, an `opened` event is fired.
+     *
+     * Add an `autocomplete` attribute to a child of the dialog that should
+     * receive focus after opening.
+     *
+     * @return A Promise that resolves after the animation is finished and the
+     *     `opened` event was fired.
+     */
+    async show() {
+        this.isOpening = true;
+        // Dialogs can be opened before being attached to the DOM, so we need to
+        // wait until we're connected before calling `showModal()`.
+        await this.isConnectedPromise;
+        await this.updateComplete;
+        const dialog = this.dialog;
+        // Check if already opened or if `dialog.close()` was called while awaiting.
+        if (dialog.open || !this.isOpening) {
+            this.isOpening = false;
+            return;
+        }
+        const preventOpen = !this.dispatchEvent(new Event('open', { cancelable: true }));
+        if (preventOpen) {
+            this.open = false;
+            return;
+        }
+        // All Material dialogs are modal.
+        dialog.showModal();
+        this.open = true;
+        // Reset scroll position if re-opening a dialog with the same content.
+        if (this.scroller) {
+            this.scroller.scrollTop = 0;
+        }
+        // Native modal dialogs ignore autofocus and instead force focus to the
+        // first focusable child. Override this behavior if there is a child with
+        // an autofocus attribute.
+        this.querySelector('[autofocus]')?.focus();
+        await this.animateDialog(this.getOpenAnimation());
+        this.dispatchEvent(new Event('opened'));
+        this.isOpening = false;
+    }
+    /**
+     * Closes the dialog and fires a cancelable `close` event. After a dialog's
+     * animation, a `closed` event is fired.
+     *
+     * @param returnValue A return value usually indicating which button was used
+     *     to close a dialog. If a dialog is canceled by clicking the scrim or
+     *     pressing Escape, it will not change the return value after closing.
+     * @return A Promise that resolves after the animation is finished and the
+     *     `closed` event was fired.
+     */
+    async close(returnValue = this.returnValue) {
+        this.isOpening = false;
+        if (!this.isConnected) {
+            // Disconnected dialogs do not fire close events or animate.
+            this.open = false;
+            return;
+        }
+        await this.updateComplete;
+        const dialog = this.dialog;
+        // Check if already closed or if `dialog.show()` was called while awaiting.
+        if (!dialog.open || this.isOpening) {
+            this.open = false;
+            return;
+        }
+        const prevReturnValue = this.returnValue;
+        this.returnValue = returnValue;
+        const preventClose = !this.dispatchEvent(new Event('close', { cancelable: true }));
+        if (preventClose) {
+            this.returnValue = prevReturnValue;
+            return;
+        }
+        await this.animateDialog(this.getCloseAnimation());
+        dialog.close(returnValue);
+        this.open = false;
+        this.dispatchEvent(new Event('closed'));
+    }
+    connectedCallback() {
+        super.connectedCallback();
+        this.isConnectedPromiseResolve();
+    }
+    disconnectedCallback() {
+        super.disconnectedCallback();
+        this.isConnectedPromise = this.getIsConnectedPromise();
+    }
+    render() {
+        const scrollable = this.open && !(this.isAtScrollTop && this.isAtScrollBottom);
+        const classes = {
+            'has-headline': this.hasHeadline,
+            'has-actions': this.hasActions,
+            'has-icon': this.hasIcon,
+            'scrollable': scrollable,
+            'show-top-divider': scrollable && !this.isAtScrollTop,
+            'show-bottom-divider': scrollable && !this.isAtScrollBottom,
+        };
+        const { ariaLabel } = this;
+        return x `
+      <div class="scrim"></div>
+      <dialog
+        class=${e$1(classes)}
+        aria-label=${ariaLabel || T}
+        aria-labelledby=${this.hasHeadline ? 'headline' : T}
+        role=${this.type === 'alert' ? 'alertdialog' : T}
+        @cancel=${this.handleCancel}
+        @click=${this.handleDialogClick}
+        @close=${this.handleClose}
+        @keydown=${this.handleKeydown}
+        .returnValue=${this.returnValue || T}>
+        <div class="container" @click=${this.handleContentClick}>
+          <div class="headline">
+            <div class="icon" aria-hidden="true">
+              <slot name="icon" @slotchange=${this.handleIconChange}></slot>
+            </div>
+            <h2 id="headline" aria-hidden=${!this.hasHeadline || T}>
+              <slot
+                name="headline"
+                @slotchange=${this.handleHeadlineChange}></slot>
+            </h2>
+            <md-divider></md-divider>
+          </div>
+          <div class="scroller">
+            <div class="content">
+              <div class="top anchor"></div>
+              <slot name="content"></slot>
+              <div class="bottom anchor"></div>
+            </div>
+          </div>
+          <div class="actions">
+            <md-divider></md-divider>
+            <slot name="actions" @slotchange=${this.handleActionsChange}></slot>
+          </div>
+        </div>
+      </dialog>
+    `;
+    }
+    firstUpdated() {
+        this.intersectionObserver = new IntersectionObserver((entries) => {
+            for (const entry of entries) {
+                this.handleAnchorIntersection(entry);
+            }
+        }, { root: this.scroller });
+        this.intersectionObserver.observe(this.topAnchor);
+        this.intersectionObserver.observe(this.bottomAnchor);
+    }
+    handleDialogClick() {
+        if (this.nextClickIsFromContent) {
+            // Avoid doing a layout calculation below if we know the click came from
+            // content.
+            this.nextClickIsFromContent = false;
+            return;
+        }
+        // Click originated on the backdrop. Native `<dialog>`s will not cancel,
+        // but Material dialogs do.
+        const preventDefault = !this.dispatchEvent(new Event('cancel', { cancelable: true }));
+        if (preventDefault) {
+            return;
+        }
+        this.close();
+    }
+    handleContentClick() {
+        this.nextClickIsFromContent = true;
+    }
+    handleSubmit(event) {
+        const form = event.target;
+        const { submitter } = event;
+        if (form.method !== 'dialog' || !submitter) {
+            return;
+        }
+        // Close reason is the submitter's value attribute, or the dialog's
+        // `returnValue` if there is no attribute.
+        this.close(submitter.getAttribute('value') ?? this.returnValue);
+    }
+    handleCancel(event) {
+        if (event.target !== this.dialog) {
+            // Ignore any cancel events dispatched by content.
+            return;
+        }
+        this.escapePressedWithoutCancel = false;
+        const preventDefault = !redispatchEvent(this, event);
+        // We always prevent default on the original dialog event since we'll
+        // animate closing it before it actually closes.
+        event.preventDefault();
+        if (preventDefault) {
+            return;
+        }
+        this.close();
+    }
+    handleClose() {
+        if (!this.escapePressedWithoutCancel) {
+            return;
+        }
+        this.escapePressedWithoutCancel = false;
+        this.dialog?.dispatchEvent(new Event('cancel', { cancelable: true }));
+    }
+    handleKeydown(event) {
+        if (event.key !== 'Escape') {
+            return;
+        }
+        // An escape key was pressed. If a "close" event fires next without a
+        // "cancel" event first, then we know we're in the Chrome v120 bug.
+        this.escapePressedWithoutCancel = true;
+        // Wait a full task for the cancel/close event listeners to fire, then
+        // reset the flag.
+        setTimeout(() => {
+            this.escapePressedWithoutCancel = false;
+        });
+    }
+    async animateDialog(animation) {
+        const { dialog, scrim, container, headline, content, actions } = this;
+        if (!dialog || !scrim || !container || !headline || !content || !actions) {
+            return;
+        }
+        const { container: containerAnimate, dialog: dialogAnimate, scrim: scrimAnimate, headline: headlineAnimate, content: contentAnimate, actions: actionsAnimate, } = animation;
+        const elementAndAnimation = [
+            [dialog, dialogAnimate ?? []],
+            [scrim, scrimAnimate ?? []],
+            [container, containerAnimate ?? []],
+            [headline, headlineAnimate ?? []],
+            [content, contentAnimate ?? []],
+            [actions, actionsAnimate ?? []],
+        ];
+        const animations = [];
+        for (const [element, animation] of elementAndAnimation) {
+            for (const animateArgs of animation) {
+                animations.push(element.animate(...animateArgs));
+            }
+        }
+        await Promise.all(animations.map((animation) => animation.finished));
+    }
+    handleHeadlineChange(event) {
+        const slot = event.target;
+        this.hasHeadline = slot.assignedElements().length > 0;
+    }
+    handleActionsChange(event) {
+        const slot = event.target;
+        this.hasActions = slot.assignedElements().length > 0;
+    }
+    handleIconChange(event) {
+        const slot = event.target;
+        this.hasIcon = slot.assignedElements().length > 0;
+    }
+    handleAnchorIntersection(entry) {
+        const { target, isIntersecting } = entry;
+        if (target === this.topAnchor) {
+            this.isAtScrollTop = isIntersecting;
+        }
+        if (target === this.bottomAnchor) {
+            this.isAtScrollBottom = isIntersecting;
+        }
+    }
+    getIsConnectedPromise() {
+        return new Promise((resolve) => {
+            this.isConnectedPromiseResolve = resolve;
+        });
+    }
+}
+(() => {
+    requestUpdateOnAriaChange(Dialog);
+})();
+__decorate([
+    n$4({ type: Boolean })
+], Dialog.prototype, "open", null);
+__decorate([
+    n$4({ attribute: false })
+], Dialog.prototype, "returnValue", void 0);
+__decorate([
+    n$4()
+], Dialog.prototype, "type", void 0);
+__decorate([
+    e$5('dialog')
+], Dialog.prototype, "dialog", void 0);
+__decorate([
+    e$5('.scrim')
+], Dialog.prototype, "scrim", void 0);
+__decorate([
+    e$5('.container')
+], Dialog.prototype, "container", void 0);
+__decorate([
+    e$5('.headline')
+], Dialog.prototype, "headline", void 0);
+__decorate([
+    e$5('.content')
+], Dialog.prototype, "content", void 0);
+__decorate([
+    e$5('.actions')
+], Dialog.prototype, "actions", void 0);
+__decorate([
+    r$4()
+], Dialog.prototype, "isAtScrollTop", void 0);
+__decorate([
+    r$4()
+], Dialog.prototype, "isAtScrollBottom", void 0);
+__decorate([
+    e$5('.scroller')
+], Dialog.prototype, "scroller", void 0);
+__decorate([
+    e$5('.top.anchor')
+], Dialog.prototype, "topAnchor", void 0);
+__decorate([
+    e$5('.bottom.anchor')
+], Dialog.prototype, "bottomAnchor", void 0);
+__decorate([
+    r$4()
+], Dialog.prototype, "hasHeadline", void 0);
+__decorate([
+    r$4()
+], Dialog.prototype, "hasActions", void 0);
+__decorate([
+    r$4()
+], Dialog.prototype, "hasIcon", void 0);
+
+/**
+  * @license
+  * Copyright 2022 Google LLC
+  * SPDX-License-Identifier: Apache-2.0
+  */
+const styles$3 = i$4 `:host{border-start-start-radius:var(--md-dialog-container-shape-start-start, var(--md-dialog-container-shape, var(--md-sys-shape-corner-extra-large, 28px)));border-start-end-radius:var(--md-dialog-container-shape-start-end, var(--md-dialog-container-shape, var(--md-sys-shape-corner-extra-large, 28px)));border-end-end-radius:var(--md-dialog-container-shape-end-end, var(--md-dialog-container-shape, var(--md-sys-shape-corner-extra-large, 28px)));border-end-start-radius:var(--md-dialog-container-shape-end-start, var(--md-dialog-container-shape, var(--md-sys-shape-corner-extra-large, 28px)));display:contents;margin:auto;max-height:min(560px,100% - 48px);max-width:min(560px,100% - 48px);min-height:140px;min-width:280px;position:fixed;height:fit-content;width:fit-content}dialog{background:rgba(0,0,0,0);border:none;border-radius:inherit;flex-direction:column;height:inherit;margin:inherit;max-height:inherit;max-width:inherit;min-height:inherit;min-width:inherit;outline:none;overflow:visible;padding:0;width:inherit}dialog[open]{display:flex}::backdrop{background:none}.scrim{background:var(--md-sys-color-scrim, #000);display:none;inset:0;opacity:32%;pointer-events:none;position:fixed;z-index:1}:host([open]) .scrim{display:flex}h2{all:unset;align-self:stretch}.headline{align-items:center;color:var(--md-dialog-headline-color, var(--md-sys-color-on-surface, #1d1b20));display:flex;flex-direction:column;font-family:var(--md-dialog-headline-font, var(--md-sys-typescale-headline-small-font, var(--md-ref-typeface-brand, Roboto)));font-size:var(--md-dialog-headline-size, var(--md-sys-typescale-headline-small-size, 1.5rem));line-height:var(--md-dialog-headline-line-height, var(--md-sys-typescale-headline-small-line-height, 2rem));font-weight:var(--md-dialog-headline-weight, var(--md-sys-typescale-headline-small-weight, var(--md-ref-typeface-weight-regular, 400)));position:relative}slot[name=headline]::slotted(*){align-items:center;align-self:stretch;box-sizing:border-box;display:flex;gap:8px;padding:24px 24px 0}.icon{display:flex}slot[name=icon]::slotted(*){color:var(--md-dialog-icon-color, var(--md-sys-color-secondary, #625b71));fill:currentColor;font-size:var(--md-dialog-icon-size, 24px);margin-top:24px;height:var(--md-dialog-icon-size, 24px);width:var(--md-dialog-icon-size, 24px)}.has-icon slot[name=headline]::slotted(*){justify-content:center;padding-top:16px}.scrollable slot[name=headline]::slotted(*){padding-bottom:16px}.scrollable.has-headline slot[name=content]::slotted(*){padding-top:8px}.container{border-radius:inherit;display:flex;flex-direction:column;flex-grow:1;overflow:hidden;position:relative;transform-origin:top}.container::before{background:var(--md-dialog-container-color, var(--md-sys-color-surface-container-high, #ece6f0));border-radius:inherit;content:"";inset:0;position:absolute}.scroller{display:flex;flex:1;flex-direction:column;overflow:hidden;z-index:1}.scrollable .scroller{overflow-y:scroll}.content{color:var(--md-dialog-supporting-text-color, var(--md-sys-color-on-surface-variant, #49454f));font-family:var(--md-dialog-supporting-text-font, var(--md-sys-typescale-body-medium-font, var(--md-ref-typeface-plain, Roboto)));font-size:var(--md-dialog-supporting-text-size, var(--md-sys-typescale-body-medium-size, 0.875rem));line-height:var(--md-dialog-supporting-text-line-height, var(--md-sys-typescale-body-medium-line-height, 1.25rem));font-weight:var(--md-dialog-supporting-text-weight, var(--md-sys-typescale-body-medium-weight, var(--md-ref-typeface-weight-regular, 400)));height:min-content;position:relative}slot[name=content]::slotted(*){box-sizing:border-box;padding:24px}.anchor{position:absolute}.top.anchor{top:0}.bottom.anchor{bottom:0}.actions{position:relative}slot[name=actions]::slotted(*){box-sizing:border-box;display:flex;gap:8px;justify-content:flex-end;padding:16px 24px 24px}.has-actions slot[name=content]::slotted(*){padding-bottom:8px}md-divider{display:none;position:absolute}.has-headline.show-top-divider .headline md-divider,.has-actions.show-bottom-divider .actions md-divider{display:flex}.headline md-divider{bottom:0}.actions md-divider{top:0}@media(forced-colors: active){dialog{outline:2px solid WindowText}}/*# sourceMappingURL=dialog-styles.css.map */
+`;
+
+/**
+ * @license
+ * Copyright 2023 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * @summary Dialogs can require an action, communicate information, or help
+ * users accomplish a task. There are two types of dialogs: basic and
+ * full-screen.
+ *
+ * @description
+ * A dialog is a modal window that appears in front of app content to provide
+ * critical information or ask for a decision. Dialogs disable all app
+ * functionality when they appear, and remain on screen until confirmed,
+ * dismissed, or a required action has been taken.
+ *
+ * Dialogs are purposefully interruptive, so they should be used sparingly.
+ * A less disruptive alternative is to use a menu, which provides options
+ * without interrupting a user’s experience.
+ *
+ * On mobile devices only, complex dialogs should be displayed fullscreen.
+ *
+ * __Example usages:__
+ * - Common use cases for basic dialogs include alerts, quick selection, and
+ * confirmation.
+ * - More complex dialogs may contain actions that require a series of tasks
+ * to complete. One example is creating a calendar entry with the event title,
+ * date, location, and time.
+ *
+ * @final
+ * @suppress {visibility}
+ */
+let MdDialog = class MdDialog extends Dialog {
+};
+MdDialog.styles = [styles$3];
+MdDialog = __decorate([
+    t$3('md-dialog')
+], MdDialog);
+
+/**
+  * @license
+  * Copyright 2022 Google LLC
+  * SPDX-License-Identifier: Apache-2.0
+  */
+const styles$2 = i$4 `:host{border-start-start-radius:var(--_container-shape-start-start);border-start-end-radius:var(--_container-shape-start-end);border-end-start-radius:var(--_container-shape-end-start);border-end-end-radius:var(--_container-shape-end-end);box-sizing:border-box;cursor:pointer;display:inline-flex;gap:8px;min-height:var(--_container-height);outline:none;padding-block:calc((var(--_container-height) - max(var(--_label-text-line-height),var(--_icon-size)))/2);padding-inline-start:var(--_leading-space);padding-inline-end:var(--_trailing-space);place-content:center;place-items:center;position:relative;font-family:var(--_label-text-font);font-size:var(--_label-text-size);line-height:var(--_label-text-line-height);font-weight:var(--_label-text-weight);text-overflow:ellipsis;text-wrap:nowrap;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);vertical-align:top;--md-ripple-hover-color: var(--_hover-state-layer-color);--md-ripple-pressed-color: var(--_pressed-state-layer-color);--md-ripple-hover-opacity: var(--_hover-state-layer-opacity);--md-ripple-pressed-opacity: var(--_pressed-state-layer-opacity)}md-focus-ring{--md-focus-ring-shape-start-start: var(--_container-shape-start-start);--md-focus-ring-shape-start-end: var(--_container-shape-start-end);--md-focus-ring-shape-end-end: var(--_container-shape-end-end);--md-focus-ring-shape-end-start: var(--_container-shape-end-start)}:host([disabled]){cursor:default;pointer-events:none}.button{border-radius:inherit;cursor:inherit;display:inline-flex;align-items:center;justify-content:center;border:none;outline:none;-webkit-appearance:none;vertical-align:middle;background:rgba(0,0,0,0);text-decoration:none;min-width:calc(64px - var(--_leading-space) - var(--_trailing-space));width:100%;z-index:0;height:100%;font:inherit;color:var(--_label-text-color);padding:0;gap:inherit}.button::-moz-focus-inner{padding:0;border:0}:host(:hover) .button{color:var(--_hover-label-text-color)}:host(:focus-within) .button{color:var(--_focus-label-text-color)}:host(:active) .button{color:var(--_pressed-label-text-color)}.background{background-color:var(--_container-color);border-radius:inherit;inset:0;position:absolute}.label{overflow:hidden}:is(.button,.label,.label slot),.label ::slotted(*){text-overflow:inherit}:host([disabled]) .label{color:var(--_disabled-label-text-color);opacity:var(--_disabled-label-text-opacity)}:host([disabled]) .background{background-color:var(--_disabled-container-color);opacity:var(--_disabled-container-opacity)}@media(forced-colors: active){.background{border:1px solid CanvasText}:host([disabled]){--_disabled-icon-color: GrayText;--_disabled-icon-opacity: 1;--_disabled-container-opacity: 1;--_disabled-label-text-color: GrayText;--_disabled-label-text-opacity: 1}}:host([has-icon]:not([trailing-icon])){padding-inline-start:var(--_with-leading-icon-leading-space);padding-inline-end:var(--_with-leading-icon-trailing-space)}:host([has-icon][trailing-icon]){padding-inline-start:var(--_with-trailing-icon-leading-space);padding-inline-end:var(--_with-trailing-icon-trailing-space)}::slotted([slot=icon]){display:inline-flex;position:relative;writing-mode:horizontal-tb;fill:currentColor;flex-shrink:0;color:var(--_icon-color);font-size:var(--_icon-size);inline-size:var(--_icon-size);block-size:var(--_icon-size)}:host(:hover) ::slotted([slot=icon]){color:var(--_hover-icon-color)}:host(:focus-within) ::slotted([slot=icon]){color:var(--_focus-icon-color)}:host(:active) ::slotted([slot=icon]){color:var(--_pressed-icon-color)}:host([disabled]) ::slotted([slot=icon]){color:var(--_disabled-icon-color);opacity:var(--_disabled-icon-opacity)}.touch{position:absolute;top:50%;height:48px;left:0;right:0;transform:translateY(-50%)}:host([touch-target=wrapper]){margin:max(0px,(48px - var(--_container-height))/2) 0}:host([touch-target=none]) .touch{display:none}/*# sourceMappingURL=shared-styles.css.map */
+`;
+
+/**
+ * @license
+ * Copyright 2023 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * Sets up an element's constructor to enable form submission. The element
+ * instance should be form associated and have a `type` property.
+ *
+ * A click listener is added to each element instance. If the click is not
+ * default prevented, it will submit the element's form, if any.
+ *
+ * @example
+ * ```ts
+ * class MyElement extends mixinElementInternals(LitElement) {
+ *   static {
+ *     setupFormSubmitter(MyElement);
+ *   }
+ *
+ *   static formAssociated = true;
+ *
+ *   type: FormSubmitterType = 'submit';
+ * }
+ * ```
+ *
+ * @param ctor The form submitter element's constructor.
+ */
+function setupFormSubmitter(ctor) {
+    ctor.addInitializer((instance) => {
+        const submitter = instance;
+        submitter.addEventListener('click', async (event) => {
+            const { type, [internals]: elementInternals } = submitter;
+            const { form } = elementInternals;
+            if (!form || type === 'button') {
+                return;
+            }
+            // Wait a full task for event bubbling to complete.
+            await new Promise((resolve) => {
+                setTimeout(resolve);
+            });
+            if (event.defaultPrevented) {
+                return;
+            }
+            if (type === 'reset') {
+                form.reset();
+                return;
+            }
+            // form.requestSubmit(submitter) does not work with form associated custom
+            // elements. This patches the dispatched submit event to add the correct
+            // `submitter`.
+            // See https://github.com/WICG/webcomponents/issues/814
+            form.addEventListener('submit', (submitEvent) => {
+                Object.defineProperty(submitEvent, 'submitter', {
+                    configurable: true,
+                    enumerable: true,
+                    get: () => submitter,
+                });
+            }, { capture: true, once: true });
+            elementInternals.setFormValue(submitter.value);
+            form.requestSubmit();
+        });
+    });
+}
+
+/**
+ * @license
+ * Copyright 2019 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+// Separate variable needed for closure.
+const buttonBaseClass = mixinElementInternals(s$1);
+/**
+ * A button component.
+ */
+class Button extends buttonBaseClass {
+    get name() {
+        return this.getAttribute('name') ?? '';
+    }
+    set name(name) {
+        this.setAttribute('name', name);
+    }
+    /**
+     * The associated form element with which this element's value will submit.
+     */
+    get form() {
+        return this[internals].form;
+    }
+    constructor() {
+        super();
+        /**
+         * Whether or not the button is disabled.
+         */
+        this.disabled = false;
+        /**
+         * The URL that the link button points to.
+         */
+        this.href = '';
+        /**
+         * Where to display the linked `href` URL for a link button. Common options
+         * include `_blank` to open in a new tab.
+         */
+        this.target = '';
+        /**
+         * Whether to render the icon at the inline end of the label rather than the
+         * inline start.
+         *
+         * _Note:_ Link buttons cannot have trailing icons.
+         */
+        this.trailingIcon = false;
+        /**
+         * Whether to display the icon or not.
+         */
+        this.hasIcon = false;
+        /**
+         * The default behavior of the button. May be "text", "reset", or "submit"
+         * (default).
+         */
+        this.type = 'submit';
+        /**
+         * The value added to a form with the button's name when the button submits a
+         * form.
+         */
+        this.value = '';
+        this.handleActivationClick = (event) => {
+            if (!isActivationClick(event) || !this.buttonElement) {
+                return;
+            }
+            this.focus();
+            dispatchActivationClick(this.buttonElement);
+        };
+        {
+            this.addEventListener('click', this.handleActivationClick);
+        }
+    }
+    focus() {
+        this.buttonElement?.focus();
+    }
+    blur() {
+        this.buttonElement?.blur();
+    }
+    render() {
+        // Link buttons may not be disabled
+        const isDisabled = this.disabled && !this.href;
+        const buttonOrLink = this.href ? this.renderLink() : this.renderButton();
+        // TODO(b/310046938): due to a limitation in focus ring/ripple, we can't use
+        // the same ID for different elements, so we change the ID instead.
+        const buttonId = this.href ? 'link' : 'button';
+        return x `
+      ${this.renderElevationOrOutline?.()}
+      <div class="background"></div>
+      <md-focus-ring part="focus-ring" for=${buttonId}></md-focus-ring>
+      <md-ripple for=${buttonId} ?disabled="${isDisabled}"></md-ripple>
+      ${buttonOrLink}
+    `;
+    }
+    renderButton() {
+        // Needed for closure conformance
+        const { ariaLabel, ariaHasPopup, ariaExpanded } = this;
+        return x `<button
+      id="button"
+      class="button"
+      ?disabled=${this.disabled}
+      aria-label="${ariaLabel || T}"
+      aria-haspopup="${ariaHasPopup || T}"
+      aria-expanded="${ariaExpanded || T}">
+      ${this.renderContent()}
+    </button>`;
+    }
+    renderLink() {
+        // Needed for closure conformance
+        const { ariaLabel, ariaHasPopup, ariaExpanded } = this;
+        return x `<a
+      id="link"
+      class="button"
+      aria-label="${ariaLabel || T}"
+      aria-haspopup="${ariaHasPopup || T}"
+      aria-expanded="${ariaExpanded || T}"
+      href=${this.href}
+      target=${this.target || T}
+      >${this.renderContent()}
+    </a>`;
+    }
+    renderContent() {
+        const icon = x `<slot
+      name="icon"
+      @slotchange="${this.handleSlotChange}"></slot>`;
+        return x `
+      <span class="touch"></span>
+      ${this.trailingIcon ? T : icon}
+      <span class="label"><slot></slot></span>
+      ${this.trailingIcon ? icon : T}
+    `;
+    }
+    handleSlotChange() {
+        this.hasIcon = this.assignedIcons.length > 0;
+    }
+}
+(() => {
+    requestUpdateOnAriaChange(Button);
+    setupFormSubmitter(Button);
+})();
+/** @nocollapse */
+Button.formAssociated = true;
+/** @nocollapse */
+Button.shadowRootOptions = {
+    mode: 'open',
+    delegatesFocus: true,
+};
+__decorate([
+    n$4({ type: Boolean, reflect: true })
+], Button.prototype, "disabled", void 0);
+__decorate([
+    n$4()
+], Button.prototype, "href", void 0);
+__decorate([
+    n$4()
+], Button.prototype, "target", void 0);
+__decorate([
+    n$4({ type: Boolean, attribute: 'trailing-icon', reflect: true })
+], Button.prototype, "trailingIcon", void 0);
+__decorate([
+    n$4({ type: Boolean, attribute: 'has-icon', reflect: true })
+], Button.prototype, "hasIcon", void 0);
+__decorate([
+    n$4()
+], Button.prototype, "type", void 0);
+__decorate([
+    n$4({ reflect: true })
+], Button.prototype, "value", void 0);
+__decorate([
+    e$5('.button')
+], Button.prototype, "buttonElement", void 0);
+__decorate([
+    o$3({ slot: 'icon', flatten: true })
+], Button.prototype, "assignedIcons", void 0);
+
+/**
+ * @license
+ * Copyright 2021 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * A text button component.
+ */
+class TextButton extends Button {
+}
+
+/**
+  * @license
+  * Copyright 2022 Google LLC
+  * SPDX-License-Identifier: Apache-2.0
+  */
+const styles$1 = i$4 `:host{--_container-height: var(--md-text-button-container-height, 40px);--_disabled-label-text-color: var(--md-text-button-disabled-label-text-color, var(--md-sys-color-on-surface, #1d1b20));--_disabled-label-text-opacity: var(--md-text-button-disabled-label-text-opacity, 0.38);--_focus-label-text-color: var(--md-text-button-focus-label-text-color, var(--md-sys-color-primary, #6750a4));--_hover-label-text-color: var(--md-text-button-hover-label-text-color, var(--md-sys-color-primary, #6750a4));--_hover-state-layer-color: var(--md-text-button-hover-state-layer-color, var(--md-sys-color-primary, #6750a4));--_hover-state-layer-opacity: var(--md-text-button-hover-state-layer-opacity, 0.08);--_label-text-color: var(--md-text-button-label-text-color, var(--md-sys-color-primary, #6750a4));--_label-text-font: var(--md-text-button-label-text-font, var(--md-sys-typescale-label-large-font, var(--md-ref-typeface-plain, Roboto)));--_label-text-line-height: var(--md-text-button-label-text-line-height, var(--md-sys-typescale-label-large-line-height, 1.25rem));--_label-text-size: var(--md-text-button-label-text-size, var(--md-sys-typescale-label-large-size, 0.875rem));--_label-text-weight: var(--md-text-button-label-text-weight, var(--md-sys-typescale-label-large-weight, var(--md-ref-typeface-weight-medium, 500)));--_pressed-label-text-color: var(--md-text-button-pressed-label-text-color, var(--md-sys-color-primary, #6750a4));--_pressed-state-layer-color: var(--md-text-button-pressed-state-layer-color, var(--md-sys-color-primary, #6750a4));--_pressed-state-layer-opacity: var(--md-text-button-pressed-state-layer-opacity, 0.12);--_disabled-icon-color: var(--md-text-button-disabled-icon-color, var(--md-sys-color-on-surface, #1d1b20));--_disabled-icon-opacity: var(--md-text-button-disabled-icon-opacity, 0.38);--_focus-icon-color: var(--md-text-button-focus-icon-color, var(--md-sys-color-primary, #6750a4));--_hover-icon-color: var(--md-text-button-hover-icon-color, var(--md-sys-color-primary, #6750a4));--_icon-color: var(--md-text-button-icon-color, var(--md-sys-color-primary, #6750a4));--_icon-size: var(--md-text-button-icon-size, 18px);--_pressed-icon-color: var(--md-text-button-pressed-icon-color, var(--md-sys-color-primary, #6750a4));--_container-shape-start-start: var(--md-text-button-container-shape-start-start, var(--md-text-button-container-shape, var(--md-sys-shape-corner-full, 9999px)));--_container-shape-start-end: var(--md-text-button-container-shape-start-end, var(--md-text-button-container-shape, var(--md-sys-shape-corner-full, 9999px)));--_container-shape-end-end: var(--md-text-button-container-shape-end-end, var(--md-text-button-container-shape, var(--md-sys-shape-corner-full, 9999px)));--_container-shape-end-start: var(--md-text-button-container-shape-end-start, var(--md-text-button-container-shape, var(--md-sys-shape-corner-full, 9999px)));--_leading-space: var(--md-text-button-leading-space, 12px);--_trailing-space: var(--md-text-button-trailing-space, 12px);--_with-leading-icon-leading-space: var(--md-text-button-with-leading-icon-leading-space, 12px);--_with-leading-icon-trailing-space: var(--md-text-button-with-leading-icon-trailing-space, 16px);--_with-trailing-icon-leading-space: var(--md-text-button-with-trailing-icon-leading-space, 16px);--_with-trailing-icon-trailing-space: var(--md-text-button-with-trailing-icon-trailing-space, 12px);--_container-color: none;--_disabled-container-color: none;--_disabled-container-opacity: 0}/*# sourceMappingURL=text-styles.css.map */
+`;
+
+/**
+ * @license
+ * Copyright 2021 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * @summary Buttons help people take action, such as sending an email, sharing a
+ * document, or liking a comment.
+ *
+ * @description
+ * __Emphasis:__ Low emphasis – For optional or supplementary actions with the
+ * least amount of prominence
+ *
+ * __Rationale:__ Text buttons have less visual prominence, so should be used
+ * for low emphasis actions, such as an alternative option.
+ *
+ * __Example usages:__
+ * - Learn more
+ * - View all
+ * - Change account
+ * - Turn on
+ *
+ * @final
+ * @suppress {visibility}
+ */
+let MdTextButton = class MdTextButton extends TextButton {
+};
+MdTextButton.styles = [styles$2, styles$1];
+MdTextButton = __decorate([
+    t$3('md-text-button')
+], MdTextButton);
+
+/**
+ * @license
+ * Copyright 2023 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * A property symbol that indicates whether or not a `Focusable` element can be
+ * focused.
+ */
+const isFocusable = Symbol('isFocusable');
+const privateIsFocusable = Symbol('privateIsFocusable');
+const externalTabIndex = Symbol('externalTabIndex');
+const isUpdatingTabIndex = Symbol('isUpdatingTabIndex');
+const updateTabIndex = Symbol('updateTabIndex');
+/**
+ * Mixes in focusable functionality for a class.
+ *
+ * Elements can enable and disable their focusability with the `isFocusable`
+ * symbol property. Changing `tabIndex` will trigger a lit render, meaning
+ * `this.tabIndex` can be used in template expressions.
+ *
+ * This mixin will preserve externally-set tabindices. If an element turns off
+ * focusability, but a user sets `tabindex="0"`, it will still be focusable.
+ *
+ * To remove user overrides and restore focusability control to the element,
+ * remove the `tabindex` attribute.
+ *
+ * @param base The class to mix functionality into.
+ * @return The provided class with `Focusable` mixed in.
+ */
+function mixinFocusable(base) {
+    var _a, _b, _c;
+    class FocusableElement extends base {
+        constructor() {
+            super(...arguments);
+            this[_a] = true;
+            this[_b] = null;
+            this[_c] = false;
+        }
+        get [isFocusable]() {
+            return this[privateIsFocusable];
+        }
+        set [isFocusable](value) {
+            if (this[isFocusable] === value) {
+                return;
+            }
+            this[privateIsFocusable] = value;
+            this[updateTabIndex]();
+        }
+        connectedCallback() {
+            super.connectedCallback();
+            this[updateTabIndex]();
+        }
+        attributeChangedCallback(name, old, value) {
+            if (name !== 'tabindex') {
+                super.attributeChangedCallback(name, old, value);
+                return;
+            }
+            this.requestUpdate('tabIndex', Number(old ?? -1));
+            if (this[isUpdatingTabIndex]) {
+                // Not an externally-initiated update.
+                return;
+            }
+            if (!this.hasAttribute('tabindex')) {
+                // User removed the attribute, can now use internal tabIndex
+                this[externalTabIndex] = null;
+                this[updateTabIndex]();
+                return;
+            }
+            this[externalTabIndex] = this.tabIndex;
+        }
+        [(_a = privateIsFocusable, _b = externalTabIndex, _c = isUpdatingTabIndex, updateTabIndex)]() {
+            const internalTabIndex = this[isFocusable] ? 0 : -1;
+            const computedTabIndex = this[externalTabIndex] ?? internalTabIndex;
+            this[isUpdatingTabIndex] = true;
+            this.tabIndex = computedTabIndex;
+            this[isUpdatingTabIndex] = false;
+        }
+    }
+    __decorate([
+        n$4({ noAccessor: true })
+    ], FocusableElement.prototype, "tabIndex", void 0);
+    return FocusableElement;
+}
+
+/**
+ * @license
+ * Copyright 2023 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * A validator that provides constraint validation that emulates
+ * `<input type="radio">` validation.
+ */
+class RadioValidator extends Validator {
+    computeValidity(states) {
+        if (!this.radioElement) {
+            // Lazily create the radio element
+            this.radioElement = document.createElement('input');
+            this.radioElement.type = 'radio';
+            // A name is required for validation to run
+            this.radioElement.name = 'group';
+        }
+        let isRequired = false;
+        let isChecked = false;
+        for (const { checked, required } of states) {
+            if (required) {
+                isRequired = true;
+            }
+            if (checked) {
+                isChecked = true;
+            }
+        }
+        // Firefox v119 doesn't compute grouped radio validation correctly while
+        // they are detached from the DOM, which is why we don't render multiple
+        // virtual <input>s. Instead, we can check the required/checked states and
+        // grab the i18n'd validation message if the value is missing.
+        this.radioElement.checked = isChecked;
+        this.radioElement.required = isRequired;
+        return {
+            validity: {
+                valueMissing: isRequired && !isChecked,
+            },
+            validationMessage: this.radioElement.validationMessage,
+        };
+    }
+    equals(prevGroup, nextGroup) {
+        if (prevGroup.length !== nextGroup.length) {
+            return false;
+        }
+        for (let i = 0; i < prevGroup.length; i++) {
+            const prev = prevGroup[i];
+            const next = nextGroup[i];
+            if (prev.checked !== next.checked || prev.required !== next.required) {
+                return false;
+            }
+        }
+        return true;
+    }
+    copy(states) {
+        // Cast as unknown since typescript does not have enough information to
+        // infer that the array always has at least one element.
+        return states.map(({ checked, required }) => ({
+            checked,
+            required,
+        }));
+    }
+}
+
+/**
+ * @license
+ * Copyright 2022 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * A `ReactiveController` that provides root node-scoped single selection for
+ * elements, similar to native `<input type="radio">` selection.
+ *
+ * To use, elements should add the controller and call
+ * `selectionController.handleCheckedChange()` in a getter/setter. This must
+ * be synchronous to match native behavior.
+ *
+ * @example
+ * const CHECKED = Symbol('checked');
+ *
+ * class MyToggle extends LitElement {
+ *   get checked() { return this[CHECKED]; }
+ *   set checked(checked: boolean) {
+ *     const oldValue = this.checked;
+ *     if (oldValue === checked) {
+ *       return;
+ *     }
+ *
+ *     this[CHECKED] = checked;
+ *     this.selectionController.handleCheckedChange();
+ *     this.requestUpdate('checked', oldValue);
+ *   }
+ *
+ *   [CHECKED] = false;
+ *
+ *   private selectionController = new SingleSelectionController(this);
+ *
+ *   constructor() {
+ *     super();
+ *     this.addController(this.selectionController);
+ *   }
+ * }
+ */
+class SingleSelectionController {
+    /**
+     * All single selection elements in the host element's root with the same
+     * `name` attribute, including the host element.
+     */
+    get controls() {
+        const name = this.host.getAttribute('name');
+        if (!name || !this.root || !this.host.isConnected) {
+            return [this.host];
+        }
+        // Cast as unknown since there is not enough information for typescript to
+        // know that there is always at least one element (the host).
+        return Array.from(this.root.querySelectorAll(`[name="${name}"]`));
+    }
+    constructor(host) {
+        this.host = host;
+        this.focused = false;
+        this.root = null;
+        this.handleFocusIn = () => {
+            this.focused = true;
+            this.updateTabIndices();
+        };
+        this.handleFocusOut = () => {
+            this.focused = false;
+            this.updateTabIndices();
+        };
+        /**
+         * Handles arrow key events from the host. Using the arrow keys will
+         * select and check the next or previous sibling with the host's
+         * `name` attribute.
+         */
+        this.handleKeyDown = (event) => {
+            const isDown = event.key === 'ArrowDown';
+            const isUp = event.key === 'ArrowUp';
+            const isLeft = event.key === 'ArrowLeft';
+            const isRight = event.key === 'ArrowRight';
+            // Ignore non-arrow keys
+            if (!isLeft && !isRight && !isDown && !isUp) {
+                return;
+            }
+            // Don't try to select another sibling if there aren't any.
+            const siblings = this.controls;
+            if (!siblings.length) {
+                return;
+            }
+            // Prevent default interactions on the element for arrow keys,
+            // since this controller will introduce new behavior.
+            event.preventDefault();
+            // Check if moving forwards or backwards
+            const isRtl = getComputedStyle(this.host).direction === 'rtl';
+            const forwards = isRtl ? isLeft || isDown : isRight || isDown;
+            const hostIndex = siblings.indexOf(this.host);
+            let nextIndex = forwards ? hostIndex + 1 : hostIndex - 1;
+            // Search for the next sibling that is not disabled to select.
+            // If we return to the host index, there is nothing to select.
+            while (nextIndex !== hostIndex) {
+                if (nextIndex >= siblings.length) {
+                    // Return to start if moving past the last item.
+                    nextIndex = 0;
+                }
+                else if (nextIndex < 0) {
+                    // Go to end if moving before the first item.
+                    nextIndex = siblings.length - 1;
+                }
+                // Check if the next sibling is disabled. If so,
+                // move the index and continue searching.
+                const nextSibling = siblings[nextIndex];
+                if (nextSibling.hasAttribute('disabled')) {
+                    if (forwards) {
+                        nextIndex++;
+                    }
+                    else {
+                        nextIndex--;
+                    }
+                    continue;
+                }
+                // Uncheck and remove focusability from other siblings.
+                for (const sibling of siblings) {
+                    if (sibling !== nextSibling) {
+                        sibling.checked = false;
+                        sibling.tabIndex = -1;
+                        sibling.blur();
+                    }
+                }
+                // The next sibling should be checked, focused and dispatch a change event
+                nextSibling.checked = true;
+                nextSibling.tabIndex = 0;
+                nextSibling.focus();
+                // Fire a change event since the change is triggered by a user action.
+                // This matches native <input type="radio"> behavior.
+                nextSibling.dispatchEvent(new Event('change', { bubbles: true }));
+                break;
+            }
+        };
+    }
+    hostConnected() {
+        this.root = this.host.getRootNode();
+        this.host.addEventListener('keydown', this.handleKeyDown);
+        this.host.addEventListener('focusin', this.handleFocusIn);
+        this.host.addEventListener('focusout', this.handleFocusOut);
+        if (this.host.checked) {
+            // Uncheck other siblings when attached if already checked. This mimics
+            // native <input type="radio"> behavior.
+            this.uncheckSiblings();
+        }
+        // Update for the newly added host.
+        this.updateTabIndices();
+    }
+    hostDisconnected() {
+        this.host.removeEventListener('keydown', this.handleKeyDown);
+        this.host.removeEventListener('focusin', this.handleFocusIn);
+        this.host.removeEventListener('focusout', this.handleFocusOut);
+        // Update for siblings that are still connected.
+        this.updateTabIndices();
+        this.root = null;
+    }
+    /**
+     * Should be called whenever the host's `checked` property changes
+     * synchronously.
+     */
+    handleCheckedChange() {
+        if (!this.host.checked) {
+            return;
+        }
+        this.uncheckSiblings();
+        this.updateTabIndices();
+    }
+    uncheckSiblings() {
+        for (const sibling of this.controls) {
+            if (sibling !== this.host) {
+                sibling.checked = false;
+            }
+        }
+    }
+    /**
+     * Updates the `tabindex` of the host and its siblings.
+     */
+    updateTabIndices() {
+        // There are three tabindex states for a group of elements:
+        // 1. If any are checked, that element is focusable.
+        const siblings = this.controls;
+        const checkedSibling = siblings.find((sibling) => sibling.checked);
+        // 2. If an element is focused, the others are no longer focusable.
+        if (checkedSibling || this.focused) {
+            const focusable = checkedSibling || this.host;
+            focusable.tabIndex = 0;
+            for (const sibling of siblings) {
+                if (sibling !== focusable) {
+                    sibling.tabIndex = -1;
+                }
+            }
+            return;
+        }
+        // 3. If none are checked or focused, all are focusable.
+        for (const sibling of siblings) {
+            sibling.tabIndex = 0;
+        }
+    }
+}
+
+/**
+ * @license
+ * Copyright 2018 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+var _a;
+const CHECKED = Symbol('checked');
+let maskId = 0;
+// Separate variable needed for closure.
+const radioBaseClass = mixinConstraintValidation(mixinFormAssociated(mixinElementInternals(mixinFocusable(s$1))));
+/**
+ * A radio component.
+ *
+ * @fires input {InputEvent} Dispatched when the value changes from user
+ * interaction. --bubbles
+ * @fires change {Event} Dispatched when the value changes from user
+ * interaction. --bubbles --composed
+ */
+class Radio extends radioBaseClass {
+    /**
+     * Whether or not the radio is selected.
+     */
+    get checked() {
+        return this[CHECKED];
+    }
+    set checked(checked) {
+        const wasChecked = this.checked;
+        if (wasChecked === checked) {
+            return;
+        }
+        this[CHECKED] = checked;
+        this.requestUpdate('checked', wasChecked);
+        this.selectionController.handleCheckedChange();
+    }
+    constructor() {
+        super();
+        // Unique maskId is required because of a Safari bug that fail to persist
+        // reference to the mask. This should be removed once the bug is fixed.
+        this.maskId = `cutout${++maskId}`;
+        this[_a] = false;
+        /**
+         * Whether or not the radio is required. If any radio is required in a group,
+         * all radios are implicitly required.
+         */
+        this.required = false;
+        /**
+         * The element value to use in form submission when checked.
+         */
+        this.value = 'on';
+        this.selectionController = new SingleSelectionController(this);
+        this.addController(this.selectionController);
+        {
+            this[internals].role = 'radio';
+            this.addEventListener('click', this.handleClick.bind(this));
+            this.addEventListener('keydown', this.handleKeydown.bind(this));
+        }
+    }
+    render() {
+        const classes = { 'checked': this.checked };
+        return x `
+      <div class="container ${e$1(classes)}" aria-hidden="true">
+        <md-ripple
+          part="ripple"
+          .control=${this}
+          ?disabled=${this.disabled}></md-ripple>
+        <md-focus-ring part="focus-ring" .control=${this}></md-focus-ring>
+        <svg class="icon" viewBox="0 0 20 20">
+          <mask id="${this.maskId}">
+            <rect width="100%" height="100%" fill="white" />
+            <circle cx="10" cy="10" r="8" fill="black" />
+          </mask>
+          <circle
+            class="outer circle"
+            cx="10"
+            cy="10"
+            r="10"
+            mask="url(#${this.maskId})" />
+          <circle class="inner circle" cx="10" cy="10" r="5" />
+        </svg>
+
+        <input
+          id="input"
+          type="radio"
+          tabindex="-1"
+          .checked=${this.checked}
+          .value=${this.value}
+          ?disabled=${this.disabled} />
+      </div>
+    `;
+    }
+    updated() {
+        this[internals].ariaChecked = String(this.checked);
+    }
+    async handleClick(event) {
+        if (this.disabled) {
+            return;
+        }
+        // allow event to propagate to user code after a microtask.
+        await 0;
+        if (event.defaultPrevented) {
+            return;
+        }
+        if (isActivationClick(event)) {
+            this.focus();
+        }
+        // Per spec, clicking on a radio input always selects it.
+        this.checked = true;
+        this.dispatchEvent(new Event('change', { bubbles: true }));
+        this.dispatchEvent(new InputEvent('input', { bubbles: true, composed: true }));
+    }
+    async handleKeydown(event) {
+        // allow event to propagate to user code after a microtask.
+        await 0;
+        if (event.key !== ' ' || event.defaultPrevented) {
+            return;
+        }
+        this.click();
+    }
+    [(_a = CHECKED, getFormValue)]() {
+        return this.checked ? this.value : null;
+    }
+    [getFormState]() {
+        return String(this.checked);
+    }
+    formResetCallback() {
+        // The checked property does not reflect, so the original attribute set by
+        // the user is used to determine the default value.
+        this.checked = this.hasAttribute('checked');
+    }
+    formStateRestoreCallback(state) {
+        this.checked = state === 'true';
+    }
+    [createValidator]() {
+        return new RadioValidator(() => {
+            if (!this.selectionController) {
+                // Validation runs on superclass construction, so selection controller
+                // might not actually be ready until this class constructs.
+                return [this];
+            }
+            return this.selectionController.controls;
+        });
+    }
+    [getValidityAnchor]() {
+        return this.container;
+    }
+}
+__decorate([
+    n$4({ type: Boolean })
+], Radio.prototype, "checked", null);
+__decorate([
+    n$4({ type: Boolean })
+], Radio.prototype, "required", void 0);
+__decorate([
+    n$4()
+], Radio.prototype, "value", void 0);
+__decorate([
+    e$5('.container')
+], Radio.prototype, "container", void 0);
+
+/**
+  * @license
+  * Copyright 2022 Google LLC
+  * SPDX-License-Identifier: Apache-2.0
+  */
+const styles = i$4 `@layer{:host{display:inline-flex;height:var(--md-radio-icon-size, 20px);outline:none;position:relative;vertical-align:top;width:var(--md-radio-icon-size, 20px);-webkit-tap-highlight-color:rgba(0,0,0,0);cursor:pointer;--md-ripple-hover-color: var(--md-radio-hover-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-hover-opacity: var(--md-radio-hover-state-layer-opacity, 0.08);--md-ripple-pressed-color: var(--md-radio-pressed-state-layer-color, var(--md-sys-color-primary, #6750a4));--md-ripple-pressed-opacity: var(--md-radio-pressed-state-layer-opacity, 0.12)}:host([disabled]){cursor:default}:host([touch-target=wrapper]){margin:max(0px,(48px - var(--md-radio-icon-size, 20px))/2)}.container{display:flex;height:100%;place-content:center;place-items:center;width:100%}md-focus-ring{height:44px;inset:unset;width:44px}.checked{--md-ripple-hover-color: var(--md-radio-selected-hover-state-layer-color, var(--md-sys-color-primary, #6750a4));--md-ripple-hover-opacity: var(--md-radio-selected-hover-state-layer-opacity, 0.08);--md-ripple-pressed-color: var(--md-radio-selected-pressed-state-layer-color, var(--md-sys-color-on-surface, #1d1b20));--md-ripple-pressed-opacity: var(--md-radio-selected-pressed-state-layer-opacity, 0.12)}input{appearance:none;height:48px;margin:0;position:absolute;width:48px;cursor:inherit}:host([touch-target=none]) input{width:100%;height:100%}md-ripple{border-radius:50%;height:var(--md-radio-state-layer-size, 40px);inset:unset;width:var(--md-radio-state-layer-size, 40px)}.icon{fill:var(--md-radio-icon-color, var(--md-sys-color-on-surface-variant, #49454f));inset:0;position:absolute}.outer.circle{transition:fill 50ms linear}.inner.circle{opacity:0;transform-origin:center;transition:opacity 50ms linear}.checked .icon{fill:var(--md-radio-selected-icon-color, var(--md-sys-color-primary, #6750a4))}.checked .inner.circle{animation:inner-circle-grow 300ms cubic-bezier(0.05, 0.7, 0.1, 1);opacity:1}@keyframes inner-circle-grow{from{transform:scale(0)}to{transform:scale(1)}}:host([disabled]) .circle{animation-duration:0s;transition-duration:0s}:host(:hover) .icon{fill:var(--md-radio-hover-icon-color, var(--md-sys-color-on-surface, #1d1b20))}:host(:focus-within) .icon{fill:var(--md-radio-focus-icon-color, var(--md-sys-color-on-surface, #1d1b20))}:host(:active) .icon{fill:var(--md-radio-pressed-icon-color, var(--md-sys-color-on-surface, #1d1b20))}:host([disabled]) .icon{fill:var(--md-radio-disabled-unselected-icon-color, var(--md-sys-color-on-surface, #1d1b20));opacity:var(--md-radio-disabled-unselected-icon-opacity, 0.38)}:host(:hover) .checked .icon{fill:var(--md-radio-selected-hover-icon-color, var(--md-sys-color-primary, #6750a4))}:host(:focus-within) .checked .icon{fill:var(--md-radio-selected-focus-icon-color, var(--md-sys-color-primary, #6750a4))}:host(:active) .checked .icon{fill:var(--md-radio-selected-pressed-icon-color, var(--md-sys-color-primary, #6750a4))}:host([disabled]) .checked .icon{fill:var(--md-radio-disabled-selected-icon-color, var(--md-sys-color-on-surface, #1d1b20));opacity:var(--md-radio-disabled-selected-icon-opacity, 0.38)}}@layer hcm{@media(forced-colors: active){.icon{fill:CanvasText}:host([disabled]) .icon{fill:GrayText;opacity:1}}}/*# sourceMappingURL=radio-styles.css.map */
+`;
+
+/**
+ * @license
+ * Copyright 2022 Google LLC
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/**
+ * @summary Radio buttons allow users to select one option from a set.
+ *
+ * @description
+ * Radio buttons are the recommended way to allow users to make a single
+ * selection from a list of options.
+ *
+ * Only one radio button can be selected at a time.
+ *
+ * Use radio buttons to:
+ * - Select a single option from a set
+ * - Expose all available options
+ *
+ * @final
+ * @suppress {visibility}
+ */
+let MdRadio = class MdRadio extends Radio {
+};
+MdRadio.styles = [styles];
+MdRadio = __decorate([
+    t$3('md-radio')
+], MdRadio);
