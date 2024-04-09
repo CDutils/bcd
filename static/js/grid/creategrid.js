@@ -4,30 +4,64 @@
 
     const subjectDialog = document.querySelector('.subject-dialog');
     const subjectForm = document.querySelector('#subject-selection-form');
-    const closeDialogButton = document.querySelector('.close-dialog-button');
-    
-    const optButton = document.querySelector('.all-opt-button');
-    const extenButton = document.querySelector('.all-exten-button');
-    const pdsButton = document.querySelector('.all-pds-button');
+
+    window.subjects = [];
+    window.editPeriodButtons = [];
+    window.addSubjectButtons = [];
+    window.subjectRadioButtons = [];
     
     for (let i = 0; i < numPeriods; i++) {
         const wrapper = document.createElement('div');
         const periodSubjContainer = document.createElement('div');
-        const periodContainer = document.createElement('div');
-        const title = document.createElement('p');
+        const periodTitleContainer = document.createElement('div');
+
+        const addSubjectButtonContainer = document.createElement('div');
+        const addSubjectButton = document.createElement('md-filled-icon-button');
+        const addSubjectIcon = document.createElement('span');
+
+        const periodTitleContainerText = document.createElement('p');
+        const periodContainerEditButton = document.createElement('md-outlined-icon-button');
+        const editIcon = document.createElement('span');
+
+        addSubjectIcon.classList.add('material-symbols-rounded');
+        addSubjectIcon.textContent = 'add';
+
+        addSubjectButton.appendChild(addSubjectIcon);
+        addSubjectButton.classList.add('add-subject-button', 'on-secondary-container-text', 'body-large');
+
+        addSubjectButtonContainer.appendChild(addSubjectButton);
+        addSubjectButtonContainer.classList.add('add-subject-button-container', 'on-background-text', 'body-large');
+
+        periodSubjContainer.appendChild(addSubjectButtonContainer);
 
         wrapper.classList.add('period-wrapper', 'on-background-text');
         periodSubjContainer.classList.add('on-grid-period-container', 'secondary-container', 'on-secondary-container-text');
         periodSubjContainer.id = `period-${i + 1}`;
 
-        title.classList.add('title', 'body-large');
-        title.textContent = `Período ${i + 1}`;
-        periodContainer.appendChild(title);
+        periodTitleContainerText.classList.add('title', 'body-large');
+        periodTitleContainerText.textContent = `${i + 1}º Período`;
 
-        wrapper.appendChild(periodContainer);
+        editIcon.classList.add('material-symbols-rounded');
+        editIcon.textContent = 'edit';
+
+        periodContainerEditButton.appendChild(editIcon);
+        periodContainerEditButton.classList.add('edit-button');
+
+        periodTitleContainer.classList.add('period-title-container');
+
+        periodTitleContainer.appendChild(periodTitleContainerText);
+        periodTitleContainer.appendChild(periodContainerEditButton);
+
+
+        wrapper.appendChild(periodTitleContainer);
         wrapper.appendChild(periodSubjContainer);
         dataContainer.appendChild(wrapper);
+
+        window.addSubjectButtons.push(addSubjectButton);
+        window.editPeriodButtons.push(periodContainerEditButton);
     }
+
+    
 
     fetch('static/ementas.csv')
         .then(response => response.text())
@@ -43,6 +77,7 @@
                 });
                 return obj;
             });
+            window.subjects = content;
             console.log(content)
 
             content.forEach((el) => {
@@ -62,17 +97,9 @@
                 label.appendChild(span);
 
                 subjectForm.appendChild(label);
+                window.subjectRadioButtons.push(radioButton);
             });
         })
         .catch(error => console.error(error));
-
-    closeDialogButton.addEventListener('click', async () => {
-        await subjectDialog.close();
-    })
-
-    optButton.addEventListener('click', async () => {
-        await subjectDialog.show();
-    })
-
 
 })()

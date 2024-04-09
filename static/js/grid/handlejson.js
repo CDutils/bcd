@@ -1,11 +1,6 @@
 (() => {
 
-    const sliderFilter = document.querySelector('.filter-slider');
     const downloadButton = document.querySelector('.download-grid-button');
-
-    sliderFilter.addEventListener('input', (event) => {
-        console.log(value)
-    });
 
     downloadButton.addEventListener('click', () => {
 

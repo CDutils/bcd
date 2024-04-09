@@ -7,3 +7,6 @@ import '@material/web/button/text-button.js';
 import '@material/web/radio/radio.js';
 import '@material/web/ripple/ripple.js';
 import '@material/web/focus/md-focus-ring.js';
+import '@material/web/iconbutton/filled-icon-button.js';
+import '@material/web/iconbutton/filled-tonal-icon-button.js';
+import '@material/web/iconbutton/outlined-icon-button.js';
