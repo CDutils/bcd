@@ -1,0 +1,12 @@
+import '@material/web/list/list.js';
+import '@material/web/list/list-item.js';
+import '@material/web/checkbox/checkbox.js';
+import '@material/web/slider/slider.js';
+import '@material/web/dialog/dialog.js';
+import '@material/web/button/text-button.js';
+import '@material/web/radio/radio.js';
+import '@material/web/ripple/ripple.js';
+import '@material/web/focus/md-focus-ring.js';
+import '@material/web/iconbutton/filled-icon-button.js';
+import '@material/web/iconbutton/filled-tonal-icon-button.js';
+import '@material/web/iconbutton/outlined-icon-button.js';
