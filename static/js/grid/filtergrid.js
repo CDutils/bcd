@@ -1,6 +1,7 @@
 (() => {
 
     const subjectDialog = document.querySelector('.subject-dialog');
+    const subjectForm = document.querySelector('#subject-selection-form');
     const subjectTitleDialog = document.querySelector('.dialog-description .title');
     const subjectEmentaDialog = document.querySelector('.dialog-description .ementa');
     const closeDialogButton = document.querySelector('.close-dialog-button');
@@ -18,24 +19,7 @@
             document.querySelectorAll('.delete-subject-icon').forEach((button) => { button.style.display = 'none' });
 
             if (selectedSubject && (selectedPeriod + 1)) {
-                const periodContainer = document.querySelector(`#period-${selectedPeriod + 1}`);
-
-                const subjectContainer = document.createElement('div');
-                const removeSubjectButton = document.createElement('span');
-
-                subjectContainer.classList.add('on-grid-subject-container', 'primary-container', 'on-primary-container-text', 'body-large');
-                subjectContainer.textContent = selectedSubject;
-
-                removeSubjectButton.classList.add('material-symbols-rounded', 'delete-subject-icon');
-                removeSubjectButton.style.display = 'none';
-                removeSubjectButton.textContent = 'delete';
-
-                removeSubjectButton.addEventListener('click', () => {
-                    removeSubjectButton.parentElement.remove();
-                })
-
-                subjectContainer.appendChild(removeSubjectButton);
-                periodContainer.appendChild(subjectContainer);
+                addSubjectFromDialog(selectedSubject, selectedPeriod);
             }
             selectedPeriod = null;
             selectedSubject = null;
@@ -60,12 +44,12 @@
 
         window.subjectRadioButtons.forEach((radio) => {
             radio.addEventListener('click', () => {
-                selectedSubject = radio.getAttribute('value');
+                selectedSubject = window.subjects.filter((el) => el['Nome'] === radio.getAttribute('value'))[0];
 
-                subjectTitleDialog.textContent = selectedSubject;
+                subjectTitleDialog.textContent = selectedSubject["Nome"];
                 subjectEmentaDialog.innerHTML = '';
 
-                const ementa = window.subjects.filter((el) => el['Nome'] === selectedSubject)[0]['Ementa'];
+                const ementa = selectedSubject['Ementa'];
 
                 ementa.replaceAll("\"").split(".").forEach((e) => {
                     e = e.replaceAll("undefined", "")

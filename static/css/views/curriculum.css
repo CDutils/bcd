@@ -109,7 +109,8 @@
 
 
 
-.download-grid-button {
+.download-grid-button,
+.upload-grid-button {
     cursor: pointer;
     background: var(--md-sys-color-secondary-container);
     color: var(--md-sys-color-on-secondary-container);
@@ -163,6 +164,7 @@
     flex-wrap: wrap;
     width: 100%;
     margin: 0.2em;
+    border-radius: var(--border-radius);
 }
 
 .on-grid-subject-container,

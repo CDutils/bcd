@@ -2,9 +2,9 @@
     const dataContainer = document.querySelector('.grid-container');
     const numPeriods = 9;
 
-    const subjectDialog = document.querySelector('.subject-dialog');
     const subjectForm = document.querySelector('#subject-selection-form');
 
+    window.userGrid = [];
     window.subjects = [];
     window.editPeriodButtons = [];
     window.addSubjectButtons = [];
@@ -78,7 +78,7 @@
                 return obj;
             });
             window.subjects = content;
-            console.log(content)
+            console.log(content);
 
             content.forEach((el) => {
                 const label = document.createElement('label');
@@ -88,6 +88,7 @@
                 radioButton.setAttribute("name", "subject");
                 radioButton.setAttribute("value", el["Nome"]);
                 radioButton.setAttribute("aria-label", el["Nome"]);
+                radioButton.setAttribute("id", el["Id"]);
                 radioButton.setAttribute("touch-target", "wrapper");
 
                 span.setAttribute("aria-hidden", "true");
