@@ -1,23 +1,23 @@
 (() => {
     const schedule = {
         monday: [
-            window.subjects[2],
-            window.subjects[0]
+            window.periodSubjects[2],
+            window.periodSubjects[0]
         ],
         tuesday: [
-            window.subjects[1],
-            window.subjects[3]
+            window.periodSubjects[1],
+            window.periodSubjects[3]
         ],
         wednesday: [
-            window.subjects[0],
-            window.subjects[2]
+            window.periodSubjects[0],
+            window.periodSubjects[2]
         ],
         thursday: [
-            window.subjects[1],
-            window.subjects[4]
+            window.periodSubjects[1],
+            window.periodSubjects[4]
         ],
         friday: [
-            window.subjects[0]
+            window.periodSubjects[0]
         ]
     }
 

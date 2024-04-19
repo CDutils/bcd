@@ -34,7 +34,7 @@
         }
     }
 
-    window.subjects = [
+    window.periodSubjects = [
         new Subject(
             'TM01', 'Cálculo Diferencial e Integral 1', 'CAD 3 - Sala 312', '13:00 - 14:40', 'Jose Antonio Goncalves Miranda',
             ['Definição formal de limite e propriedades', 'Definição formal de derivada e propriedades', 'Definição formal de integral indefinida e propriedades'],

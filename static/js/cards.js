@@ -122,8 +122,7 @@
     cards.forEach((card) => {
         card.addEventListener('click', () => {
             const cardId = card.querySelector('.card .text').innerHTML
-            const subject = window.subjects.filter((el) => el.id === cardId.split(' ')[1])[0]
-            console.log(subject)
+            const subject = window.periodSubjects.filter((el) => el.id === cardId.split(' ')[1])[0]
             updateInfo(subject)
 
             infoContainer.classList.toggle('invisible')
