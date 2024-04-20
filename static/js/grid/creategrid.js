@@ -61,8 +61,6 @@
         window.editPeriodButtons.push(periodContainerEditButton);
     }
 
-    
-
     fetch('static/ementas.csv')
         .then(response => response.text())
         .then(data => {

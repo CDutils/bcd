@@ -12,8 +12,6 @@
     const allOptButton = document.querySelector('.all-opt-button');
     const allExtenButton = document.querySelector('.all-exten-button');
 
-    const sliderFilter = document.querySelector('.filter-slider');
-
     setTimeout(() => {
         closeDialogButton.addEventListener('click', async () => {
             document.querySelectorAll('.delete-subject-icon').forEach((button) => { button.style.display = 'none' });
@@ -63,7 +61,4 @@
         })
     }, 5000)
 
-    sliderFilter.addEventListener('input', (event) => {
-        console.log(value)
-    });
 })()
