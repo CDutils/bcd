@@ -7,32 +7,41 @@
     width: 100%;
 }
 
-.small-screen {
-    display: none;
+.small-screen-dialog,
+.small-screen-dialog div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.small-screen .sad-face {
+.small-screen-dialog {
+    --md-dialog-container-color: var(--md-sys-color-primary-container);
+    --md-text-button-label-text-color: var(--md-sys-color-on-primary-container);
+}
+
+.small-screen-dialog div[slot="actions"] {
+    padding: 0;
+}
+
+.small-screen-dialog div {
+    flex-direction: column;
+    text-align: center;
+}
+
+.small-screen-dialog .sad-face {
     font-size: 50px;
 }
 
-@media screen and (max-width: 849px) {
-    .big-screen {
-        display: none;
-    }
-
-    .small-screen,
-    .small-screen div {
-        display: flex;
+@media screen and (max-width: 500px) {
+    .curriculum-view {
+        flex-direction: column !important;
         align-items: center;
         justify-content: center;
     }
 
-    .small-screen div {
-        flex-direction: column;
-        padding: 0.5em;
-        border-radius: var(--border-radius);
-
-        text-align: center;
+    .grid-container {
+        width: 100%;
+        max-width: unset !important;
     }
 }
 
@@ -43,12 +52,7 @@
     width: 100%;
 }
 
-.side-container {
-    max-width: 35%;
-}
-
-.subject-dialog {
-    --md-dialog-container-color: var(--md-sys-color-secondary-container);
+md-dialog {
     --md-dialog-headline-font: 'Titillium Web';
     --md-dialog-supporting-text-font: 'Titillium Web';
     --md-text-button-label-text-font: 'Titillium Web';
@@ -64,6 +68,10 @@
     width: fit-content;
 }
 
+.subject-dialog {
+    --md-dialog-container-color: var(--md-sys-color-secondary-container);
+}
+
 .dialog-content {
     display: flex;
     flex-direction: row;
@@ -72,6 +80,10 @@
 .dialog-content form {
     min-width: 250px;
     margin-right: 0.8em;
+}
+
+.dialog-content form md-radio {
+    min-width: 20px;
 }
 
 .dialog-content .vertical-separator {
@@ -131,8 +143,12 @@
     justify-content: space-between;
 }
 
-.filter-slider {
-    --_label-text-font: 'Titillium Web' !important;
+.filter-checkbox span {
+    margin-right: 1.5em;
+}
+
+.filter-checkbox md-checkbox {
+    min-width: 18px;
 }
 
 .grid-container {

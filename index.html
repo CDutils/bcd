@@ -350,84 +350,81 @@
             </section>
 
             <section id="curriculum-tab" class="curriculum-tab" style="display: none;">
-                <div class="big-screen">
-                    <div class="separator on-background-text headline-small">
-                        <span>Grade Curricular</span>
-                    </div>
-                    <div class="curriculum-container">
-                        <div class="curriculum-view">
-                            <md-dialog class="subject-dialog">
-                                <div slot="headline">
-                                    Lista de Matérias
-                                </div>
-                                <div class="dialog-content" slot="content">
-                                    <form id="subject-selection-form" method="dialog">
-                                    </form>
-                                    <div class="vertical-separator"></div>
-                                    <div class="dialog-description">
-                                        <span class="title title-medium"> Nome: </span>
-                                        <ul class="ementa body-medium">
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div slot="actions">
-                                    <md-text-button class="close-dialog-button" form="subject-selection-form" autofocus
-                                        value="ok" style="min-height: unset;">Ok</md-text-button>
-                                </div>
-                            </md-dialog>
-                            <div class="side-container">
-                                <md-list class="filters-container on-background-text body-medium">
-                                    <md-list-item>
-                                        <div class="filters-title">
-                                            <span class="title-large">Filtros</span>
-                                            <div>
-                                                <span class="material-symbols-rounded upload-grid-button">
-                                                    publish
-                                                </span>
-                                                <span class="material-symbols-rounded download-grid-button">
-                                                    download
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </md-list-item>
-                                    <div class="separator"></div>
-                                    <md-list-item>
-                                        <label class="filter-checkbox">
-                                            <span class="body-large">Mostrar optativas</span>
-                                            <md-checkbox class="all-opt-button"
-                                                aria-label="Mostrar optativas"></md-checkbox>
-                                        </label>
-                                    </md-list-item>
-                                    <md-list-item>
-                                        <label class="filter-checkbox">
-                                            <span class="body-large">Mostrar extensionistas</span>
-                                            <md-checkbox class="all-exten-button"
-                                                aria-label="Mostrar extensionistas"></md-checkbox>
-                                        </label>
-                                    </md-list-item>
-                                    <div class="separator"></div>
-                                    <md-list-item>
-                                        <label>
-                                            <span slot="headline" class="body-large">Escolha os períodos</span>
-                                            <md-slider class="body-medium filter-slider" labeled range step="1"
-                                                value-start="1" value-end="9" ticks min="1" max="9"></md-slider>
-                                        </label>
-                                    </md-list-item>
-                                </md-list>
+                <div class="separator on-background-text headline-small">
+                    <span>Grade Curricular</span>
+                </div>
+                <div class="curriculum-container">
+                    <div class="curriculum-view">
+                        <md-dialog class="subject-dialog">
+                            <div slot="headline">
+                                Lista de Matérias
                             </div>
-                            <div class="grid-container"></div>
+                            <div class="dialog-content" slot="content">
+                                <form id="subject-selection-form" method="dialog">
+                                </form>
+                                <div class="vertical-separator"></div>
+                                <div class="dialog-description">
+                                    <span class="title title-medium"> Nome: </span>
+                                    <ul class="ementa body-medium">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div slot="actions">
+                                <md-text-button class="close-dialog-button" form="subject-selection-form" autofocus
+                                    value="ok" style="min-height: unset;">Ok</md-text-button>
+                            </div>
+                        </md-dialog>
+                        <div class="side-container">
+                            <md-list class="filters-container on-background-text body-medium">
+                                <md-list-item>
+                                    <div class="filters-title">
+                                        <span class="title-large">Filtros</span>
+                                        <div>
+                                            <span class="material-symbols-rounded upload-grid-button">
+                                                publish
+                                            </span>
+                                            <span class="material-symbols-rounded download-grid-button">
+                                                download
+                                            </span>
+                                        </div>
+                                    </div>
+                                </md-list-item>
+                                <div class="separator"></div>
+                                <md-list-item>
+                                    <label class="filter-checkbox">
+                                        <span class="body-large">Mostrar optativas</span>
+                                        <md-checkbox class="all-opt-button"
+                                            aria-label="Mostrar optativas"></md-checkbox>
+                                    </label>
+                                </md-list-item>
+                                <md-list-item>
+                                    <label class="filter-checkbox">
+                                        <span class="body-large">Mostrar extensionistas</span>
+                                        <md-checkbox class="all-exten-button"
+                                            aria-label="Mostrar extensionistas"></md-checkbox>
+                                    </label>
+                                </md-list-item>
+                            </md-list>
                         </div>
+                        <div class="grid-container"></div>
                     </div>
                 </div>
-                <div class="small-screen">
-                    <div class="error-container on-error-container-text">
+                <md-dialog class="small-screen-dialog">
+                    <div class="on-primary-container-text" slot="headline">
                         <span class="material-symbols-rounded sad-face">
                             screen_rotation
                         </span>
-                        <span class="title-large">Para usar este recurso, abra o dispositivo em modo retrato</span>
-                        <span class="body-medium">A tela deve ter <b>largura maior do que 850px</b></span>
                     </div>
-                </div>
+                    <div class="on-primary-container-text" slot="content">
+                        <span class="title-large">Vire o dispositivo</span>
+                        <span class="body-medium">Para uma ótima experiência, use um aparelho cuja tela tenha <b>largura
+                                maior do que 850px</b></span>
+                    </div>
+                    <div class="on-primary-container-text" slot="actions">
+                        <md-text-button class="close-small-screen-dialog-button" autofocus
+                            value="ok"><b>Ok</b></md-text-button>
+                    </div>
+                </md-dialog>
             </section>
         </div>
     </div>
@@ -462,7 +459,8 @@
     <script src="static/js/cards.js" defer></script>
     <script src="static/js/grid/gridutils.js" defer></script>
     <script src="static/js/grid/creategrid.js" defer></script>
-    <script src="static/js/grid/filtergrid.js"></script>
+    <script src="static/js/grid/filtergrid.js" defer></script>
+    <script src="static/js/grid/widthwarn.js" defer></script>
     <script src="static/js/grid/handlejson.js" defer></script>
 </body>
 
