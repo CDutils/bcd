@@ -43,6 +43,31 @@
         width: 100%;
         max-width: unset !important;
     }
+
+    .dialog-content {
+        flex-direction: column-reverse !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dialog-description {
+        max-height: 70%;
+        margin-bottom: 0.1em;
+        overflow-y: scroll;
+    }
+
+    .dialog-content form {
+        max-height: 100px !important;
+        min-height: min-content !important;
+    }
+
+    .dialog-content .separator {
+        display: block !important;
+    }
+
+    .dialog-content .vertical-separator {
+        display: none;
+    }
 }
 
 .curriculum-view {
@@ -77,9 +102,16 @@ md-dialog {
     flex-direction: row;
 }
 
+.dialog-content .separator {
+    display: none;
+}
+
 .dialog-content form {
+    max-height: 348px;
+    min-height: 140px;
     min-width: 250px;
     margin-right: 0.8em;
+    overflow-y: scroll;
 }
 
 .dialog-content form md-radio {
