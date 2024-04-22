@@ -5,5 +5,5 @@
 
     downloadButton.addEventListener('click', downloadGrid);
 
-    uploadButton.addEventListener('click', loadGrid);
+    uploadButton.addEventListener('click', loadGridFromFile);
 })()

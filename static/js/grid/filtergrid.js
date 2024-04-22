@@ -13,16 +13,7 @@
     const allExtenButton = document.querySelector('.all-exten-button');
 
     setTimeout(() => {
-        closeDialogButton.addEventListener('click', async () => {
-            document.querySelectorAll('.delete-subject-icon').forEach((button) => { button.style.display = 'none' });
-
-            if (selectedSubject && (selectedPeriod + 1)) {
-                addSubjectFromDialog(selectedSubject, selectedPeriod);
-            }
-            selectedPeriod = null;
-            selectedSubject = null;
-            await subjectDialog.close();
-        })
+        closeDialogButton.addEventListener('click', async () => await closeDialog(selectedSubject, selectedPeriod, subjectDialog));
 
         window.editPeriodButtons.forEach((button, index) => {
             button.addEventListener('click', () => {
