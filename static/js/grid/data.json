@@ -1,0 +1,148 @@
+[
+    [
+        {
+            "Id": "1",
+            "Período": 1,
+            "Nome": "Programação e Desenvolvimento de Software I",
+            "Código": "DCC203",
+            "Ementa": "\" Introdução ao funcionamento de um computador e ao desenvolvimento de programas. Desenvolvimento de programas em uma linguagem de alto nível. Tipos de dados simples, apontadores, variáveis compostas homogêneas e heterogêneas. Entrada e saída. Estruturas de controle e repetição. Funções e ferramentas de modularização. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"André Backes, Linguagem C – completa e descomplicada, 2013 – Editora Campus. ISBN-10: 8535268553 Jaime E. dos Santos, Aprendendo a Programar Programando na Linguagem C. W. Celes, R. Cerqueira, J. L. Rangel, Introdução a Estruturas de Dados, 2004. Fábio Mokarzel & Nei Soma, Introdução à Ciência da Computação.  \"\r"
+        },
+        {
+            "Id": "2",
+            "Período": 1,
+            "Nome": "Introdução à Lógica Computacional",
+            "Código": "DCC638",
+            "Ementa": "\" Revisão de teoria de conjuntos e funções. Fundamentos das lógicas proposicional e de predicados. Fundamentos de álgebra Booleana e circuitos digitais combinatórios. Métodos de demonstração. Indução e recursão. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"Matemática Discreta e Suas Aplicações. Kenneth H. Rosen. 6a Edição. How to Prove It: A Structured Approach. Daniel J. Velleman. 2nd Edition. Cambridge. University Press.   \"\r"
+        },
+        {
+            "Id": "3",
+            "Período": 1,
+            "Nome": "Cálculo 1",
+            "Código": "MAT001",
+            "Ementa": "\" Integrais- impróprias: sequências séries numéricas. Funções de R em R. Derivadas. Integrais. Aplicações. \"\"Regras de L'Hospital\"\". \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"SIMMONS, G.F. – Cálculo com Geometria Analítica, volume 1 – Ed. McGraw-Hill, 1987. São Paulo. LEITHOLD, L. – Cálculo com Geometria Analítica – Ed. Harbra. São Paulo. ÁVILA, G.S.S. – Cálculo I – Livros Técnicos e Científicos S/A e Ed. Universidade de Brasília. APOSTOL, T.M. - Cálculo, volume 1, Ed. Reverté Ltda. LEWIS, K. – Cálculo e Álgebra Linear, vlumes 1 e 2 – Prentice Hall do Brasil. SWOKOWSKI, E.W. - Cálculo com Geometria Analítica, volume 1 – Ed. McGraw-Hill. São Paulo.  \"\r"
+        },
+        {
+            "Id": "4",
+            "Período": 1,
+            "Nome": "Fundamentos de Ciência de Dados",
+            "Código": "BCDXXX (À Definir)",
+            "Ementa": "\" Fundamentos da Ciência de Dados combina três perspectivas: pensamento inferencial, pensamento computacional e relevância no mundo real. O curso ensina conceitos e habilidades críticas de análise descritiva e inferencial a partir de ferramentas computacionais. Durante a disciplina, um conjunto de análises práticas de dados do mundo real, incluindo dados econômicos, coleções de documentos, dados geográficos e redes sociais, é realizado com os discentes. Atividade integraliza extensão. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "sim",
+            "Bibliografia\r": "\"Ani Adhikari, John DeNero, David Wagner. Computational and Inferential Thinking: The Foundations of Data Science: Online. (https://inferentialthinking.com/chapters/intro.html), 2023.  \"\r"
+        },
+        {
+            "Id": "5",
+            "Período": 1,
+            "Nome": "Administração (TGA)",
+            "Código": "CAD103",
+            "Ementa": "\" Organização e Gestão: conceitos básicos. Evolução da teoria das organizações e da Administração. Ambiente, responsabilidade social e objetivos. Estrutura organizacional. Sistema psicossocial. Sistema gerencial. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"CHIAVENATO, I. Administração: Teoria, Processo e Prática. 3ª ed., São Paulo: Makron Books (Pearson Education do Brasil), 2000. MAXIMIANO, A. C. A. Teoria Geral da Administração: Da Revolução Urbana à Revolução Digital, 6ª. Ed. São Paulo: Atlas, 2006. TAYLOR, F., Princípios de Administração Científica. São Paulo: Atlas, 1995  2o  Período  \"\r"
+        }
+    ],
+    [
+        {
+            "Id": "7",
+            "Período": 2,
+            "Nome": "Matemática Discreta",
+            "Código": "DCC216",
+            "Ementa": "\" Comportamento assintótico de funções. Elementos fundamentais da análise combinatória. Relações. Grafos. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"Matemática Discreta e Suas Aplicações. Kenneth H. Rosen. 6a Edição. How to Prove It: A Structured Approach. Daniel J. Velleman. 2nd Edition. Cambridge. University Press.  \"\r"
+        },
+        {
+            "Id": "6",
+            "Período": 2,
+            "Nome": "Programação e Desenvolvimento de Software II",
+            "Código": "DCC204",
+            "Ementa": "\" Programação estruturada e linguagem de programação modular. Metodologias de desenvolvimento de software. Compreensão, corretude e depuração de programas. Resolução de problemas de forma modular e eficiente. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts. Refactoring: Improving the  Design of Existing Code. Addison-Wesley Professional, 1999. Brian W. Kernighan e Rob Pike. The Practice of Programming. Addison-Wesley, 1999. Stanley B. Lippman, Josée Lajoie, Barbara E. Moo. C++ Primer (5th Edition). Addison-Wesley  Professional, 2012. Robert C. Martin. Clean Code: A Handbook of Agile Software Craftsmanship. Prentice Hall, 2008.  Steve McConnell. Code Complete: A Practical Handbook of Software Construction. Microsoft  Press"
+        },
+        {
+            "Id": "8",
+            "Período": 2,
+            "Nome": "Geometria Analítica e Álgebra Linear",
+            "Código": "MAT038",
+            "Ementa": "\" Álgebra vetorial. Retas e planos. Matrizes, sistemas lineares e determinantes. Espaço vetorial Rn. Autovalores e autovetores de matrizes. Diagonalização de matrizes simétricas. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"KOLMAN, B. – Álgebra Linear - Ed. Guanabara, 1987. NATHAN, M.S. – Vetores e Matrizes - Livros Técnicos e Científicos S/A, 1988. LIPSCHUTZ, S. - Álgebra Linear - Ed. McGraw-Hill, 1971. BOLDRINI, J.L., COSTA, S.I.R., RIBEIRO, V.L.F.F. e WETZLER, H.G. - Álgebra Linear - Ed. Harbra, 1980. ANTON, H. Álgebra Linear - Ed. Campus, 3ª. Edição  \"\r"
+        },
+        {
+            "Id": "9",
+            "Período": 2,
+            "Nome": "Cálculo de Várias Variáveis",
+            "Código": "MAT042",
+            "Ementa": "\" Série e fórmula de Taylor (Série e convergências, Teste de razão, Séries e polinômio de Taylor). Funções de várias variáveis (Funções de Rn em R, Curvas e superfície de nível, Limite e continuidade, Derivadas parciais, Diferencial e plano tangente, Regra de cadeia, Máximos e mínimos, Problemas de máximos e mínimos). Integração de função de duas ou mais variáveis (Definições, Cálculo por meio de integrais repetidas, Propriedades das integrais duplas e triplas, Mudança de variáveis na integração: coordenadas polares, cilíndricas e esféricas, Aplicações das integrais duplas e triplas). \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"PENNEY,E. D., EDWARDS, JR.C.H. - Cálculo com Geometria Analítica - Ed. Prentice-Hall do Brasil - Volumes 2 e 3.  SIMMONS, G. F. - Cálculo com Geometria Analítica - McGraw-Hill, SP, volume 02  LEITHOLD, L. - Cálculo com Geometria Analítica - Harbra, SP, volume 02  GUIDORIZZI, H - Um Curso de Cálculo, LTC - Volume 02  BOULOS, P. / OLIVEIRA, I. C. - Geometria Analítica (um tratamento vetorial) - McGraw-Hill - SP.  ÁVILA, G. S. S. - Cálculo, Volume 02 - LTC  APOSTOL, T. M. - Cálculo. Ed. Reverté Ltda. Volume 1 e 2  SWOKOWSKI, E. W. - Cálculo com Geometria Analítica - Ed. McGraw-Hill Ltda. - SP - Volume 2.  \"\r"
+        },
+        {
+            "Id": "10",
+            "Período": 2,
+            "Nome": "Estatística Básica",
+            "Código": "ESTXXX (À Definir)",
+            "Ementa": "\" Conceitos elementares de probabilidade. Probabilidade condicional. Teorema de Bayes. Variável aleatória: Definição. Esperança e variância. Principais distribuições discretas e contínuas. Introdução à inferência estatística. Teorema Central do Limite. Estimação de parâmetros. Intervalos de Confiança. Testes de Hipóteses para a média.  Tabelas de contingência. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"Magalhães M. N., Lima, A. C. P., Noções de Probabilidade e Estatística, 6a Ed. Ed. USP, 2004. Bhattacharyya, G. K., Johnson, R. A., Statical Concepts and Methods, New York: John Wiley, 1977. Triola, M. F. Introduçã ‘a Estatística, 9a Edição, Ed. LTC, 2005.  3o  Período  \"\r"
+        }
+    ],
+    [
+        {
+            "Id": "11",
+            "Período": 3,
+            "Nome": "Estruturas de Dados",
+            "Código": "DCC205",
+            "Ementa": "\" Análise de algoritmos. Abstração de dados. Introdução às técnicas de análise de algoritmos. Estruturas de dados estáticas e dinâmicas na memória principal e secundária. Estruturas de dados para realização eficiente de operações sobre dados. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"T. H. Cormen, C. E. Leiserson, R. L. Rivest e C. Stein. Algoritmos: teoria e prática. Editora Campus, 2002. T. H. Cormen, C. E. Leiserson, R. L. Rivest e C. Stein. Introduction to Algorithms. MIT Press, Third Edition, 2009. Steven S. Skiena. The algorithm design manual: Text. Vol. 1. Springer Science & Business Media, 1998. Jayme L. Szwarcfiter e Lilian Markenzon. Estruturas de Dados e seus Algoritmos, 3a edição, Editora LTC, 2014. Nívio Ziviani. Projeto de Algoritmos com implementações em Pascal e C. Cengage Learning, 2011. \"\r"
+        },
+        {
+            "Id": "13",
+            "Período": 3,
+            "Nome": "Álgebra Linear Computacional",
+            "Código": "DCC639",
+            "Ementa": "\" Eliminação Gaussiana. Decomposição LU. Decomposição espectral. Decomposição SVD. Condicionamento. Decomposição QR. Tópicos em análise numérica. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"Trefethen, L. N. & Bau III, D. Numerical Linear Algebra. Vol. 50. SIAM, 1997 Strang, Gilbert. Linear Algebra and Learning from Data. Wellesley-Cambridge Press, 2019.  \"\r"
+        },
+        {
+            "Id": "15",
+            "Período": 3,
+            "Nome": "Probabilidade",
+            "Código": "ESTXXX (À Definir)",
+            "Ementa": "\" Espaço de probabilidade, definição de probabilidade. Axiomas de Kolmogorov. Continuidade da probabilidade. Probabilidade condicional. Teorema da multiplicação. Teorema da probabilidade total. Fórmula de Bayes. Independência de eventos. Variáveis aleatórias. Função de distribuição, definição, propriedades. Distribuição da função de uma variável aleatória. Vetores aleatórios. Função de distribuição conjunta, função de densidade conjunta. Distribuições marginais. Independência de variáveis. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"Ross, S., Probabilidade: Um curso moderno com aplicações. Oitava edição. Bookman, 2010. Grimmett, G. and Welsh, D. Probability: an introduction. Second edition. Clarendon Press Oxford, 2014. Ash, R. Basic Probability, Dover, 2008. Brémaud P. An introduction to Probabilistic Modeling. Springer, 1988. Cacoullos, T. Exercises in Probability. Springer, 1989. Feller W. An Introduction to Probability Theory and Its Applications. Vol I, third edition, John Wiley, 1968.  4o  Período  \"\r"
+        },
+        {
+            "Id": "16",
+            "Período": 3,
+            "Nome": "Algoritmos I",
+            "Código": "DCC206",
+            "Ementa": "\" Algoritmos para manipulação de sequências. Grafos: representação e algoritmos para percurso e resolução de problemas simples. Provas de corretude de algoritmos. \"",
+            "Obrigatória": "sim",
+            "Extensionista": "não",
+            "Bibliografia\r": "\"T. H. Cormen, C. E. Leiserson, R. L. Rivest e C. Stein. Algoritmos: teoria e prática. Editora Campus, 2002. T. H. Cormen, C. E. Leiserson, R. L. Rivest e C. Stein. Introduction to Algorithms. MIT Press, Third Edition, 2009. P. J. de Rezende e J. Stolfi. Fundamentos de geometria computacional. IX Escola de Computação, Universidade Federal de Pernambuco. Departamento de Informatica, 1994. Jayme L. Szwarcfiter. Grafos e Algoritmos Computacionais Editora Campus, 1984. Nívio Ziviani. Projeto de Algoritmos com implementações em Pascal e C. Cengage Learning, 2011. \"\r"
+        }
+    ]
+]

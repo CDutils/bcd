@@ -9,7 +9,7 @@
     window.editPeriodButtons = [];
     window.addSubjectButtons = [];
     window.subjectRadioButtons = [];
-    
+
     for (let i = 0; i < numPeriods; i++) {
         const wrapper = document.createElement('div');
         const periodSubjContainer = document.createElement('div');
@@ -98,6 +98,8 @@
                 subjectForm.appendChild(label);
                 window.subjectRadioButtons.push(radioButton);
             });
+
+            loadGridFromStorage();
         })
         .catch(error => console.error(error));
 
